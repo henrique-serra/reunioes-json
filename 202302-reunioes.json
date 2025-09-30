@@ -1,0 +1,1065 @@
+{
+  "AgendaReuniao": {
+    "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/AgendaReuniaov2.xsd",
+    "Metadados": {
+      "Versao": "01/09/2025 12:32:32",
+      "VersaoServico": "2",
+      "DataVersaoServico": "2020-08-07",
+      "DescricaoDataSet": "Agenda das Reuniões das Comissões no mês informado."
+    },
+    "reunioes": {
+      "reuniao": [
+        {
+          "codigo": "11101",
+          "versao": "2024-10-15T03:22:05.646",
+          "descricao": "1ª, Reunião",
+          "titulo": "1ª Reunião",
+          "colegiadoCriador": {
+            "codigo": "2307",
+            "sigla": "GPISRAEL",
+            "nome": "Grupo Parlamentar Brasil - Israel",
+            "siglaCasa": "CN",
+            "codigoTipo": "129",
+            "descricaoTipo": "Grupo Parlamentar"
+          },
+          "dataInicio": "2023-02-28T14:00:00.000",
+          "dataInicioFormatadaComObsHorario": "28/02/2023 às 14h",
+          "informacao": "1ª Reunião de 2023 do Grupo Parlamentar Brasil - Israel",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 7",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/6b2af422-1047-4c26-9f19-f46b310cda4e",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/b1e45454-7dc3-401e-9862-9d41e0c09675",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/418076a5-1e45-47a6-9d53-6b6657d01531",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/a302460b-bac4-4fab-8aff-8c74cfe12f7c",
+          "idUltimaPublicacaoPautaSimples": "6b2af422-1047-4c26-9f19-f46b310cda4e",
+          "idUltimaPublicacaoResultado": "418076a5-1e45-47a6-9d53-6b6657d01531",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "868",
+            "numeroLegislatura": "57",
+            "numero": "1",
+            "descricao": "57a. Legislatura (2023) - 1a. Sessão Legislativa Ordinária",
+            "inicio": "2023-02-02",
+            "fim": "2023-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "5990",
+            "nome": "Carlos Alberto Dias Viana",
+            "nomeParlamentar": "Carlos Viana",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Carlos Viana",
+            "nomeComCargoResumido": "Sen. Carlos Viana",
+            "casa": "SF",
+            "ufPartido": "MG",
+            "siglaPartido": "PODEMOS",
+            "partido": "Podemos",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5990.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5990",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2023-02-28T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "58131",
+              "dataEvento": "2023-02-28T16:13:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "58130",
+              "dataEvento": "2023-02-28T14:39:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "58128",
+              "dataEvento": "2023-02-28T14:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2307",
+            "nome": "Grupo Parlamentar Brasil - Israel",
+            "sigla": "GPISRAEL",
+            "siglaCasa": "CN",
+            "codigoTipoColegiado": "129",
+            "nomeTipoColegiado": "Grupo Parlamentar",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "14339",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "7672",
+              "finalidade": "1. Adesão de membros, eleição e posse da Diretoria do Grupo Parlamentar Brasil - Israel;\r\n\r\n2. Deliberação do Regulamento Interno.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "1. Aprovada a seguinte composição da Diretoria:\r\nPresidente: Senador Carlos Viana \r\nPrimeiro Vice-Presidente: Senador Alan Rick \r\nSegundo Vice-Presidente: Senador Jaques Wagner \r\nTerceira Vice-Presidente: Deputada Greyce Elias \r\nPrimeira-Secretária: Deputada Rosana Valle \r\nSegunda-Secretária: Senadora Professora Dorinha \r\nTerceira-Secretária: Senadora Eliziane Gama \r\nQuarto-Secretário: Deputado Sóstenes Cavalcante \r\n\r\n2. Adiado",
+              "participantes": [
+                {
+                  "codigo": "25016",
+                  "ordem": "1",
+                  "nome": "Daniel Zohar Zonshine",
+                  "sexo": "M",
+                  "cargo": "Embaixador do Estado de Israel na República Federativa do Brasil",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false"
+                },
+                {
+                  "codigo": "25017",
+                  "ordem": "2",
+                  "tratamento": "Vice-Chefe de Missão da Embaixada de Israel no Brasil",
+                  "nome": "Yonatan Gonen",
+                  "sexo": "M",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codigo": "11099",
+          "versao": "2024-10-15T03:22:05.769",
+          "descricao": "1ª, Reunião",
+          "titulo": "1ª Reunião",
+          "colegiadoCriador": {
+            "codigo": "2584",
+            "sigla": "CTEYANOMAMI",
+            "nome": "Comissão Temporária Externa para acompanhar a situação dos Yanomami e a saída dos garimpeiros",
+            "siglaCasa": "SF",
+            "codigoTipo": "121",
+            "descricaoTipo": "Comissão Temporária Externa",
+            "materiasOriginadoras": {
+              "nomeFormatado": "RQS 34/2023",
+              "sigla": "RQS",
+              "numero": "00034",
+              "ano": "2023",
+              "idProcesso": "8364510",
+              "codMateriaLegado": "155792"
+            }
+          },
+          "dataInicio": "2023-02-15T16:00:00.000",
+          "dataInicioFormatadaComObsHorario": "15/02/2023 às 16h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 13",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/354abffa-2aa6-4ea6-944f-f446aa285e16",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/c9820581-9646-4f02-8ac3-52fe5eabafe7",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/8de9871f-57db-4e99-8d14-fd1a645a4192",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/9893ac88-8ff8-48c4-aa49-a0d73adecaa3",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=02/03/2023&paginaDireta=4&indSuplemento=sim",
+          "idUltimaPublicacaoPautaSimples": "354abffa-2aa6-4ea6-944f-f446aa285e16",
+          "idUltimaPublicacaoResultado": "8de9871f-57db-4e99-8d14-fd1a645a4192",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "868",
+            "numeroLegislatura": "57",
+            "numero": "1",
+            "descricao": "57a. Legislatura (2023) - 1a. Sessão Legislativa Ordinária",
+            "inicio": "2023-02-02",
+            "fim": "2023-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "470",
+            "nome": "Francisco de Assis Rodrigues",
+            "nomeParlamentar": "Chico Rodrigues",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Chico Rodrigues",
+            "nomeComCargoResumido": "Sen. Chico Rodrigues",
+            "casa": "SF",
+            "ufPartido": "RR",
+            "siglaPartido": "PSB",
+            "partido": "Partido Socialista Brasileiro",
+            "codigoDeputado": "212",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador470.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/470",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2023-02-15T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "58127",
+              "dataEvento": "2023-02-15T17:18:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "58126",
+              "dataEvento": "2023-02-15T16:29:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "58124",
+              "dataEvento": "2023-02-15T16:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2584",
+            "nome": "Comissão Temporária Externa para acompanhar a situação dos Yanomami e a saída dos garimpeiros",
+            "sigla": "CTEYANOMAMI",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "121",
+            "nomeTipoColegiado": "Comissão Temporária Externa",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "14337",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "7670",
+              "finalidade": "Instalação e eleição de Presidente e de Vice-presidente",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Instalada a comissão. Foram eleitos os Senadores Chico Rodrigues e Eliziane Gama como Presidente e Vice Presidente da comissão. O Senador Dr. Hiran foi designado relator."
+            }
+          },
+          "videos": {
+            "codigo": "4439",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=o8BP_1CXxPg",
+            "dataHoraReuniao": "2023-02-15T16:00:00.000"
+          }
+        },
+        {
+          "codigo": "11094",
+          "versao": "2024-10-15T03:22:15.043",
+          "descricao": "1ª, Ordinária",
+          "titulo": "1ª Reunião Ordinária",
+          "colegiadoCriador": {
+            "codigo": "2015",
+            "sigla": "CDIR",
+            "nome": "Comissão Diretora do Senado Federal",
+            "siglaCasa": "SF",
+            "codigoTipo": "109",
+            "descricaoTipo": "Mesa"
+          },
+          "dataInicio": "2023-02-07T10:00:00.000",
+          "dataInicioFormatadaComObsHorario": "07/02/2023 às 10h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Sala de Audiências da Presidência do Senado Federal",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/f7a52393-f327-43cb-b7f4-b993e5381fb0",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/e96a7591-530e-4733-9e01-54f425114fc8",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/709dd865-2ad8-44fe-b796-18182095fb44",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/92d5fb63-6302-46a6-a099-9ea9b9ee43cd",
+          "urlSumarioDosPareceres": "https://sac.senado.leg.br/sac/servlet/RecuperaQuadroSinteseComissaoServlet?codigo=11094",
+          "idUltimaPublicacaoPautaSimples": "f7a52393-f327-43cb-b7f4-b993e5381fb0",
+          "idUltimaPublicacaoResultado": "709dd865-2ad8-44fe-b796-18182095fb44",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "1",
+            "descricao": "Ordinária",
+            "sigla": "ORD"
+          },
+          "sessaoLegislativa": {
+            "codigo": "868",
+            "numeroLegislatura": "57",
+            "numero": "1",
+            "descricao": "57a. Legislatura (2023) - 1a. Sessão Legislativa Ordinária",
+            "inicio": "2023-02-02",
+            "fim": "2023-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "5732",
+            "nome": "Rodrigo Otavio Soares Pacheco",
+            "nomeParlamentar": "Rodrigo Pacheco",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Rodrigo Pacheco",
+            "nomeComCargoResumido": "Sen. Rodrigo Pacheco",
+            "casa": "SF",
+            "ufPartido": "MG",
+            "siglaPartido": "PSD",
+            "partido": "Partido Social Democrático",
+            "codigoDeputado": "178897",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5732.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5732",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2023-02-07T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "58119",
+              "dataEvento": "2023-02-07T12:00:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "58118",
+              "dataEvento": "2023-02-07T10:40:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "58117",
+              "dataEvento": "2023-05-03T11:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2015",
+            "nome": "Comissão Diretora do Senado Federal",
+            "sigla": "CDIR",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "109",
+            "nomeTipoColegiado": "Mesa",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": [
+            {
+              "codigo": "14329",
+              "nome": "Requerimentos de Informação",
+              "codigoTipo": "2",
+              "descricaoTipo": "Deliberativa",
+              "sequencial": "1",
+              "sequencialFormatado": "1ª PARTE",
+              "isDeliberativa": "true",
+              "itens": [
+                {
+                  "codigo": "82073",
+                  "tipo": "MATE",
+                  "ordem": "1",
+                  "nome": "REQ 34/2022 - CCT",
+                  "nomeFormatadoComOrdem": "1 - REQ 34/2022 - CCT",
+                  "descricao": "REQ 34/2022 - CCT",
+                  "autorItemPauta": {
+                    "nomeAutoria": "Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática",
+                    "isParlamentar": "false",
+                    "isColegiado": "true",
+                    "possuiOutrosAutores": "false",
+                    "tipoAutoriaDomaSigla": "COMISSAO_SENADO",
+                    "tipoAutoriaDomaDescricao": "Comissão do Senado Federal",
+                    "colegiado": {
+                      "codigo": "1363",
+                      "sigla": "CCT",
+                      "nome": "Comissão de Ciência, Tecnologia, Inovação e Informática",
+                      "tipo": "Comissão Permanente"
+                    }
+                  },
+                  "isTerminativo": "false",
+                  "tipoPauta": "Pauta",
+                  "categoria": "Matéria",
+                  "classificacao": {
+                    "codigo": "1",
+                    "descricao": "Vinculado a uma matéria"
+                  },
+                  "relatorio": "Pela aprovação.",
+                  "siglaRelatorio": "Pela aprovação",
+                  "observacao": "O presente requerimento visa a instruir o Projeto de Decreto Legislativo nº 408, de 2010.\r\nSe aprovado o requerimento, ficará interrompida a sua tramitação, nos termos do art. 216, inciso IV, do Regimento Interno do Senado Federal.",
+                  "observacaoRelatorio": "O presente requerimento visa a instruir o Projeto de Decreto Legislativo nº 408, de 2010.\r\nSe aprovado o requerimento, ficará interrompida a sua tramitação, nos termos do art. 216, inciso IV, do Regimento Interno do Senado Federal.",
+                  "descricaoResultado": "Aprovado",
+                  "siglaResultado": "Aprovado",
+                  "observacaoResultado": "Fica interrompida a tramitação do Projeto de Decreto Legislativo nº 408, de 2010, nos termos do art. 216, inciso IV, do Regimento Interno do Senado Federal.",
+                  "situacao": {
+                    "codigoTipoResultado": "53",
+                    "descricaoTipoResultado": "Aprovado",
+                    "isSuspensoAguardandoReinicioDeReuniao": "false"
+                  },
+                  "ordemDeliberacao": "2",
+                  "apreciado": "true",
+                  "emDeliberacao": "false",
+                  "revisado": "false",
+                  "resultadoPublico": "true",
+                  "cabecalhoParecer": "REQ 34/2022 - CCT",
+                  "dataHoraEstadoAtual": "2023-02-07T12:19:42.000",
+                  "dataResultado": "2023-02-07T12:19:42.000",
+                  "textosPauta": [
+                    {
+                      "ordemNaPauta": "1",
+                      "idDoma": "9210678",
+                      "identificacao": "Avulso inicial da matéria",
+                      "descricaoTipoDoma": "Avulso inicial da matéria",
+                      "siglaTipoDoma": "AVULSO_INICIAL",
+                      "dataAtualizacao": "2022-11-09",
+                      "codigoColegiado": "1998",
+                      "siglaColegiado": "PLEN",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9210678",
+                      "descricao": "-"
+                    },
+                    {
+                      "ordemNaPauta": "2",
+                      "idDoma": "9222495",
+                      "identificacao": "Relatório Legislativo",
+                      "descricaoTipoDoma": "Relatório Legislativo",
+                      "siglaTipoDoma": "RELATORIO",
+                      "dataAtualizacao": "2022-12-12",
+                      "codigoColegiado": "2015",
+                      "siglaColegiado": "CDIR",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9222495",
+                      "descricao": "Relatório - Requerimento nº 34/2022-CCT"
+                    }
+                  ],
+                  "doma": {
+                    "idDoma": "9209915",
+                    "idProcesso": "8315340",
+                    "autoria": "Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática",
+                    "idTipoDoma": "87",
+                    "numeroSedol": "SF222437987318",
+                    "descricaoTipoDoma": "Requerimento",
+                    "siglaTipoDoma": "REQUERIMENTO",
+                    "ementa": "Requer, ao Ministro de Estado da Justiça e Segurança Pública, informações sobre a existência e eventuais conclusões de investigações da Polícia Federal envolvendo a empresa SISTEMA DE COMUNICAÇÃO SOL LTDA.",
+                    "dataFecho": "2022-11-08T00:00:00.000",
+                    "dataApresentacao": "2022-11-08T13:49:17.000",
+                    "sigla": "REQ",
+                    "numero": "00034",
+                    "ano": "2022",
+                    "identificacao": "REQ 34/2022 - CCT",
+                    "identificacaoPorExtenso": "Requerimento da Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática n° 34, de 2022",
+                    "idConteudoInformacional": "7504199",
+                    "codigoMateria": "155076",
+                    "siglaPorExtenso": "Requerimento",
+                    "complementar": "false",
+                    "consolidacao": "false",
+                    "proposicao": "true",
+                    "identificado": "true",
+                    "textos": [
+                      {
+                        "idDoma": "9209915",
+                        "idProcesso": "8315340",
+                        "identificacao": "Requerimento",
+                        "descricaoTipoDoma": "Requerimento",
+                        "siglaTipoDoma": "REQUERIMENTO",
+                        "dataAtualizacao": "2022-11-08",
+                        "codigoColegiado": "1363",
+                        "conteudoInformacional": "REQ 34/2022 - CCT",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9209915",
+                        "descricao": "Requer, ao Ministro de Estado da Justiça e Segurança Pública, informações sobre a existência e eventuais conclusões de investigações da Polícia Federal envolvendo a empresa SISTEMA DE COMUNICAÇÃO SOL LTDA."
+                      },
+                      {
+                        "idDoma": "9210678",
+                        "identificacao": "Avulso inicial da matéria",
+                        "descricaoTipoDoma": "Avulso inicial da matéria",
+                        "siglaTipoDoma": "AVULSO_INICIAL",
+                        "dataAtualizacao": "2022-11-09",
+                        "codigoColegiado": "1998",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9210678",
+                        "descricao": "-"
+                      },
+                      {
+                        "idDoma": "9222495",
+                        "identificacao": "Relatório Legislativo",
+                        "descricaoTipoDoma": "Relatório Legislativo",
+                        "siglaTipoDoma": "RELATORIO",
+                        "dataAtualizacao": "2022-12-12",
+                        "codigoColegiado": "2015",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9222495",
+                        "descricao": "Relatório - Requerimento nº 34/2022-CCT"
+                      },
+                      {
+                        "idDoma": "9254551",
+                        "identificacao": "Listagem ou relatório descritivo",
+                        "descricaoTipoDoma": "Listagem ou relatório descritivo",
+                        "siglaTipoDoma": "LISTAGEM_RELATORIO",
+                        "dataAtualizacao": "2023-02-07",
+                        "codigoColegiado": "2015",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9254551",
+                        "descricao": "Listagem ou relatório descritivo-Lista de Presença da reunião da 1ª Reunião CDIR"
+                      },
+                      {
+                        "idDoma": "9254637",
+                        "identificacao": "Parecer",
+                        "descricaoTipoDoma": "Parecer",
+                        "siglaTipoDoma": "PARECER",
+                        "dataAtualizacao": "2023-02-07",
+                        "codigoColegiado": "2015",
+                        "conteudoInformacional": "P.S 1/2023 - CDIR",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9254637",
+                        "descricao": "Relatório - Requerimento nº 34/2022-CCT"
+                      },
+                      {
+                        "idDoma": "9255189",
+                        "identificacao": "Ofício",
+                        "descricaoTipoDoma": "Ofício",
+                        "siglaTipoDoma": "OFICIO",
+                        "dataAtualizacao": "2023-02-08",
+                        "codigoColegiado": "2015",
+                        "conteudoInformacional": "OFSF 33/2023",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9255189",
+                        "descricao": "Encaminha ao Ministério da Justiça e Segurança Pública o Requerimento de Informação n° 34, de 2022 - CCT."
+                      },
+                      {
+                        "idDoma": "9284262",
+                        "identificacao": "Ofício",
+                        "descricaoTipoDoma": "Ofício",
+                        "siglaTipoDoma": "OFICIO",
+                        "dataAtualizacao": "2023-03-10",
+                        "codigoColegiado": "2015",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9284262",
+                        "descricao": "Resposta do REQ nº 34, de 2022."
+                      }
+                    ],
+                    "autorias": {
+                      "ordem": "1",
+                      "siglaTipo": "COMISSAO_SENADO",
+                      "descricaoTipo": "Comissão do Senado Federal",
+                      "isAutoriaComOutros": "false",
+                      "nome": "Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática",
+                      "colegiado": {
+                        "codigo": "1363",
+                        "nome": "Comissão de Ciência, Tecnologia, Inovação e Informática",
+                        "sigla": "CCT",
+                        "siglaCasa": "SF",
+                        "codigoTipoColegiado": "21",
+                        "nomeTipoColegiado": "Comissão Permanente",
+                        "isSubcomissao": "false",
+                        "composicaoPublica": "true",
+                        "publicoPortal": "true"
+                      }
+                    }
+                  },
+                  "resultado": {
+                    "descricao": "Aprovado",
+                    "texto": "Aprovado"
+                  },
+                  "possuiVotacaoSecreta": "false",
+                  "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9209915"
+                },
+                {
+                  "codigo": "82074",
+                  "tipo": "MATE",
+                  "ordem": "2",
+                  "nome": "REQ 35/2022 - CCT",
+                  "nomeFormatadoComOrdem": "2 - REQ 35/2022 - CCT",
+                  "descricao": "REQ 35/2022 - CCT",
+                  "autorItemPauta": {
+                    "nomeAutoria": "Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática",
+                    "isParlamentar": "false",
+                    "isColegiado": "true",
+                    "possuiOutrosAutores": "false",
+                    "tipoAutoriaDomaSigla": "COMISSAO_SENADO",
+                    "tipoAutoriaDomaDescricao": "Comissão do Senado Federal",
+                    "colegiado": {
+                      "codigo": "1363",
+                      "sigla": "CCT",
+                      "nome": "Comissão de Ciência, Tecnologia, Inovação e Informática",
+                      "tipo": "Comissão Permanente"
+                    }
+                  },
+                  "isTerminativo": "false",
+                  "tipoPauta": "Pauta",
+                  "categoria": "Matéria",
+                  "classificacao": {
+                    "codigo": "1",
+                    "descricao": "Vinculado a uma matéria"
+                  },
+                  "relatorio": "Pela aprovação.",
+                  "siglaRelatorio": "Pela aprovação",
+                  "observacao": "O presente requerimento visa a instruir o Projeto de Decreto Legislativo nº 316, de 2019.\r\nSe aprovado o requerimento, ficará interrompida a sua tramitação, nos termos do art. 216, inciso IV, do Regimento Interno do Senado Federal.",
+                  "observacaoRelatorio": "O presente requerimento visa a instruir o Projeto de Decreto Legislativo nº 316, de 2019.\r\nSe aprovado o requerimento, ficará interrompida a sua tramitação, nos termos do art. 216, inciso IV, do Regimento Interno do Senado Federal.",
+                  "descricaoResultado": "Aprovado",
+                  "siglaResultado": "Aprovado",
+                  "observacaoResultado": "Fica interrompida a tramitação do Projeto de Decreto Legislativo nº 316, de 2019, nos termos do art. 216, inciso IV, do Regimento Interno do Senado Federal.",
+                  "situacao": {
+                    "codigoTipoResultado": "53",
+                    "descricaoTipoResultado": "Aprovado",
+                    "isSuspensoAguardandoReinicioDeReuniao": "false"
+                  },
+                  "ordemDeliberacao": "3",
+                  "apreciado": "true",
+                  "emDeliberacao": "false",
+                  "revisado": "false",
+                  "resultadoPublico": "true",
+                  "cabecalhoParecer": "REQ 35/2022 - CCT",
+                  "dataHoraEstadoAtual": "2023-02-07T12:20:15.000",
+                  "dataResultado": "2023-02-07T12:20:15.000",
+                  "textosPauta": [
+                    {
+                      "ordemNaPauta": "1",
+                      "idDoma": "9222491",
+                      "identificacao": "Relatório Legislativo",
+                      "descricaoTipoDoma": "Relatório Legislativo",
+                      "siglaTipoDoma": "RELATORIO",
+                      "dataAtualizacao": "2022-12-12",
+                      "codigoColegiado": "2015",
+                      "siglaColegiado": "CDIR",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9222491",
+                      "descricao": "Relatório - Requerimento nº 35/2022-CCT"
+                    },
+                    {
+                      "ordemNaPauta": "3",
+                      "idDoma": "9209919",
+                      "idProcesso": "8315346",
+                      "identificacao": "Requerimento",
+                      "descricaoTipoDoma": "Requerimento",
+                      "siglaTipoDoma": "REQUERIMENTO",
+                      "dataAtualizacao": "2022-11-08",
+                      "codigoColegiado": "1363",
+                      "siglaColegiado": "CCT",
+                      "conteudoInformacional": "REQ 35/2022 - CCT",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9209919",
+                      "descricao": "Requer, ao Ministro de Estado das Comunicações, informações referentes à renovação da autorização para a execução do serviço de radiodifusão comunitária de que trata o Projeto de Decreto Legislativo nº 316, de 2019."
+                    }
+                  ],
+                  "doma": {
+                    "idDoma": "9209919",
+                    "idProcesso": "8315346",
+                    "autoria": "Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática",
+                    "idTipoDoma": "87",
+                    "numeroSedol": "SF227806459627",
+                    "descricaoTipoDoma": "Requerimento",
+                    "siglaTipoDoma": "REQUERIMENTO",
+                    "ementa": "Requer, ao Ministro de Estado das Comunicações, informações referentes à renovação da autorização para a execução do serviço de radiodifusão comunitária de que trata o Projeto de Decreto Legislativo nº 316, de 2019.",
+                    "dataFecho": "2022-11-08T00:00:00.000",
+                    "dataApresentacao": "2022-11-08T13:50:56.000",
+                    "sigla": "REQ",
+                    "numero": "00035",
+                    "ano": "2022",
+                    "identificacao": "REQ 35/2022 - CCT",
+                    "identificacaoPorExtenso": "Requerimento da Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática n° 35, de 2022",
+                    "idConteudoInformacional": "7504200",
+                    "codigoMateria": "155077",
+                    "siglaPorExtenso": "Requerimento",
+                    "complementar": "false",
+                    "consolidacao": "false",
+                    "proposicao": "true",
+                    "identificado": "true",
+                    "textos": [
+                      {
+                        "idDoma": "9209919",
+                        "idProcesso": "8315346",
+                        "identificacao": "Requerimento",
+                        "descricaoTipoDoma": "Requerimento",
+                        "siglaTipoDoma": "REQUERIMENTO",
+                        "dataAtualizacao": "2022-11-08",
+                        "codigoColegiado": "1363",
+                        "conteudoInformacional": "REQ 35/2022 - CCT",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9209919",
+                        "descricao": "Requer, ao Ministro de Estado das Comunicações, informações referentes à renovação da autorização para a execução do serviço de radiodifusão comunitária de que trata o Projeto de Decreto Legislativo nº 316, de 2019."
+                      },
+                      {
+                        "idDoma": "9210690",
+                        "identificacao": "Avulso inicial da matéria",
+                        "descricaoTipoDoma": "Avulso inicial da matéria",
+                        "siglaTipoDoma": "AVULSO_INICIAL",
+                        "dataAtualizacao": "2022-11-09",
+                        "codigoColegiado": "1998",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9210690",
+                        "descricao": "-"
+                      },
+                      {
+                        "idDoma": "9222491",
+                        "identificacao": "Relatório Legislativo",
+                        "descricaoTipoDoma": "Relatório Legislativo",
+                        "siglaTipoDoma": "RELATORIO",
+                        "dataAtualizacao": "2022-12-12",
+                        "codigoColegiado": "2015",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9222491",
+                        "descricao": "Relatório - Requerimento nº 35/2022-CCT"
+                      },
+                      {
+                        "idDoma": "9254554",
+                        "identificacao": "Listagem ou relatório descritivo",
+                        "descricaoTipoDoma": "Listagem ou relatório descritivo",
+                        "siglaTipoDoma": "LISTAGEM_RELATORIO",
+                        "dataAtualizacao": "2023-02-07",
+                        "codigoColegiado": "2015",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9254554",
+                        "descricao": "Listagem ou relatório descritivo-Lista de Presença da reunião da 1ª Reunião CDIR"
+                      },
+                      {
+                        "idDoma": "9254643",
+                        "identificacao": "Parecer",
+                        "descricaoTipoDoma": "Parecer",
+                        "siglaTipoDoma": "PARECER",
+                        "dataAtualizacao": "2023-02-07",
+                        "codigoColegiado": "2015",
+                        "conteudoInformacional": "P.S 2/2023 - CDIR",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9254643",
+                        "descricao": "Relatório - Requerimento nº 35/2022-CCT"
+                      },
+                      {
+                        "idDoma": "9255199",
+                        "identificacao": "Ofício",
+                        "descricaoTipoDoma": "Ofício",
+                        "siglaTipoDoma": "OFICIO",
+                        "dataAtualizacao": "2023-02-08",
+                        "codigoColegiado": "2015",
+                        "conteudoInformacional": "OFSF 35/2023",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9255199",
+                        "descricao": "Encaminha ao Ministério das Comunicações  o Requerimento de Informação n° 35, de 2022 -CCT."
+                      },
+                      {
+                        "idDoma": "9286002",
+                        "identificacao": "Ofício",
+                        "descricaoTipoDoma": "Ofício",
+                        "siglaTipoDoma": "OFICIO",
+                        "dataAtualizacao": "2023-03-13",
+                        "codigoColegiado": "2015",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9286002",
+                        "descricao": "Resposta ao REQ 35/2022 - CCT."
+                      }
+                    ],
+                    "autorias": {
+                      "ordem": "1",
+                      "siglaTipo": "COMISSAO_SENADO",
+                      "descricaoTipo": "Comissão do Senado Federal",
+                      "isAutoriaComOutros": "false",
+                      "nome": "Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática",
+                      "colegiado": {
+                        "codigo": "1363",
+                        "nome": "Comissão de Ciência, Tecnologia, Inovação e Informática",
+                        "sigla": "CCT",
+                        "siglaCasa": "SF",
+                        "codigoTipoColegiado": "21",
+                        "nomeTipoColegiado": "Comissão Permanente",
+                        "isSubcomissao": "false",
+                        "composicaoPublica": "true",
+                        "publicoPortal": "true"
+                      }
+                    }
+                  },
+                  "resultado": {
+                    "descricao": "Aprovado",
+                    "texto": "Aprovado"
+                  },
+                  "possuiVotacaoSecreta": "false",
+                  "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9209919"
+                },
+                {
+                  "codigo": "82075",
+                  "tipo": "MATE",
+                  "ordem": "3",
+                  "nome": "REQ 36/2022 - CCT",
+                  "nomeFormatadoComOrdem": "3 - REQ 36/2022 - CCT",
+                  "descricao": "REQ 36/2022 - CCT",
+                  "autorItemPauta": {
+                    "nomeAutoria": "Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática",
+                    "isParlamentar": "false",
+                    "isColegiado": "true",
+                    "possuiOutrosAutores": "false",
+                    "tipoAutoriaDomaSigla": "COMISSAO_SENADO",
+                    "tipoAutoriaDomaDescricao": "Comissão do Senado Federal",
+                    "colegiado": {
+                      "codigo": "1363",
+                      "sigla": "CCT",
+                      "nome": "Comissão de Ciência, Tecnologia, Inovação e Informática",
+                      "tipo": "Comissão Permanente"
+                    }
+                  },
+                  "isTerminativo": "false",
+                  "tipoPauta": "Pauta",
+                  "categoria": "Matéria",
+                  "classificacao": {
+                    "codigo": "1",
+                    "descricao": "Vinculado a uma matéria"
+                  },
+                  "relatorio": "Pela aprovação.",
+                  "siglaRelatorio": "Pela aprovação",
+                  "observacao": "O presente requerimento visa a instruir o Projeto de Decreto Legislativo nº 365, de 2019.\r\nSe aprovado o requerimento, ficará interrompida a sua tramitação, nos termos do art. 216, inciso IV, do Regimento Interno do Senado Federal.",
+                  "observacaoRelatorio": "O presente requerimento visa a instruir o Projeto de Decreto Legislativo nº 365, de 2019.\r\nSe aprovado o requerimento, ficará interrompida a sua tramitação, nos termos do art. 216, inciso IV, do Regimento Interno do Senado Federal.",
+                  "descricaoResultado": "Aprovado",
+                  "siglaResultado": "Aprovado",
+                  "observacaoResultado": "Fica interrompida a tramitação do Projeto de Decreto Legislativo nº 316, de 2019, nos termos do art. 216, inciso IV, do Regimento Interno do Senado Federal.",
+                  "situacao": {
+                    "codigoTipoResultado": "53",
+                    "descricaoTipoResultado": "Aprovado",
+                    "isSuspensoAguardandoReinicioDeReuniao": "false"
+                  },
+                  "ordemDeliberacao": "4",
+                  "apreciado": "true",
+                  "emDeliberacao": "false",
+                  "revisado": "false",
+                  "resultadoPublico": "true",
+                  "cabecalhoParecer": "REQ 36/2022 - CCT",
+                  "dataHoraEstadoAtual": "2023-02-07T12:20:31.000",
+                  "dataResultado": "2023-02-07T12:20:31.000",
+                  "textosPauta": [
+                    {
+                      "ordemNaPauta": "1",
+                      "idDoma": "9210694",
+                      "identificacao": "Avulso inicial da matéria",
+                      "descricaoTipoDoma": "Avulso inicial da matéria",
+                      "siglaTipoDoma": "AVULSO_INICIAL",
+                      "dataAtualizacao": "2022-11-09",
+                      "codigoColegiado": "1998",
+                      "siglaColegiado": "PLEN",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9210694",
+                      "descricao": "-"
+                    },
+                    {
+                      "ordemNaPauta": "2",
+                      "idDoma": "9222487",
+                      "identificacao": "Relatório Legislativo",
+                      "descricaoTipoDoma": "Relatório Legislativo",
+                      "siglaTipoDoma": "RELATORIO",
+                      "dataAtualizacao": "2022-12-12",
+                      "codigoColegiado": "2015",
+                      "siglaColegiado": "CDIR",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9222487",
+                      "descricao": "Relatório - Requerimento nº 36/2022-CCT"
+                    }
+                  ],
+                  "doma": {
+                    "idDoma": "9209924",
+                    "idProcesso": "8315352",
+                    "autoria": "Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática",
+                    "idTipoDoma": "87",
+                    "numeroSedol": "SF226433284526",
+                    "descricaoTipoDoma": "Requerimento",
+                    "siglaTipoDoma": "REQUERIMENTO",
+                    "ementa": "Requer, ao Ministro de Estado das Comunicações, informações referentes à renovação da autorização outorgada à ASSOCIAÇÃO BENEFICENTE E CULTURAL COMUNITÁRIA DE INHAMBUPE para executar serviço de radiodifusão comunitária no Município de Inhambupe, Estado da Bahia, de que trata o Projeto de Decreto Legislativo nº 365, de 2019.",
+                    "dataFecho": "2022-11-08T00:00:00.000",
+                    "dataApresentacao": "2022-11-08T13:53:54.000",
+                    "sigla": "REQ",
+                    "numero": "00036",
+                    "ano": "2022",
+                    "identificacao": "REQ 36/2022 - CCT",
+                    "identificacaoPorExtenso": "Requerimento da Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática n° 36, de 2022",
+                    "idConteudoInformacional": "7504201",
+                    "codigoMateria": "155078",
+                    "siglaPorExtenso": "Requerimento",
+                    "complementar": "false",
+                    "consolidacao": "false",
+                    "proposicao": "true",
+                    "identificado": "true",
+                    "textos": [
+                      {
+                        "idDoma": "9209924",
+                        "idProcesso": "8315352",
+                        "identificacao": "Requerimento",
+                        "descricaoTipoDoma": "Requerimento",
+                        "siglaTipoDoma": "REQUERIMENTO",
+                        "dataAtualizacao": "2022-11-08",
+                        "codigoColegiado": "1363",
+                        "conteudoInformacional": "REQ 36/2022 - CCT",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9209924",
+                        "descricao": "Requer, ao Ministro de Estado das Comunicações, informações referentes à renovação da autorização outorgada à ASSOCIAÇÃO BENEFICENTE E CULTURAL COMUNITÁRIA DE INHAMBUPE para executar serviço de radiodifusão comunitária no Município de Inhambupe, Estado da Bahia, de que trata o Projeto de Decreto Legislativo nº 365, de 2019."
+                      },
+                      {
+                        "idDoma": "9210694",
+                        "identificacao": "Avulso inicial da matéria",
+                        "descricaoTipoDoma": "Avulso inicial da matéria",
+                        "siglaTipoDoma": "AVULSO_INICIAL",
+                        "dataAtualizacao": "2022-11-09",
+                        "codigoColegiado": "1998",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9210694",
+                        "descricao": "-"
+                      },
+                      {
+                        "idDoma": "9222487",
+                        "identificacao": "Relatório Legislativo",
+                        "descricaoTipoDoma": "Relatório Legislativo",
+                        "siglaTipoDoma": "RELATORIO",
+                        "dataAtualizacao": "2022-12-12",
+                        "codigoColegiado": "2015",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9222487",
+                        "descricao": "Relatório - Requerimento nº 36/2022-CCT"
+                      },
+                      {
+                        "idDoma": "9254557",
+                        "identificacao": "Listagem ou relatório descritivo",
+                        "descricaoTipoDoma": "Listagem ou relatório descritivo",
+                        "siglaTipoDoma": "LISTAGEM_RELATORIO",
+                        "dataAtualizacao": "2023-02-07",
+                        "codigoColegiado": "2015",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9254557",
+                        "descricao": "Listagem ou relatório descritivo-Lista de Presença da reunião da 1ª Reunião CDIR"
+                      },
+                      {
+                        "idDoma": "9254648",
+                        "identificacao": "Parecer",
+                        "descricaoTipoDoma": "Parecer",
+                        "siglaTipoDoma": "PARECER",
+                        "dataAtualizacao": "2023-02-07",
+                        "codigoColegiado": "2015",
+                        "conteudoInformacional": "P.S 3/2023 - CDIR",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9254648",
+                        "descricao": "Relatório - Requerimento nº 36/2022-CCT"
+                      },
+                      {
+                        "idDoma": "9255202",
+                        "identificacao": "Ofício",
+                        "descricaoTipoDoma": "Ofício",
+                        "siglaTipoDoma": "OFICIO",
+                        "dataAtualizacao": "2023-02-08",
+                        "codigoColegiado": "2015",
+                        "conteudoInformacional": "OFSF 36/2023",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9255202",
+                        "descricao": "Encaminha ao Ministério das Comunicações  o Requerimento de Informação n° 36, de 2022 -CCT."
+                      },
+                      {
+                        "idDoma": "9285988",
+                        "identificacao": "Ofício",
+                        "descricaoTipoDoma": "Ofício",
+                        "siglaTipoDoma": "OFICIO",
+                        "dataAtualizacao": "2023-03-13",
+                        "codigoColegiado": "2015",
+                        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9285988",
+                        "descricao": "Resposta ao Ofício nº 36 (SF)- Requerimento (REQ) nº 36/2022 - CCT."
+                      }
+                    ],
+                    "autorias": {
+                      "ordem": "1",
+                      "siglaTipo": "COMISSAO_SENADO",
+                      "descricaoTipo": "Comissão do Senado Federal",
+                      "isAutoriaComOutros": "false",
+                      "nome": "Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática",
+                      "colegiado": {
+                        "codigo": "1363",
+                        "nome": "Comissão de Ciência, Tecnologia, Inovação e Informática",
+                        "sigla": "CCT",
+                        "siglaCasa": "SF",
+                        "codigoTipoColegiado": "21",
+                        "nomeTipoColegiado": "Comissão Permanente",
+                        "isSubcomissao": "false",
+                        "composicaoPublica": "true",
+                        "publicoPortal": "true"
+                      }
+                    }
+                  },
+                  "resultado": {
+                    "descricao": "Aprovado",
+                    "texto": "Aprovado"
+                  },
+                  "possuiVotacaoSecreta": "false",
+                  "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9209924"
+                }
+              ]
+            },
+            {
+              "codigo": "14331",
+              "nome": "Ato da Comissão Diretora",
+              "codigoTipo": "4",
+              "descricaoTipo": "Reunião de Trabalho",
+              "sequencial": "2",
+              "sequencialFormatado": "2ª PARTE",
+              "isDeliberativa": "false",
+              "evento": {
+                "codigo": "7667",
+                "finalidade": "Dispõe sobre a participação remota dos Senadores e das Senadoras nas sessões e reuniões do Senado Federal e disciplina a votação por intermédio de aplicação de registro de voto.",
+                "isPublicado": "true",
+                "isRealizado": "false",
+                "resultadoTexto": "Apreciado.",
+                "anexos": {
+                  "codigo": "3254",
+                  "descricao": "Minuta do Ato da Comissão Diretora",
+                  "tipo": "Anexo de Pauta",
+                  "numOrdenacao": "2",
+                  "isVisivelResultado": "true",
+                  "documento": {
+                    "idEcmSenado": "0eecc233-f611-494b-97f0-bf6ae5423b09",
+                    "descricao": "Minuta do Ato da Comissão Diretora",
+                    "mimeType": "application/pdf",
+                    "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/0eecc233-f611-494b-97f0-bf6ae5423b09"
+                  }
+                }
+              }
+            },
+            {
+              "codigo": "14332",
+              "nome": "Ato Conjunto das Mesas da Câmara dos Deputados e do Senado Federal",
+              "codigoTipo": "4",
+              "descricaoTipo": "Reunião de Trabalho",
+              "sequencial": "3",
+              "sequencialFormatado": "3ª PARTE",
+              "isDeliberativa": "false",
+              "evento": {
+                "codigo": "7668",
+                "finalidade": "Dispõe sobre o retorno ao regime ordinário de tramitação de medidas provisórias.",
+                "isPublicado": "true",
+                "isRealizado": "false",
+                "resultadoTexto": "Apreciado.",
+                "anexos": {
+                  "codigo": "3255",
+                  "descricao": "Minuta do Ato Conjunto das Mesas da Câmara dos Deputados e do Senado Federal",
+                  "tipo": "Anexo de Pauta",
+                  "numOrdenacao": "2",
+                  "isVisivelResultado": "true",
+                  "documento": {
+                    "idEcmSenado": "7fa4009f-f697-4503-9cde-1791d49f87f4",
+                    "descricao": "Minuta do Ato Conjunto das Mesas da Câmara dos Deputados e do Senado Federal",
+                    "mimeType": "application/pdf",
+                    "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/7fa4009f-f697-4503-9cde-1791d49f87f4"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "AgendaReuniao": {
+    "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/AgendaReuniaov2.xsd",
+    "Metadados": {
+      "Versao": "01/09/2025 12:32:32",
+      "VersaoServico": "2",
+      "DataVersaoServico": "2020-08-07",
+      "DescricaoDataSet": "Agenda das Reuniões das Comissões no mês informado."
+    },
+    "reunioes": null
+  }
+}

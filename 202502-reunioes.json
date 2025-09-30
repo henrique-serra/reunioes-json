@@ -1,0 +1,3624 @@
+{
+  "AgendaReuniao": {
+    "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/AgendaReuniaov2.xsd",
+    "Metadados": {
+      "Versao": "01/09/2025 12:31:22",
+      "VersaoServico": "2",
+      "DataVersaoServico": "2020-08-07",
+      "DescricaoDataSet": "Agenda das Reuniões das Comissões no mês informado."
+    },
+    "reunioes": {
+      "reuniao": [
+        {
+          "codigo": "13330",
+          "versao": "2025-08-06T19:56:19.413",
+          "descricao": "2ª, Extraordinária",
+          "titulo": "2ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "1307",
+            "sigla": "CRA",
+            "nome": "Comissão de Agricultura e Reforma Agrária",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-26T14:00:00.000",
+          "dataInicioFormatadaComObsHorario": "26/02/2025 às 14h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "false",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "2",
+          "situacao": "Não Realizada",
+          "status": "Cancelada",
+          "descricaoDeNaoRealizacao": "Cancelada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 7",
+          "numReuniaoConjunta": "2",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/7da18147-777a-4b33-8a86-f763bf563286",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/d5453656-e3fe-4d66-b9df-a9d653b114f0",
+          "idUltimaPublicacaoPautaSimples": "7da18147-777a-4b33-8a86-f763bf563286",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "dataReuniao": [
+            {
+              "codigo": "64302",
+              "dataEvento": "2025-02-25T17:52:00.000",
+              "codigoSituacao": "2",
+              "descricaoSituacao": "Não Realizada",
+              "realizada": "false",
+              "rotuloDivulgacao": "Cancelada"
+            },
+            {
+              "codigo": "64298",
+              "dataEvento": "2025-02-26T14:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "1307",
+            "nome": "Comissão de Agricultura e Reforma Agrária",
+            "sigla": "CRA",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "2",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17195",
+            "nome": "Deliberativa",
+            "codigoTipo": "2",
+            "descricaoTipo": "Deliberativa",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "true",
+            "itens": [
+              {
+                "codigo": "96573",
+                "tipo": "MATE",
+                "ordem": "1",
+                "nome": "REQ 1/2025 - CRA",
+                "nomeFormatadoComOrdem": "1 - REQ 1/2025 - CRA",
+                "descricao": "REQ 1/2025 - CRA",
+                "autorItemPauta": {
+                  "nomeAutoria": "Senador Zequinha Marinho (PODEMOS/PA)",
+                  "isParlamentar": "true",
+                  "isColegiado": "false",
+                  "possuiOutrosAutores": "false",
+                  "tipoAutoriaDomaSigla": "SENADOR",
+                  "tipoAutoriaDomaDescricao": "Senador",
+                  "parlamentar": {
+                    "codigo": "3806",
+                    "nome": "Zequinha Marinho",
+                    "sexo": "M",
+                    "isDeputado": "false",
+                    "isSenador": "true",
+                    "partidoSigla": "PODEMOS",
+                    "uf": "PA"
+                  }
+                },
+                "isTerminativo": "false",
+                "tipoPauta": "Pauta",
+                "categoria": "Matéria",
+                "classificacao": {
+                  "codigo": "1",
+                  "descricao": "Vinculado a uma matéria"
+                },
+                "observacao": "- Votação simbólica.",
+                "observacaoRelatorio": "- Votação simbólica.",
+                "ordemDeliberacao": "1",
+                "apreciado": "false",
+                "emDeliberacao": "false",
+                "revisado": "false",
+                "resultadoPublico": "false",
+                "cabecalhoParecer": "REQ 1/2025 - CRA",
+                "dataHoraEstadoAtual": "2025-02-20T12:40:06.000",
+                "textosPauta": {
+                  "ordemNaPauta": "1",
+                  "idDoma": "9904558",
+                  "idProcesso": "8795941",
+                  "identificacao": "Requerimento",
+                  "descricaoTipoDoma": "Requerimento",
+                  "siglaTipoDoma": "REQUERIMENTO",
+                  "dataAtualizacao": "2025-02-20",
+                  "codigoColegiado": "1307",
+                  "siglaColegiado": "CRA",
+                  "conteudoInformacional": "REQ 1/2025 - CRA",
+                  "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9904558",
+                  "descricao": "Requeiro, nos termos do art. 58, § 2°, II e V, da Constituição Federal, que seja convidado o Exmo. Sr. Luiz Paulo Teixeira Ferreira, Ministro do Desenvolvimento Agrário e Agricultura Familiar, a comparecer a esta Comissão, a fim de apresentar os programas prioritários e diretrizes de sua pasta para os próximos anos ."
+                },
+                "doma": {
+                  "idDoma": "9904558",
+                  "idProcesso": "8795941",
+                  "autoria": "Senador Zequinha Marinho (PODEMOS/PA)",
+                  "idTipoDoma": "87",
+                  "numeroSedol": "SF258597084160",
+                  "descricaoTipoDoma": "Requerimento",
+                  "siglaTipoDoma": "REQUERIMENTO",
+                  "ementa": "Requeiro, nos termos do art. 58, § 2°, II e V, da Constituição Federal, que seja convidado o Exmo. Sr. Luiz Paulo Teixeira Ferreira, Ministro do Desenvolvimento Agrário e Agricultura Familiar, a comparecer a esta Comissão, a fim de apresentar os programas prioritários e diretrizes de sua pasta para os próximos anos .",
+                  "dataFecho": "2025-02-20T00:00:00.000",
+                  "dataApresentacao": "2025-02-20T12:31:42.000",
+                  "sigla": "REQ",
+                  "numero": "00001",
+                  "ano": "2025",
+                  "identificacao": "REQ 1/2025 - CRA",
+                  "identificacaoPorExtenso": "Requerimento da Comissão de Agricultura e Reforma Agrária n° 1, de 2025",
+                  "idConteudoInformacional": "7599582",
+                  "codigoMateria": "167289",
+                  "siglaPorExtenso": "Requerimento",
+                  "complementar": "false",
+                  "consolidacao": "false",
+                  "proposicao": "true",
+                  "identificado": "true",
+                  "textos": [
+                    {
+                      "idDoma": "9904558",
+                      "idProcesso": "8795941",
+                      "identificacao": "Requerimento",
+                      "descricaoTipoDoma": "Requerimento",
+                      "siglaTipoDoma": "REQUERIMENTO",
+                      "dataAtualizacao": "2025-02-20",
+                      "codigoColegiado": "1307",
+                      "conteudoInformacional": "REQ 1/2025 - CRA",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9904558",
+                      "descricao": "Requeiro, nos termos do art. 58, § 2°, II e V, da Constituição Federal, que seja convidado o Exmo. Sr. Luiz Paulo Teixeira Ferreira, Ministro do Desenvolvimento Agrário e Agricultura Familiar, a comparecer a esta Comissão, a fim de apresentar os programas prioritários e diretrizes de sua pasta para os próximos anos ."
+                    },
+                    {
+                      "idDoma": "9912944",
+                      "identificacao": "Listagem ou relatório descritivo",
+                      "descricaoTipoDoma": "Listagem ou relatório descritivo",
+                      "siglaTipoDoma": "LISTAGEM_RELATORIO",
+                      "dataAtualizacao": "2025-03-12",
+                      "codigoColegiado": "1307",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9912944",
+                      "descricao": "Listagem ou relatório descritivo-Lista de Presença da reunião da 2ª Reunião CRA"
+                    }
+                  ],
+                  "autorias": {
+                    "ordem": "1",
+                    "siglaTipo": "SENADOR",
+                    "descricaoTipo": "Senador",
+                    "isAutoriaComOutros": "false",
+                    "nome": "Zequinha Marinho",
+                    "tratamento": "Senador",
+                    "parlamentar": {
+                      "codigo": "3806",
+                      "nome": "José da Cruz Marinho",
+                      "nomeParlamentar": "Zequinha Marinho",
+                      "sexo": "M",
+                      "cargo": "Senador",
+                      "nomeComCargo": "Senador Zequinha Marinho",
+                      "nomeComCargoResumido": "Sen. Zequinha Marinho",
+                      "casa": "SF",
+                      "ufPartido": "PA",
+                      "siglaPartido": "PODEMOS",
+                      "partido": "Podemos",
+                      "codigoDeputado": "73933",
+                      "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador3806.jpg",
+                      "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3806",
+                      "isSenador": "true",
+                      "isDeputado": "false",
+                      "data": "2025-02-20T00:00:00.000"
+                    }
+                  }
+                },
+                "possuiVotacaoSecreta": "false",
+                "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9904558"
+              },
+              {
+                "codigo": "96574",
+                "tipo": "MATE",
+                "ordem": "2",
+                "nome": "REQ 2/2025 - CRA",
+                "nomeFormatadoComOrdem": "2 - REQ 2/2025 - CRA",
+                "descricao": "REQ 2/2025 - CRA",
+                "autorItemPauta": {
+                  "nomeAutoria": "Senador Zequinha Marinho (PODEMOS/PA)",
+                  "isParlamentar": "true",
+                  "isColegiado": "false",
+                  "possuiOutrosAutores": "false",
+                  "tipoAutoriaDomaSigla": "SENADOR",
+                  "tipoAutoriaDomaDescricao": "Senador",
+                  "parlamentar": {
+                    "codigo": "3806",
+                    "nome": "Zequinha Marinho",
+                    "sexo": "M",
+                    "isDeputado": "false",
+                    "isSenador": "true",
+                    "partidoSigla": "PODEMOS",
+                    "uf": "PA"
+                  }
+                },
+                "isTerminativo": "false",
+                "tipoPauta": "Pauta",
+                "categoria": "Matéria",
+                "classificacao": {
+                  "codigo": "1",
+                  "descricao": "Vinculado a uma matéria"
+                },
+                "observacao": "- Votação simbólica.",
+                "observacaoRelatorio": "- Votação simbólica.",
+                "ordemDeliberacao": "2",
+                "apreciado": "false",
+                "emDeliberacao": "false",
+                "revisado": "false",
+                "resultadoPublico": "false",
+                "cabecalhoParecer": "REQ 2/2025 - CRA",
+                "dataHoraEstadoAtual": "2025-02-20T12:40:28.000",
+                "textosPauta": {
+                  "ordemNaPauta": "1",
+                  "idDoma": "9904563",
+                  "idProcesso": "8795946",
+                  "identificacao": "Requerimento",
+                  "descricaoTipoDoma": "Requerimento",
+                  "siglaTipoDoma": "REQUERIMENTO",
+                  "dataAtualizacao": "2025-02-20",
+                  "codigoColegiado": "1307",
+                  "siglaColegiado": "CRA",
+                  "conteudoInformacional": "REQ 2/2025 - CRA",
+                  "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9904563",
+                  "descricao": "Requeiro, nos termos do art. 58, § 2°, II e V, da Constituição Federal, que seja convidado o Exmo. Sr. André de Paula, Ministro da Aquicultura e Pesca, a comparecer a esta Comissão, a fim de apresentar os programas prioritários de sua pasta para os próximos anos."
+                },
+                "doma": {
+                  "idDoma": "9904563",
+                  "idProcesso": "8795946",
+                  "autoria": "Senador Zequinha Marinho (PODEMOS/PA)",
+                  "idTipoDoma": "87",
+                  "numeroSedol": "SF255048178971",
+                  "descricaoTipoDoma": "Requerimento",
+                  "siglaTipoDoma": "REQUERIMENTO",
+                  "ementa": "Requeiro, nos termos do art. 58, § 2°, II e V, da Constituição Federal, que seja convidado o Exmo. Sr. André de Paula, Ministro da Aquicultura e Pesca, a comparecer a esta Comissão, a fim de apresentar os programas prioritários de sua pasta para os próximos anos.",
+                  "dataFecho": "2025-02-20T00:00:00.000",
+                  "dataApresentacao": "2025-02-20T12:31:42.000",
+                  "sigla": "REQ",
+                  "numero": "00002",
+                  "ano": "2025",
+                  "identificacao": "REQ 2/2025 - CRA",
+                  "identificacaoPorExtenso": "Requerimento da Comissão de Agricultura e Reforma Agrária n° 2, de 2025",
+                  "idConteudoInformacional": "7599583",
+                  "codigoMateria": "167290",
+                  "siglaPorExtenso": "Requerimento",
+                  "complementar": "false",
+                  "consolidacao": "false",
+                  "proposicao": "true",
+                  "identificado": "true",
+                  "textos": [
+                    {
+                      "idDoma": "9904563",
+                      "idProcesso": "8795946",
+                      "identificacao": "Requerimento",
+                      "descricaoTipoDoma": "Requerimento",
+                      "siglaTipoDoma": "REQUERIMENTO",
+                      "dataAtualizacao": "2025-02-20",
+                      "codigoColegiado": "1307",
+                      "conteudoInformacional": "REQ 2/2025 - CRA",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9904563",
+                      "descricao": "Requeiro, nos termos do art. 58, § 2°, II e V, da Constituição Federal, que seja convidado o Exmo. Sr. André de Paula, Ministro da Aquicultura e Pesca, a comparecer a esta Comissão, a fim de apresentar os programas prioritários de sua pasta para os próximos anos."
+                    },
+                    {
+                      "idDoma": "9912947",
+                      "identificacao": "Listagem ou relatório descritivo",
+                      "descricaoTipoDoma": "Listagem ou relatório descritivo",
+                      "siglaTipoDoma": "LISTAGEM_RELATORIO",
+                      "dataAtualizacao": "2025-03-12",
+                      "codigoColegiado": "1307",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9912947",
+                      "descricao": "Listagem ou relatório descritivo-Lista de Presença da reunião da 2ª Reunião CRA"
+                    }
+                  ],
+                  "autorias": {
+                    "ordem": "1",
+                    "siglaTipo": "SENADOR",
+                    "descricaoTipo": "Senador",
+                    "isAutoriaComOutros": "false",
+                    "nome": "Zequinha Marinho",
+                    "tratamento": "Senador",
+                    "parlamentar": {
+                      "codigo": "3806",
+                      "nome": "José da Cruz Marinho",
+                      "nomeParlamentar": "Zequinha Marinho",
+                      "sexo": "M",
+                      "cargo": "Senador",
+                      "nomeComCargo": "Senador Zequinha Marinho",
+                      "nomeComCargoResumido": "Sen. Zequinha Marinho",
+                      "casa": "SF",
+                      "ufPartido": "PA",
+                      "siglaPartido": "PODEMOS",
+                      "partido": "Podemos",
+                      "codigoDeputado": "73933",
+                      "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador3806.jpg",
+                      "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3806",
+                      "isSenador": "true",
+                      "isDeputado": "false",
+                      "data": "2025-02-20T00:00:00.000"
+                    }
+                  }
+                },
+                "possuiVotacaoSecreta": "false",
+                "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9904563"
+              },
+              {
+                "codigo": "96575",
+                "tipo": "MATE",
+                "ordem": "3",
+                "nome": "REQ 3/2025 - CRA",
+                "nomeFormatadoComOrdem": "3 - REQ 3/2025 - CRA",
+                "descricao": "REQ 3/2025 - CRA",
+                "autorItemPauta": {
+                  "nomeAutoria": "Senador Zequinha Marinho (PODEMOS/PA)",
+                  "isParlamentar": "true",
+                  "isColegiado": "false",
+                  "possuiOutrosAutores": "false",
+                  "tipoAutoriaDomaSigla": "SENADOR",
+                  "tipoAutoriaDomaDescricao": "Senador",
+                  "parlamentar": {
+                    "codigo": "3806",
+                    "nome": "Zequinha Marinho",
+                    "sexo": "M",
+                    "isDeputado": "false",
+                    "isSenador": "true",
+                    "partidoSigla": "PODEMOS",
+                    "uf": "PA"
+                  }
+                },
+                "isTerminativo": "false",
+                "tipoPauta": "Pauta",
+                "categoria": "Matéria",
+                "classificacao": {
+                  "codigo": "1",
+                  "descricao": "Vinculado a uma matéria"
+                },
+                "observacao": "- Votação simbólica.",
+                "observacaoRelatorio": "- Votação simbólica.",
+                "ordemDeliberacao": "3",
+                "apreciado": "false",
+                "emDeliberacao": "false",
+                "revisado": "false",
+                "resultadoPublico": "false",
+                "cabecalhoParecer": "REQ 3/2025 - CRA",
+                "dataHoraEstadoAtual": "2025-02-20T12:40:40.000",
+                "textosPauta": {
+                  "ordemNaPauta": "1",
+                  "idDoma": "9904568",
+                  "idProcesso": "8795951",
+                  "identificacao": "Requerimento",
+                  "descricaoTipoDoma": "Requerimento",
+                  "siglaTipoDoma": "REQUERIMENTO",
+                  "dataAtualizacao": "2025-02-20",
+                  "codigoColegiado": "1307",
+                  "siglaColegiado": "CRA",
+                  "conteudoInformacional": "REQ 3/2025 - CRA",
+                  "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9904568",
+                  "descricao": "Requeiro, nos termos do art. 58, § 2°, II e V, da Constituição Federal, que seja convidado o Exmo. Sr. Carlos Fávaro, Ministro da Agricultura e Pecuária, a comparecer a esta Comissão, a fim de apresentar diretrizes e os programas prioritários de sua pasta para os próximos anos."
+                },
+                "doma": {
+                  "idDoma": "9904568",
+                  "idProcesso": "8795951",
+                  "autoria": "Senador Zequinha Marinho (PODEMOS/PA)",
+                  "idTipoDoma": "87",
+                  "numeroSedol": "SF253008341248",
+                  "descricaoTipoDoma": "Requerimento",
+                  "siglaTipoDoma": "REQUERIMENTO",
+                  "ementa": "Requeiro, nos termos do art. 58, § 2°, II e V, da Constituição Federal, que seja convidado o Exmo. Sr. Carlos Fávaro, Ministro da Agricultura e Pecuária, a comparecer a esta Comissão, a fim de apresentar diretrizes e os programas prioritários de sua pasta para os próximos anos.",
+                  "dataFecho": "2025-02-20T00:00:00.000",
+                  "dataApresentacao": "2025-02-20T12:31:42.000",
+                  "sigla": "REQ",
+                  "numero": "00003",
+                  "ano": "2025",
+                  "identificacao": "REQ 3/2025 - CRA",
+                  "identificacaoPorExtenso": "Requerimento da Comissão de Agricultura e Reforma Agrária n° 3, de 2025",
+                  "idConteudoInformacional": "7599584",
+                  "codigoMateria": "167291",
+                  "siglaPorExtenso": "Requerimento",
+                  "complementar": "false",
+                  "consolidacao": "false",
+                  "proposicao": "true",
+                  "identificado": "true",
+                  "textos": [
+                    {
+                      "idDoma": "9904568",
+                      "idProcesso": "8795951",
+                      "identificacao": "Requerimento",
+                      "descricaoTipoDoma": "Requerimento",
+                      "siglaTipoDoma": "REQUERIMENTO",
+                      "dataAtualizacao": "2025-02-20",
+                      "codigoColegiado": "1307",
+                      "conteudoInformacional": "REQ 3/2025 - CRA",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9904568",
+                      "descricao": "Requeiro, nos termos do art. 58, § 2°, II e V, da Constituição Federal, que seja convidado o Exmo. Sr. Carlos Fávaro, Ministro da Agricultura e Pecuária, a comparecer a esta Comissão, a fim de apresentar diretrizes e os programas prioritários de sua pasta para os próximos anos."
+                    },
+                    {
+                      "idDoma": "9912950",
+                      "identificacao": "Listagem ou relatório descritivo",
+                      "descricaoTipoDoma": "Listagem ou relatório descritivo",
+                      "siglaTipoDoma": "LISTAGEM_RELATORIO",
+                      "dataAtualizacao": "2025-03-12",
+                      "codigoColegiado": "1307",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9912950",
+                      "descricao": "Listagem ou relatório descritivo-Lista de Presença da reunião da 2ª Reunião CRA"
+                    }
+                  ],
+                  "autorias": {
+                    "ordem": "1",
+                    "siglaTipo": "SENADOR",
+                    "descricaoTipo": "Senador",
+                    "isAutoriaComOutros": "false",
+                    "nome": "Zequinha Marinho",
+                    "tratamento": "Senador",
+                    "parlamentar": {
+                      "codigo": "3806",
+                      "nome": "José da Cruz Marinho",
+                      "nomeParlamentar": "Zequinha Marinho",
+                      "sexo": "M",
+                      "cargo": "Senador",
+                      "nomeComCargo": "Senador Zequinha Marinho",
+                      "nomeComCargoResumido": "Sen. Zequinha Marinho",
+                      "casa": "SF",
+                      "ufPartido": "PA",
+                      "siglaPartido": "PODEMOS",
+                      "partido": "Podemos",
+                      "codigoDeputado": "73933",
+                      "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador3806.jpg",
+                      "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3806",
+                      "isSenador": "true",
+                      "isDeputado": "false",
+                      "data": "2025-02-20T00:00:00.000"
+                    }
+                  }
+                },
+                "possuiVotacaoSecreta": "false",
+                "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9904568"
+              },
+              {
+                "codigo": "96576",
+                "tipo": "MATE",
+                "ordem": "4",
+                "nome": "REQ 4/2025 - CRA",
+                "nomeFormatadoComOrdem": "4 - REQ 4/2025 - CRA",
+                "descricao": "REQ 4/2025 - CRA",
+                "autorItemPauta": {
+                  "nomeAutoria": "Senador Rogerio Marinho (PL/RN), Senador Alan Rick (UNIÃO/AC)",
+                  "isParlamentar": "true",
+                  "isColegiado": "false",
+                  "possuiOutrosAutores": "true",
+                  "tipoAutoriaDomaSigla": "SENADOR",
+                  "tipoAutoriaDomaDescricao": "Senador",
+                  "parlamentar": {
+                    "codigo": "4694",
+                    "nome": "Rogerio Marinho",
+                    "sexo": "M",
+                    "isDeputado": "false",
+                    "isSenador": "true",
+                    "partidoSigla": "PL",
+                    "uf": "RN"
+                  }
+                },
+                "isTerminativo": "false",
+                "tipoPauta": "Pauta",
+                "categoria": "Matéria",
+                "classificacao": {
+                  "codigo": "1",
+                  "descricao": "Vinculado a uma matéria"
+                },
+                "observacao": "- Votação simbólica.",
+                "observacaoRelatorio": "- Votação simbólica.",
+                "ordemDeliberacao": "4",
+                "apreciado": "false",
+                "emDeliberacao": "false",
+                "revisado": "false",
+                "resultadoPublico": "false",
+                "cabecalhoParecer": "REQ 4/2025 - CRA",
+                "dataHoraEstadoAtual": "2025-02-20T12:40:56.000",
+                "textosPauta": {
+                  "ordemNaPauta": "1",
+                  "idDoma": "9904575",
+                  "idProcesso": "8795956",
+                  "identificacao": "Requerimento",
+                  "descricaoTipoDoma": "Requerimento",
+                  "siglaTipoDoma": "REQUERIMENTO",
+                  "dataAtualizacao": "2025-02-20",
+                  "codigoColegiado": "1307",
+                  "siglaColegiado": "CRA",
+                  "conteudoInformacional": "REQ 4/2025 - CRA",
+                  "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9904575",
+                  "descricao": "Requeiro, nos termos dos arts. 50, caput, e 58, § 2º, III, da Constituição Federal e dos arts. 90, III, 397, § 1º e 400-A do Regimento Interno do Senado Federal, a convocação da Senhora Sonia Guajajara, Ministra de Estado do Ministério dos Povos Indígenas, para que compareça a esta Comissão, a fim de prestar informações sobre possíveis irregularidades no protocolo de intenções firmado entre o MINISTÉRIO DOS POVOS INDÍGENAS e a empresa AMBIPAR, sem prévia autorização do Congresso Nacional, sem prévio procedimento licitatório, sem consulta prévia, livre e informada às comunidades afetadas e sem prévia apresentação e aprovação de plano de trabalho."
+                },
+                "doma": {
+                  "idDoma": "9904575",
+                  "idProcesso": "8795956",
+                  "autoria": "Senador Rogerio Marinho (PL/RN), Senador Alan Rick (UNIÃO/AC)",
+                  "idTipoDoma": "87",
+                  "numeroSedol": "SF255851237906",
+                  "descricaoTipoDoma": "Requerimento",
+                  "siglaTipoDoma": "REQUERIMENTO",
+                  "ementa": "Requeiro, nos termos dos arts. 50, caput, e 58, § 2º, III, da Constituição Federal e dos arts. 90, III, 397, § 1º e 400-A do Regimento Interno do Senado Federal, a convocação da Senhora Sonia Guajajara, Ministra de Estado do Ministério dos Povos Indígenas, para que compareça a esta Comissão, a fim de prestar informações sobre possíveis irregularidades no protocolo de intenções firmado entre o MINISTÉRIO DOS POVOS INDÍGENAS e a empresa AMBIPAR, sem prévia autorização do Congresso Nacional, sem prévio procedimento licitatório, sem consulta prévia, livre e informada às comunidades afetadas e sem prévia apresentação e aprovação de plano de trabalho.",
+                  "dataFecho": "2025-03-12T00:00:00.000",
+                  "dataApresentacao": "2025-02-20T12:37:51.000",
+                  "sigla": "REQ",
+                  "numero": "00004",
+                  "ano": "2025",
+                  "identificacao": "REQ 4/2025 - CRA",
+                  "identificacaoPorExtenso": "Requerimento da Comissão de Agricultura e Reforma Agrária n° 4, de 2025",
+                  "idConteudoInformacional": "7599585",
+                  "codigoMateria": "167292",
+                  "siglaPorExtenso": "Requerimento",
+                  "complementar": "false",
+                  "consolidacao": "false",
+                  "proposicao": "true",
+                  "identificado": "true",
+                  "textos": [
+                    {
+                      "idDoma": "9904575",
+                      "idProcesso": "8795956",
+                      "identificacao": "Requerimento",
+                      "descricaoTipoDoma": "Requerimento",
+                      "siglaTipoDoma": "REQUERIMENTO",
+                      "dataAtualizacao": "2025-02-20",
+                      "codigoColegiado": "1307",
+                      "conteudoInformacional": "REQ 4/2025 - CRA",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9904575",
+                      "descricao": "Requeiro, nos termos dos arts. 50, caput, e 58, § 2º, III, da Constituição Federal e dos arts. 90, III, 397, § 1º e 400-A do Regimento Interno do Senado Federal, a convocação da Senhora Sonia Guajajara, Ministra de Estado do Ministério dos Povos Indígenas, para que compareça a esta Comissão, a fim de prestar informações sobre possíveis irregularidades no protocolo de intenções firmado entre o MINISTÉRIO DOS POVOS INDÍGENAS e a empresa AMBIPAR, sem prévia autorização do Congresso Nacional, sem prévio procedimento licitatório, sem consulta prévia, livre e informada às comunidades afetadas e sem prévia apresentação e aprovação de plano de trabalho."
+                    },
+                    {
+                      "idDoma": "9913073",
+                      "identificacao": "Listagem ou relatório descritivo",
+                      "descricaoTipoDoma": "Listagem ou relatório descritivo",
+                      "siglaTipoDoma": "LISTAGEM_RELATORIO",
+                      "dataAtualizacao": "2025-03-12",
+                      "codigoColegiado": "1307",
+                      "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9913073",
+                      "descricao": "Listagem ou relatório descritivo-Lista de Presença da reunião da 2ª Reunião CRA"
+                    }
+                  ],
+                  "autorias": [
+                    {
+                      "ordem": "1",
+                      "siglaTipo": "SENADOR",
+                      "descricaoTipo": "Senador",
+                      "isAutoriaComOutros": "true",
+                      "nome": "Rogerio Marinho",
+                      "tratamento": "Senador",
+                      "parlamentar": {
+                        "codigo": "4694",
+                        "nome": "Rogério Simonetti Marinho",
+                        "nomeParlamentar": "Rogerio Marinho",
+                        "sexo": "M",
+                        "cargo": "Senador",
+                        "nomeComCargo": "Senador Rogerio Marinho",
+                        "nomeComCargoResumido": "Sen. Rogerio Marinho",
+                        "casa": "SF",
+                        "ufPartido": "RN",
+                        "siglaPartido": "PL",
+                        "partido": "Partido Liberal",
+                        "codigoDeputado": "141535",
+                        "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador4694.jpg",
+                        "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/4694",
+                        "isSenador": "true",
+                        "isDeputado": "false",
+                        "data": "2025-02-20T00:00:00.000",
+                        "liderancas": {
+                          "titulo": "Líder do Senado Federal",
+                          "nomeUnidadeLideranca": "Liderança da Oposição"
+                        }
+                      }
+                    },
+                    {
+                      "ordem": "2",
+                      "siglaTipo": "SENADOR",
+                      "descricaoTipo": "Senador",
+                      "isAutoriaComOutros": "true",
+                      "nome": "Alan Rick",
+                      "tratamento": "Senador",
+                      "parlamentar": {
+                        "codigo": "5672",
+                        "nome": "Alan Rick Miranda",
+                        "nomeParlamentar": "Alan Rick",
+                        "sexo": "M",
+                        "cargo": "Senador",
+                        "nomeComCargo": "Senador Alan Rick",
+                        "nomeComCargoResumido": "Sen. Alan Rick",
+                        "casa": "SF",
+                        "ufPartido": "AC",
+                        "siglaPartido": "UNIÃO",
+                        "partido": "União Brasil",
+                        "codigoDeputado": "178836",
+                        "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5672.jpg",
+                        "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5672",
+                        "isSenador": "true",
+                        "isDeputado": "false",
+                        "data": "2025-02-20T00:00:00.000"
+                      }
+                    }
+                  ]
+                },
+                "possuiVotacaoSecreta": "false",
+                "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento?dm=9904575"
+              }
+            ]
+          }
+        },
+        {
+          "codigo": "13298",
+          "versao": "2025-08-06T19:56:28.110",
+          "descricao": "1ª, Ordinária",
+          "titulo": "1ª Reunião Ordinária",
+          "colegiadoCriador": {
+            "codigo": "1306",
+            "sigla": "CDR",
+            "nome": "Comissão de Desenvolvimento Regional e Turismo",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T14:00:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025 às 14h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 9",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/89b933a1-fe8c-4e94-ab8e-da377607f0ca",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/bf41c8c5-84cf-4c48-b383-2d2df10558ec",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/3a1db515-29e6-4be0-825b-b10d7ce0d382",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/aef77acc-a49a-4e7b-95db-675ab4f1fa65",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=02/04/2025&paginaDireta=585&indSuplemento=sim&codSuplemento=A",
+          "idUltimaPublicacaoPautaSimples": "89b933a1-fe8c-4e94-ab8e-da377607f0ca",
+          "idUltimaPublicacaoResultado": "3a1db515-29e6-4be0-825b-b10d7ce0d382",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "1",
+            "descricao": "Ordinária",
+            "sigla": "ORD"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "5386",
+            "nome": "Maria Auxiliadora Seabra Rezende",
+            "nomeParlamentar": "Professora Dorinha Seabra",
+            "sexo": "F",
+            "cargo": "Senadora",
+            "nomeComCargo": "Senadora Professora Dorinha Seabra",
+            "nomeComCargoResumido": "Sen. Professora Dorinha Seabra",
+            "casa": "SF",
+            "ufPartido": "TO",
+            "siglaPartido": "UNIÃO",
+            "partido": "União Brasil",
+            "codigoDeputado": "160639",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5386.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5386",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000",
+            "liderancas": [
+              {
+                "titulo": "Líder do Senado Federal",
+                "nomeUnidadeLideranca": "Liderança da Bancada Feminina"
+              },
+              {
+                "titulo": "Vice-líder do Senado Federal",
+                "nomeUnidadeLideranca": "Liderança do Governo"
+              },
+              {
+                "titulo": "Vice-líder do Senado Federal",
+                "siglaPartido": "UNIÃO",
+                "nomePartido": "União Brasil"
+              }
+            ]
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64290",
+              "dataEvento": "2025-02-19T14:32:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64289",
+              "dataEvento": "2025-02-19T14:17:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64228",
+              "dataEvento": "2025-02-04T09:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "1306",
+            "nome": "Comissão de Desenvolvimento Regional e Turismo",
+            "sigla": "CDR",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17155",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9274",
+              "finalidade": "Finalidade:\r\nInstalação dos trabalhos e eleição do Presidente e Vice-Presidente da Comissão de Desenvolvimento Regional e Turismo para o biênio 2025/2026.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Instalada a Comissão de Desenvolvimento Regional e Turismo (CDR) para o biênio 2025/2026, com a eleição da Senadora Professora Dorinha Seabra para a Presidência e do Senador Jorge Seif para a Vice-Presidência."
+            }
+          },
+          "videos": {
+            "codigo": "6569",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=r6Tl_o7nTow",
+            "titulo": "Comissão de Desenvolvimento Regional inicia trabalhos e elege presidente e vice - 19/2/2025",
+            "dataHoraReuniao": "2025-02-19T14:00:00.000"
+          }
+        },
+        {
+          "codigo": "13306",
+          "versao": "2025-08-06T19:56:25.286",
+          "descricao": "1ª, Reunião",
+          "titulo": "1ª Reunião",
+          "colegiadoCriador": {
+            "codigo": "2583",
+            "sigla": "FPE",
+            "nome": "Frente Parlamentar Evangélica",
+            "siglaCasa": "CN",
+            "codigoTipo": "130",
+            "descricaoTipo": "Frente Parlamentar"
+          },
+          "dataInicio": "2025-02-19T11:00:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025 às 11h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Salão Negro",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/892b028d-d303-45c4-aa92-bc55f0be6baa",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/e26d5871-41fc-47ce-8059-b3d302546548",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/b6d43bc9-ba13-403f-8919-bfc87a4419e4",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/efb560a7-b4f5-460b-bd18-e1ef9839f7f8",
+          "idUltimaPublicacaoPautaSimples": "892b028d-d303-45c4-aa92-bc55f0be6baa",
+          "idUltimaPublicacaoResultado": "b6d43bc9-ba13-403f-8919-bfc87a4419e4",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "5990",
+            "nome": "Carlos Alberto Dias Viana",
+            "nomeParlamentar": "Carlos Viana",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Carlos Viana",
+            "nomeComCargoResumido": "Sen. Carlos Viana",
+            "casa": "SF",
+            "ufPartido": "MG",
+            "siglaPartido": "PODEMOS",
+            "partido": "Podemos",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5990.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5990",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000",
+            "liderancas": {
+              "titulo": "Líder do Senado Federal",
+              "siglaPartido": "PODEMOS",
+              "nomePartido": "Podemos"
+            }
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64288",
+              "dataEvento": "2025-02-19T12:33:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64287",
+              "dataEvento": "2025-02-19T12:30:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64242",
+              "dataEvento": "2025-02-19T11:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2583",
+            "nome": "Frente Parlamentar Evangélica",
+            "sigla": "FPE",
+            "siglaCasa": "CN",
+            "codigoTipoColegiado": "130",
+            "nomeTipoColegiado": "Frente Parlamentar",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17167",
+            "nome": "Eleição da Comissão Executiva 2025/2026",
+            "codigoTipo": "5",
+            "descricaoTipo": "Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9278",
+              "finalidade": "Item Único: Eleição da Comissão Executiva da Frente Parlamentar para o 2º biênio da 57ª legislatura",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Eleita a nova Comissão Executiva da Frente Parlamentar Evangélica:\r\nPresidente: Senador Carlos Viana;\r\nVice-Presidente: Senadora Damares Alves;\r\nTesoureiro: Senador Zequinha Marinho;\r\nSecretário: Senador Alan Rick;\r\n1º Suplente: Senador Laércio Oliveira;\r\n2º Suplente: Senador Vanderlan Cardoso."
+            }
+          }
+        },
+        {
+          "codigo": "13313",
+          "versao": "2025-08-06T19:56:25.076",
+          "descricao": "1ª, Extraordinária",
+          "titulo": "1ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "2615",
+            "sigla": "CEsp",
+            "nome": "Comissão de Esporte",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T10:00:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025, Logo após a reunião da CI",
+          "observacaoHorario": "Logo após a reunião da CI",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 13",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/d888e665-d3f4-43c6-af80-286fe2292b2e",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/46ae9509-12d8-4329-8d6e-a8d358697525",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/3319b68c-a340-4636-9349-50fab35fdb99",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/9164e1ae-cca6-4e54-ae61-020b1311cc80",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=02/04/2025&paginaDireta=1042&indSuplemento=sim&codSuplemento=A",
+          "idUltimaPublicacaoPautaSimples": "d888e665-d3f4-43c6-af80-286fe2292b2e",
+          "idUltimaPublicacaoResultado": "3319b68c-a340-4636-9349-50fab35fdb99",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "5979",
+            "nome": "Leila Gomes de Barros Rêgo",
+            "nomeParlamentar": "Leila Barros",
+            "sexo": "F",
+            "cargo": "Senadora",
+            "nomeComCargo": "Senadora Leila Barros",
+            "nomeComCargoResumido": "Sen. Leila Barros",
+            "casa": "SF",
+            "ufPartido": "DF",
+            "siglaPartido": "PDT",
+            "partido": "Partido Democrático Trabalhista",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5979.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5979",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000",
+            "liderancas": [
+              {
+                "titulo": "Líder do Senado Federal",
+                "nomeUnidadeLideranca": "Liderança da Bancada Feminina"
+              },
+              {
+                "titulo": "Vice-líder do Congresso Nacional",
+                "nomeUnidadeLideranca": "Liderança do Governo"
+              },
+              {
+                "titulo": "Vice-líder do Senado Federal",
+                "nomeUnidadeLideranca": "Liderança do Governo"
+              }
+            ]
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64284",
+              "dataEvento": "2025-02-19T10:58:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64279",
+              "dataEvento": "2025-02-19T10:35:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64249",
+              "dataEvento": "2025-02-19T10:30:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2615",
+            "nome": "Comissão de Esporte",
+            "sigla": "CEsp",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17177",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9286",
+              "finalidade": "Instalação da Comissão de Esporte e eleição de Presidente e Vice-Presidente para o biênio 2025/2026.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Instalada a Comissão de Esporte e eleita a Senadora Leila Barros para o cargo de Presidente no biênio 2025-2026."
+            }
+          }
+        },
+        {
+          "codigo": "13321",
+          "versao": "2025-08-06T19:56:24.818",
+          "descricao": "1ª, Extraordinária",
+          "titulo": "1ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "2617",
+            "sigla": "CDD",
+            "nome": "Comissão de Defesa da Democracia",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T10:00:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025, Após a 1ª reunião da CCJ",
+          "observacaoHorario": "Após a 1ª reunião da CCJ",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "false",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "2",
+          "situacao": "Não Realizada",
+          "status": "Adiada",
+          "descricaoDeNaoRealizacao": "Adiada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 3",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/f20a41b0-839b-44f5-a13f-ed468fbc9bac",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/1a33e9fe-4a54-4069-a92a-3fef2796b2f1",
+          "idUltimaPublicacaoPautaSimples": "f20a41b0-839b-44f5-a13f-ed468fbc9bac",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "dataReuniao": [
+            {
+              "codigo": "64259",
+              "dataEvento": "2025-02-19T09:20:00.000",
+              "codigoSituacao": "2",
+              "descricaoSituacao": "Não Realizada",
+              "realizada": "false",
+              "rotuloDivulgacao": "Adiada"
+            },
+            {
+              "codigo": "64257",
+              "dataEvento": "2025-02-19T10:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2617",
+            "nome": "Comissão de Defesa da Democracia",
+            "sigla": "CDD",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17185",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9294",
+              "finalidade": "Instalação e eleição do Presidente.",
+              "isPublicado": "true",
+              "isRealizado": "false"
+            }
+          },
+          "videos": {
+            "codigo": "6553",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=-XlD5AtDm3Q",
+            "titulo": "CDD inicia os trabalhos e elege presidente e vice",
+            "dataHoraReuniao": "2025-02-19T10:00:00.000"
+          }
+        },
+        {
+          "codigo": "13320",
+          "versao": "2025-08-06T19:56:24.850",
+          "descricao": "1ª, Extraordinária",
+          "titulo": "1ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "47",
+            "sigla": "CE",
+            "nome": "Comissão de Educação e Cultura",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T10:00:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025, Logo após a reunião da CMA",
+          "observacaoHorario": "Logo após a reunião da CMA",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 15",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/e0a15869-04b2-4597-b734-deb5de4b58f6",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/8ce9df59-023e-4ea7-b0b0-0135a27e7cc9",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/ceef9b90-f88d-444c-98a9-17a4443265f9",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/1cfbf85e-db01-436a-8076-b97f39c281d0",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=02/04/2025&paginaDireta=123&indSuplemento=sim&codSuplemento=A",
+          "idUltimaPublicacaoPautaSimples": "e0a15869-04b2-4597-b734-deb5de4b58f6",
+          "idUltimaPublicacaoResultado": "ceef9b90-f88d-444c-98a9-17a4443265f9",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "6338",
+            "nome": "Maria Teresa Leitão de Melo",
+            "nomeParlamentar": "Teresa Leitão",
+            "sexo": "F",
+            "cargo": "Senadora",
+            "nomeComCargo": "Senadora Teresa Leitão",
+            "nomeComCargoResumido": "Sen. Teresa Leitão",
+            "casa": "SF",
+            "ufPartido": "PE",
+            "siglaPartido": "PT",
+            "partido": "Partido dos Trabalhadores",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador6338.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6338",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000",
+            "liderancas": [
+              {
+                "titulo": "Vice-líder do Senado Federal",
+                "nomeUnidadeLideranca": "Liderança da Bancada Feminina"
+              },
+              {
+                "titulo": "Vice-líder do Senado Federal",
+                "siglaPartido": "PT",
+                "nomePartido": "Partido dos Trabalhadores"
+              }
+            ]
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64282",
+              "dataEvento": "2025-02-19T10:52:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64275",
+              "dataEvento": "2025-02-19T10:08:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64256",
+              "dataEvento": "2025-02-19T10:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "47",
+            "nome": "Comissão de Educação e Cultura",
+            "sigla": "CE",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17184",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9293",
+              "finalidade": "Instalação da Comissão de Educação e Cultura e Eleição do Presidente e do Vice-Presidente para o biênio 2025/2026.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Instalada a Comissão e eleita a Senadora Teresa Leitão como Presidenta da Comissão de Educação e Cultura."
+            }
+          },
+          "videos": {
+            "codigo": "6564",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=4H4ktNrrPDc",
+            "dataHoraReuniao": "2025-02-19T10:00:00.000"
+          }
+        },
+        {
+          "codigo": "13288",
+          "versao": "2025-08-06T19:56:29.420",
+          "descricao": "1ª, Extraordinária",
+          "titulo": "1ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "1363",
+            "sigla": "CCT",
+            "nome": "Comissão de Ciência, Tecnologia, Inovação e Informática",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T09:30:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025, Logo após a reunião da CRE",
+          "observacaoHorario": "Logo após a reunião da CRE",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 7",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/c61a98bf-2d4c-4f5d-ba6f-c224bb1094bf",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/1a1c5337-cd59-466e-bc95-20945f2f3829",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/6562cc28-bf34-4f10-8ee2-291724d8892a",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/ee42b333-719c-4a90-95bc-bba012659b2a",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=02/04/2025&paginaDireta=892&indSuplemento=sim&codSuplemento=A",
+          "idUltimaPublicacaoPautaSimples": "c61a98bf-2d4c-4f5d-ba6f-c224bb1094bf",
+          "idUltimaPublicacaoResultado": "6562cc28-bf34-4f10-8ee2-291724d8892a",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "345",
+            "nome": "Flávio José Arns",
+            "nomeParlamentar": "Flávio Arns",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Flávio Arns",
+            "nomeComCargoResumido": "Sen. Flávio Arns",
+            "casa": "SF",
+            "ufPartido": "PR",
+            "siglaPartido": "PSB",
+            "partido": "Partido Socialista Brasileiro",
+            "codigoDeputado": "311",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador345.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/345",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64277",
+              "dataEvento": "2025-02-19T10:15:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64273",
+              "dataEvento": "2025-02-19T10:01:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64211",
+              "dataEvento": "2025-02-05T11:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "1363",
+            "nome": "Comissão de Ciência, Tecnologia, Inovação e Informática",
+            "sigla": "CCT",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17141",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9266",
+              "finalidade": "Instalação dos trabalhos e eleição do presidente e do vice-presidente da Comissão de Ciência, Tecnologia, Inovação e Informática para o biênio 2025/2026.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Instalados os trabalhos e eleito, por aclamação, o Senador Flávio Arns para Presidente da Comissão."
+            }
+          }
+        },
+        {
+          "codigo": "13311",
+          "versao": "2025-08-06T19:56:25.138",
+          "descricao": "1ª, Extraordinária",
+          "titulo": "1ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "2614",
+            "sigla": "CCDD",
+            "nome": "Comissão de Comunicação e Direito Digital",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T09:30:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025, Logo após a reunião da CAE",
+          "observacaoHorario": "Logo após a reunião da CAE",
+          "informacao": "Instalação da Comissão e eleição do Presidente e do Vice-Presidente da Comissão de Comunicação e Direito Digital para o biênio 2025/2026.",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "false",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "2",
+          "situacao": "Não Realizada",
+          "status": "Cancelada",
+          "descricaoDeNaoRealizacao": "Cancelada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 19",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/e14886e3-b9cb-4e1f-821b-599048b85d8a",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/753c59db-1695-4596-a65e-a61baded9487",
+          "idUltimaPublicacaoPautaSimples": "e14886e3-b9cb-4e1f-821b-599048b85d8a",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "dataReuniao": [
+            {
+              "codigo": "64258",
+              "dataEvento": "2025-02-19T09:17:00.000",
+              "codigoSituacao": "2",
+              "descricaoSituacao": "Não Realizada",
+              "realizada": "false",
+              "rotuloDivulgacao": "Cancelada"
+            },
+            {
+              "codigo": "64247",
+              "dataEvento": "2025-02-19T09:30:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2614",
+            "nome": "Comissão de Comunicação e Direito Digital",
+            "sigla": "CCDD",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17174",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9284",
+              "finalidade": "Instalação e eleição do Presidente e do Vice-Presidente da Comissão de Comunicação e Direito Digital para o biênio 2025/2026.",
+              "isPublicado": "true",
+              "isRealizado": "false"
+            }
+          },
+          "videos": {
+            "codigo": "6558",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=sA9qNlMsTd4",
+            "titulo": "Instalação e Eleição",
+            "dataHoraReuniao": "2025-02-19T09:30:00.000"
+          }
+        },
+        {
+          "codigo": "13315",
+          "versao": "2025-08-06T19:56:24.998",
+          "descricao": "1ª, Extraordinária",
+          "titulo": "1ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "1956",
+            "sigla": "CTFC",
+            "nome": "Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T09:30:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025, Logo após a reunião da CSP",
+          "observacaoHorario": "Logo após a reunião da CSP",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Nilo Coelho, Plenário nº 6",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/b0ba2935-3e12-43dd-a500-fd9ac703e9f6",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/5bb15b80-4bf6-4110-9153-b1425a02db31",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/34be5fef-9edc-4827-a0c7-ba7ef71270e4",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/3a93b9d5-ea09-404a-a4ec-793b31d29357",
+          "idUltimaPublicacaoPautaSimples": "b0ba2935-3e12-43dd-a500-fd9ac703e9f6",
+          "idUltimaPublicacaoResultado": "34be5fef-9edc-4827-a0c7-ba7ef71270e4",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "5793",
+            "nome": "Hiran Manuel Gonçalves da Silva",
+            "nomeParlamentar": "Dr. Hiran",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Dr. Hiran",
+            "nomeComCargoResumido": "Sen. Dr. Hiran",
+            "casa": "SF",
+            "ufPartido": "RR",
+            "siglaPartido": "PP",
+            "partido": "Progressistas",
+            "codigoDeputado": "178959",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5793.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5793",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000",
+            "liderancas": {
+              "titulo": "Líder do Senado Federal",
+              "bloco": "Bloco Parlamentar Aliança"
+            }
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64274",
+              "dataEvento": "2025-02-19T10:03:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64269",
+              "dataEvento": "2025-02-19T09:47:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64251",
+              "dataEvento": "2025-02-19T11:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "1956",
+            "nome": "Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor",
+            "sigla": "CTFC",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17179",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9288",
+              "finalidade": "Instalação e eleição do Presidente e do Vice-Presidente da Comissão de Transparência, Governança, Fiscalização e Controle e Defesa do Consumidor para o biênio 2025/2026.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Eleito Presidente da CTFC o Senador Dr. Hiran por unanimidade."
+            }
+          },
+          "videos": {
+            "codigo": "6563",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=XMJJZO7d3AU",
+            "dataHoraReuniao": "2025-02-19T09:30:00.000"
+          }
+        },
+        {
+          "codigo": "13312",
+          "versao": "2025-08-06T19:56:25.110",
+          "descricao": "1ª, Extraordinária",
+          "titulo": "1ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "1307",
+            "sigla": "CRA",
+            "nome": "Comissão de Agricultura e Reforma Agrária",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T09:15:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025, Logo após a Reunião da CDH",
+          "observacaoHorario": "Logo após a Reunião da CDH",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Nilo Coelho, Plenário nº 2",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/e1b8e0d5-2653-43d3-b89c-4eec6452b5f0",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/c6f875d6-f231-4068-be5c-63e0553789a0",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/29349dcc-5f2f-4bf4-a7b6-61118c9a8501",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/02ad5bda-eaee-4cec-b7af-c43c7b2df35b",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=02/04/2025&paginaDireta=713&indSuplemento=sim&codSuplemento=A",
+          "idUltimaPublicacaoPautaSimples": "e1b8e0d5-2653-43d3-b89c-4eec6452b5f0",
+          "idUltimaPublicacaoResultado": "29349dcc-5f2f-4bf4-a7b6-61118c9a8501",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "3806",
+            "nome": "José da Cruz Marinho",
+            "nomeParlamentar": "Zequinha Marinho",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Zequinha Marinho",
+            "nomeComCargoResumido": "Sen. Zequinha Marinho",
+            "casa": "SF",
+            "ufPartido": "PA",
+            "siglaPartido": "PODEMOS",
+            "partido": "Podemos",
+            "codigoDeputado": "73933",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador3806.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3806",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64286",
+              "dataEvento": "2025-02-19T12:00:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64283",
+              "dataEvento": "2025-02-19T10:58:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64248",
+              "dataEvento": "2025-02-19T14:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "1307",
+            "nome": "Comissão de Agricultura e Reforma Agrária",
+            "sigla": "CRA",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17176",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9285",
+              "finalidade": "Instalação dos trabalhos da Comissão de Agricultura e Reforma Agrária.\r\nEleição da Mesa da Comissão para o biênio 2025/2026.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Instalada a Comissão de Agricultura e Reforma Agrária.\r\nEleito, por aclamação, o Senador Zequinha Marinho Presidente da Comissão para o biênio 2025/2026."
+            }
+          },
+          "videos": {
+            "codigo": "6565",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=pnU4d077Loo",
+            "dataHoraReuniao": "2025-02-19T09:15:00.000"
+          }
+        },
+        {
+          "codigo": "13314",
+          "versao": "2025-08-06T19:56:25.038",
+          "descricao": "1ª, Extraordinária",
+          "titulo": "1ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "34",
+            "sigla": "CCJ",
+            "nome": "Comissão de Constituição, Justiça e Cidadania",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T09:00:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025 às 09h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 3",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/8c999286-2c73-4010-b443-339632b43fcc",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/df568b97-27dd-4688-af68-1333903ac43e",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/b2941432-9a6c-48d6-8217-180787a4dc9d",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/227223b9-786c-4c20-adbc-07bf3ce580ff",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=02/04/2025&paginaDireta=6&indSuplemento=sim&codSuplemento=A",
+          "idUltimaPublicacaoPautaSimples": "8c999286-2c73-4010-b443-339632b43fcc",
+          "idUltimaPublicacaoResultado": "b2941432-9a6c-48d6-8217-180787a4dc9d",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "5523",
+            "nome": "Otto Roberto Mendonça de Alencar",
+            "nomeParlamentar": "Otto Alencar",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Otto Alencar",
+            "nomeComCargoResumido": "Sen. Otto Alencar",
+            "casa": "SF",
+            "ufPartido": "BA",
+            "siglaPartido": "PSD",
+            "partido": "Partido Social Democrático",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5523.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5523",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000",
+            "liderancas": {
+              "titulo": "Vice-líder do Senado Federal",
+              "nomeUnidadeLideranca": "Liderança do Governo"
+            }
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64276",
+              "dataEvento": "2025-02-19T10:13:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64260",
+              "dataEvento": "2025-02-19T09:26:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64250",
+              "dataEvento": "2025-02-19T10:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "34",
+            "nome": "Comissão de Constituição, Justiça e Cidadania",
+            "sigla": "CCJ",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17178",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9287",
+              "finalidade": "Instalação da Comissão de Constituição, Justiça e Cidadania e Eleição da Mesa da Comissão para o biênio 2025-2026.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "O Senador Otto Alencar foi eleito Presidente da Comissão de Constituição, Justiça e Cidadania para o biênio 2025-2026."
+            }
+          },
+          "videos": {
+            "codigo": "6552",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=Cq2ib_qzycQ",
+            "titulo": "Comissão de Constituição e Justiça inicia trabalhos e elege presidente e vice – 19/2/25",
+            "dataHoraReuniao": "2025-02-19T09:00:00.000"
+          }
+        },
+        {
+          "codigo": "13295",
+          "versao": "2025-08-06T19:56:28.944",
+          "descricao": "1ª, Extraordinária",
+          "titulo": "1ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "50",
+            "sigla": "CMA",
+            "nome": "Comissão de Meio Ambiente",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T09:00:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025 às 09h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 15",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/2f1f66d4-27f2-47ae-89bc-428ce1d4eb1f",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/c0c58e99-d240-4a77-b04c-79ea8a28fc71",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/7fb496e8-b6be-41e3-80c0-3d982d74b4ee",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/25d392c8-56da-42c4-ab79-5d33fc9d39be",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=02/04/2025&paginaDireta=896&indSuplemento=sim&codSuplemento=A",
+          "idUltimaPublicacaoPautaSimples": "2f1f66d4-27f2-47ae-89bc-428ce1d4eb1f",
+          "idUltimaPublicacaoResultado": "7fb496e8-b6be-41e3-80c0-3d982d74b4ee",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "5979",
+            "nome": "Leila Gomes de Barros Rêgo",
+            "nomeParlamentar": "Leila Barros",
+            "sexo": "F",
+            "cargo": "Senadora",
+            "nomeComCargo": "Senadora Leila Barros",
+            "nomeComCargoResumido": "Sen. Leila Barros",
+            "casa": "SF",
+            "ufPartido": "DF",
+            "siglaPartido": "PDT",
+            "partido": "Partido Democrático Trabalhista",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5979.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5979",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000",
+            "liderancas": [
+              {
+                "titulo": "Líder do Senado Federal",
+                "nomeUnidadeLideranca": "Liderança da Bancada Feminina"
+              },
+              {
+                "titulo": "Vice-líder do Congresso Nacional",
+                "nomeUnidadeLideranca": "Liderança do Governo"
+              },
+              {
+                "titulo": "Vice-líder do Senado Federal",
+                "nomeUnidadeLideranca": "Liderança do Governo"
+              }
+            ]
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64271",
+              "dataEvento": "2025-02-19T09:53:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64266",
+              "dataEvento": "2025-02-19T09:38:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64225",
+              "dataEvento": "2025-02-05T11:30:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "50",
+            "nome": "Comissão de Meio Ambiente",
+            "sigla": "CMA",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17152",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9272",
+              "finalidade": "Instalação dos trabalhos da Comissão de Meio Ambiente e eleição para os cargos de Presidente e Vice-Presidente para o biênio 2025/2026.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Eleitos o Senador Fabiano Contarato como Presidente e a Senadora Leila Barros como Vice-Presidente da Comissão do Meio Ambiente para o biênio 2025-2026."
+            }
+          },
+          "videos": {
+            "codigo": "6567",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=XEDKf9NcKdk",
+            "titulo": "1ª Reunião Extraordinária - CMA",
+            "dataHoraReuniao": "2025-02-19T09:00:00.000"
+          }
+        },
+        {
+          "codigo": "13318",
+          "versao": "2025-08-06T19:56:24.886",
+          "descricao": "1ª, Extraordinária",
+          "titulo": "1ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "2429",
+            "sigla": "CSP",
+            "nome": "Comissão de Segurança Pública",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T09:00:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025 às 09h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Nilo Coelho, Plenário nº 6",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/8800e901-43d4-4e8b-ae5a-99ff8780909e",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/d79ef679-093e-4b52-98ed-1a12260822ed",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/6443099e-9687-4b31-98f3-922ea8a76d94",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/8986aa12-fa0e-44e0-905f-7914281f99d2",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=02/04/2025&paginaDireta=995&indSuplemento=sim&codSuplemento=A",
+          "idUltimaPublicacaoPautaSimples": "8800e901-43d4-4e8b-ae5a-99ff8780909e",
+          "idUltimaPublicacaoResultado": "6443099e-9687-4b31-98f3-922ea8a76d94",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "5894",
+            "nome": "Flávio Nantes Bolsonaro",
+            "nomeParlamentar": "Flávio Bolsonaro",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Flávio Bolsonaro",
+            "nomeComCargoResumido": "Sen. Flávio Bolsonaro",
+            "casa": "SF",
+            "ufPartido": "RJ",
+            "siglaPartido": "PL",
+            "partido": "Partido Liberal",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5894.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000",
+            "liderancas": [
+              {
+                "titulo": "Líder do Congresso Nacional",
+                "nomeUnidadeLideranca": "Liderança da Minoria"
+              },
+              {
+                "titulo": "Vice-líder do Congresso Nacional",
+                "nomeUnidadeLideranca": "Liderança da Minoria"
+              }
+            ]
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64265",
+              "dataEvento": "2025-02-19T09:37:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64261",
+              "dataEvento": "2025-02-19T09:27:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64254",
+              "dataEvento": "2025-02-19T10:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2429",
+            "nome": "Comissão de Segurança Pública",
+            "sigla": "CSP",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17182",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9291",
+              "finalidade": "Instalação da Comissão de Segurança Pública e eleição de Presidente e Vice-Presidente para o biênio 2025-2026.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Instalada a Comissão e eleito, para o cargo de Presidente, o Senador Flávio Bolsonaro."
+            }
+          },
+          "videos": {
+            "codigo": "6555",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=6LqFrvsWyN4",
+            "dataHoraReuniao": "2025-02-19T09:00:00.000"
+          }
+        },
+        {
+          "codigo": "13307",
+          "versao": "2025-08-06T19:56:25.253",
+          "descricao": "1ª, Extraordinária",
+          "titulo": "1ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "54",
+            "sigla": "CRE",
+            "nome": "Comissão de Relações Exteriores e Defesa Nacional",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T09:00:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025 às 09h",
+          "informacao": "Instalação e Eleição do Presidente e Vice-presidente",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 7",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/25941138-39dd-48da-b79e-033fbf8638bd",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/0d577f97-217f-4c1b-935e-7a5e9c920f97",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/3d8d2192-4e92-4725-892c-67e275d9f871",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/333318b5-af6a-4195-9b2f-5667ff8a96be",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=02/04/2025&paginaDireta=472&indSuplemento=sim&codSuplemento=A",
+          "idUltimaPublicacaoPautaSimples": "25941138-39dd-48da-b79e-033fbf8638bd",
+          "idUltimaPublicacaoResultado": "3d8d2192-4e92-4725-892c-67e275d9f871",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "5985",
+            "nome": "Nelson Trad Filho",
+            "nomeParlamentar": "Nelsinho Trad",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Nelsinho Trad",
+            "nomeComCargoResumido": "Sen. Nelsinho Trad",
+            "casa": "SF",
+            "ufPartido": "MS",
+            "siglaPartido": "PSD",
+            "partido": "Partido Social Democrático",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5985.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5985",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64272",
+              "dataEvento": "2025-02-19T09:57:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64263",
+              "dataEvento": "2025-02-19T09:34:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64243",
+              "dataEvento": "2025-02-19T10:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "54",
+            "nome": "Comissão de Relações Exteriores e Defesa Nacional",
+            "sigla": "CRE",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17170",
+            "nome": "Instalação",
+            "codigoTipo": "3",
+            "descricaoTipo": "Instalação",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9281",
+              "finalidade": "Instalação e eleição do Presidente e do Vice-Presidente da Comissão de Relações Exteriores e Defesa Nacional, para o biênio 2025/2026.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Comissão instalada. Eleito Presidente, por aclamação, o Senador Nelsinho Trad (PSD/MS) para o biênio 2025-2026."
+            }
+          },
+          "videos": {
+            "codigo": "6556",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=_AifHRqaKHw",
+            "titulo": "Ao vivo: Comissão de Relações Exteriores inicia trabalhos e elege presidente e vice – 19/2/2025",
+            "dataHoraReuniao": "2025-02-19T09:00:00.000"
+          }
+        },
+        {
+          "codigo": "13302",
+          "versao": "2025-08-06T19:56:25.384",
+          "descricao": "1ª, Extraordinária",
+          "titulo": "1ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "40",
+            "sigla": "CAS",
+            "nome": "Comissão de Assuntos Sociais",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T09:00:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025 às 09h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 9",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/ad6e0468-79d7-41f3-9229-7f4915569e4e",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/cbe3f9ac-1d53-45cb-8752-ef3834ba1d77",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/4a0857dc-ea7c-41f2-bae6-e265ccfa433c",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/f14cfffe-bb11-4aad-8400-e4377e8c0482",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=06/05/2025&paginaDireta=112&indSuplemento=sim&codSuplemento=A",
+          "idUltimaPublicacaoPautaSimples": "ad6e0468-79d7-41f3-9229-7f4915569e4e",
+          "idUltimaPublicacaoResultado": "4a0857dc-ea7c-41f2-bae6-e265ccfa433c",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "742",
+            "nome": "Marcelo Costa e Castro",
+            "nomeParlamentar": "Marcelo Castro",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Marcelo Castro",
+            "nomeComCargoResumido": "Sen. Marcelo Castro",
+            "casa": "SF",
+            "ufPartido": "PI",
+            "siglaPartido": "MDB",
+            "partido": "Movimento Democrático Brasileiro",
+            "codigoDeputado": "74460",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador742.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/742",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000",
+            "liderancas": {
+              "titulo": "Vice-líder do Senado Federal",
+              "siglaPartido": "MDB",
+              "nomePartido": "Movimento Democrático Brasileiro"
+            }
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64264",
+              "dataEvento": "2025-02-19T09:36:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64262",
+              "dataEvento": "2025-02-19T09:27:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64232",
+              "dataEvento": "2025-02-19T10:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "40",
+            "nome": "Comissão de Assuntos Sociais",
+            "sigla": "CAS",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17161",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9277",
+              "finalidade": "Instalação dos trabalhos e eleição da presidência e da vice-presidência da Comissão de Assuntos Sociais para o biênio 2025/2026.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Comissão instalada. Eleitos para presidente o Senador Marcelo Castro e para vice-presidente a Senadora Dra. Eudócia."
+            }
+          },
+          "videos": {
+            "codigo": "6551",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=_eV3m4ej4KM",
+            "dataHoraReuniao": "2025-02-19T09:00:00.000"
+          }
+        },
+        {
+          "codigo": "13299",
+          "versao": "2025-08-06T19:56:28.064",
+          "descricao": "01ª, Extraordinária",
+          "titulo": "01ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "59",
+            "sigla": "CI",
+            "nome": "Comissão de Serviços de Infraestrutura",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T09:00:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025 às 09h",
+          "informacao": "Instalação da Comissão e eleição de presidente e vice-presidente para o biênio 2025-2026",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 13",
+          "numReuniaoConjunta": "01",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/8f476541-e66d-4c37-9f0f-f0fdecb3a9b7",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/5710a611-e271-453a-a566-ebcf9801c195",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/fd1dc27f-5604-45d7-bcdf-0159971cd1a4",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/5b87da7b-df03-4faf-9159-6f945661f98f",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=02/04/2025&paginaDireta=481&indSuplemento=sim&codSuplemento=A",
+          "idUltimaPublicacaoPautaSimples": "8f476541-e66d-4c37-9f0f-f0fdecb3a9b7",
+          "idUltimaPublicacaoResultado": "fd1dc27f-5604-45d7-bcdf-0159971cd1a4",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "5422",
+            "nome": "Marcos Rogério da Silva Brito",
+            "nomeParlamentar": "Marcos Rogério",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Marcos Rogério",
+            "nomeComCargoResumido": "Sen. Marcos Rogério",
+            "casa": "SF",
+            "ufPartido": "RO",
+            "siglaPartido": "PL",
+            "partido": "Partido Liberal",
+            "codigoDeputado": "167722",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5422.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5422",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000",
+            "liderancas": {
+              "titulo": "Vice-líder do Senado Federal",
+              "nomeUnidadeLideranca": "Liderança da Oposição"
+            }
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64278",
+              "dataEvento": "2025-02-19T10:32:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64268",
+              "dataEvento": "2025-02-19T09:42:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64229",
+              "dataEvento": "2025-02-04T09:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "59",
+            "nome": "Comissão de Serviços de Infraestrutura",
+            "sigla": "CI",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "01",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17157",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9275",
+              "finalidade": "Instalação da Comissão e eleição de presidente e vice-presidente para o biênio 2025-2026.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "O Senador Marcos Rogério (PL/RO) é eleito Presidente da Comissão para o biênio 2025-2026."
+            }
+          },
+          "videos": {
+            "codigo": "6559",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=oACKW3hCC3k",
+            "titulo": "Comissão de Infraestrutura inicia trabalhos e elege presidente e vice.",
+            "dataHoraReuniao": "2025-02-19T09:00:00.000"
+          }
+        },
+        {
+          "codigo": "13309",
+          "versao": "2025-08-06T19:56:25.171",
+          "descricao": "1ª, Extraordinária",
+          "titulo": "1ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "38",
+            "sigla": "CAE",
+            "nome": "Comissão de Assuntos Econômicos",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T09:00:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025 às 09h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 19",
+          "numReuniaoConjunta": "1",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/4874d731-3fb9-40a8-baf4-f1fbffa8b274",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/aeed3f87-dd62-41b4-b36b-0ce9b402616f",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/3533c3ba-c3b5-41d3-a011-9c3c760db3fb",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/d89ed178-3622-4f94-b42c-d89f2e15c452",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=06/05/2025&paginaDireta=5&indSuplemento=sim&codSuplemento=A",
+          "idUltimaPublicacaoPautaSimples": "4874d731-3fb9-40a8-baf4-f1fbffa8b274",
+          "idUltimaPublicacaoResultado": "3533c3ba-c3b5-41d3-a011-9c3c760db3fb",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "5899",
+            "nome": "Vanderlan Vieira Cardoso",
+            "nomeParlamentar": "Vanderlan Cardoso",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Vanderlan Cardoso",
+            "nomeComCargoResumido": "Sen. Vanderlan Cardoso",
+            "casa": "SF",
+            "ufPartido": "GO",
+            "siglaPartido": "PSD",
+            "partido": "Partido Social Democrático",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5899.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5899",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64280",
+              "dataEvento": "2025-02-19T10:37:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64270",
+              "dataEvento": "2025-02-19T09:51:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64245",
+              "dataEvento": "2025-02-19T10:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "38",
+            "nome": "Comissão de Assuntos Econômicos",
+            "sigla": "CAE",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17171",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9282",
+              "finalidade": "Instalação e eleição",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Comissão instalada e eleito o senador Renan Calheiros presidente da Comissão de Assuntos Econômicos."
+            }
+          },
+          "videos": {
+            "codigo": "6554",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=zUNjHgcPEFE",
+            "titulo": "REUNIÃO CAE",
+            "dataHoraReuniao": "2025-02-19T09:00:00.000"
+          }
+        },
+        {
+          "codigo": "13301",
+          "versao": "2025-08-06T19:56:25.418",
+          "descricao": "01ª, Extraordinária",
+          "titulo": "01ª Reunião Extraordinária",
+          "colegiadoCriador": {
+            "codigo": "834",
+            "sigla": "CDH",
+            "nome": "Comissão de Direitos Humanos e Legislação Participativa",
+            "siglaCasa": "SF",
+            "codigoTipo": "21",
+            "descricaoTipo": "Comissão Permanente"
+          },
+          "dataInicio": "2025-02-19T09:00:00.000",
+          "dataInicioFormatadaComObsHorario": "19/02/2025 às 09h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Nilo Coelho, Plenário nº 2",
+          "numReuniaoConjunta": "01",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/4ee60655-3bc2-47e3-8142-f4bb5fc04079",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/324784e8-a68d-4259-ae28-be16c5705376",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/d4daa2c6-661a-4285-a202-8ef53028c7ae",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/8717b5c1-b635-4f0d-bc9b-ad618efc838b",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=02/04/2025&paginaDireta=274&indSuplemento=sim&codSuplemento=A",
+          "idUltimaPublicacaoPautaSimples": "4ee60655-3bc2-47e3-8142-f4bb5fc04079",
+          "idUltimaPublicacaoResultado": "d4daa2c6-661a-4285-a202-8ef53028c7ae",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "2",
+            "descricao": "Extraordinária",
+            "sigla": "EXT"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "6335",
+            "nome": "Damares Regina Alves",
+            "nomeParlamentar": "Damares Alves",
+            "sexo": "F",
+            "cargo": "Senadora",
+            "nomeComCargo": "Senadora Damares Alves",
+            "nomeComCargoResumido": "Sen. Damares Alves",
+            "casa": "SF",
+            "ufPartido": "DF",
+            "siglaPartido": "REPUBLICANOS",
+            "partido": "REPUBLICANOS",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador6335.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6335",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-02-19T00:00:00.000",
+            "liderancas": {
+              "titulo": "Vice-líder do Congresso Nacional",
+              "nomeUnidadeLideranca": "Liderança da Minoria"
+            }
+          },
+          "dataReuniao": [
+            {
+              "codigo": "64281",
+              "dataEvento": "2025-02-19T10:49:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64267",
+              "dataEvento": "2025-02-19T09:40:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64231",
+              "dataEvento": "2025-02-11T12:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "834",
+            "nome": "Comissão de Direitos Humanos e Legislação Participativa",
+            "sigla": "CDH",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "21",
+            "nomeTipoColegiado": "Comissão Permanente",
+            "numeroReuniao": "01",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17160",
+            "nome": "Instalação e Eleição",
+            "codigoTipo": "6",
+            "descricaoTipo": "Instalação e Eleição",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9276",
+              "finalidade": "Instalação da Comissão de Direitos Humanos e Legislação Participativa e eleição do Presidente e do Vice-Presidente para o biênio 2025-2026.",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Instalada a Comissão, foram eleitas para Presidente a Senadora Damares Alves e para Vice-Presidente a Senadora Mara Gabrilli."
+            }
+          },
+          "videos": {
+            "codigo": "6562",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=k29INDBdtp0",
+            "dataHoraReuniao": "2025-02-19T09:00:00.000"
+          }
+        },
+        {
+          "codigo": "13305",
+          "versao": "2025-08-06T19:56:25.307",
+          "descricao": "33ª, Reunião",
+          "titulo": "33ª Reunião",
+          "colegiadoCriador": {
+            "codigo": "2659",
+            "sigla": "CPIMJAE",
+            "nome": "CPI da Manipulação de Jogos e Apostas Esportivas",
+            "siglaCasa": "SF",
+            "codigoTipo": "22",
+            "descricaoTipo": "Comissão Parlamentar de Inquérito",
+            "materiasOriginadoras": {
+              "nomeFormatado": "RQS 158/2024",
+              "sigla": "RQS",
+              "numero": "00158",
+              "ano": "2024",
+              "idProcesso": "8631287",
+              "codMateriaLegado": "162500"
+            }
+          },
+          "dataInicio": "2025-02-12T15:00:00.000",
+          "dataInicioFormatadaComObsHorario": "12/02/2025 às 15h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "false",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "2",
+          "situacao": "Não Realizada",
+          "status": "Não realizada",
+          "descricaoDeNaoRealizacao": "Não realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Nilo Coelho, Plenário nº 2",
+          "numReuniaoConjunta": "33",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/a23c0917-880a-4ddc-890d-710dd0e80ff5",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/11b9e109-a587-436f-a8af-863c8978d7ec",
+          "idUltimaPublicacaoPautaSimples": "a23c0917-880a-4ddc-890d-710dd0e80ff5",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "dataReuniao": [
+            {
+              "codigo": "64241",
+              "dataEvento": "2025-02-11T11:36:00.000",
+              "codigoSituacao": "2",
+              "descricaoSituacao": "Não Realizada",
+              "realizada": "false",
+              "rotuloDivulgacao": "Não realizada"
+            },
+            {
+              "codigo": "64235",
+              "dataEvento": "2025-02-12T15:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2659",
+            "nome": "CPI da Manipulação de Jogos e Apostas Esportivas",
+            "sigla": "CPIMJAE",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "22",
+            "nomeTipoColegiado": "Comissão Parlamentar de Inquérito",
+            "numeroReuniao": "33",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17165",
+            "nome": "Deliberação do Relatório Final",
+            "codigoTipo": "2",
+            "descricaoTipo": "Deliberativa",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "true",
+            "finalidade": "Deliberação do Relatório Final da CPIMJAE",
+            "itens": {
+              "codigo": "96524",
+              "tipo": "Relatório",
+              "ordem": "1",
+              "nome": "Relatório",
+              "nomeFormatadoComOrdem": "1 - Relatório",
+              "descricao": "Relatório       , de 2025",
+              "autorItemPauta": {
+                "nomeAutoria": "Sen. Romário",
+                "isParlamentar": "true",
+                "isColegiado": "false",
+                "possuiOutrosAutores": "false",
+                "parlamentar": {
+                  "codigo": "5322",
+                  "nome": "Romário",
+                  "sexo": "M",
+                  "isDeputado": "false",
+                  "isSenador": "true",
+                  "partidoSigla": "PL",
+                  "uf": "RJ",
+                  "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5322.jpg",
+                  "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5322"
+                }
+              },
+              "isTerminativo": "false",
+              "tipoPauta": "Pauta",
+              "categoria": "Requerimento, Minuta e outros documentos",
+              "classificacao": {
+                "codigo": "6",
+                "descricao": "Relatório",
+                "codigoTipoMateriaNaoAutonoma": "4"
+              },
+              "ordemDeliberacao": "1",
+              "apreciado": "false",
+              "emDeliberacao": "false",
+              "revisado": "false",
+              "resultadoPublico": "false",
+              "cabecalhoParecer": "Relatório       , de 2025",
+              "dataHoraEstadoAtual": "2025-02-07T17:49:08.000",
+              "materiaNaoAutonoma": {
+                "codigo": "13327",
+                "codigoTipo": "4",
+                "tipo": "Relatório",
+                "nomeFormatado": "Relatório",
+                "dataApresentacao": "2025-02-07",
+                "dataApreciacao": "2025-03-19",
+                "titulo": "Relatório Final CPIMJAE",
+                "situacao": "Aprovado",
+                "idEcmSenado": "b4275d3e-8391-45af-95f7-c09dda07e50c",
+                "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/b4275d3e-8391-45af-95f7-c09dda07e50c",
+                "mimeType": "application/pdf",
+                "autoria": "Sen. Romário",
+                "documento": {
+                  "idEcmSenado": "b4275d3e-8391-45af-95f7-c09dda07e50c",
+                  "descricao": "Relatório Final CPIMJAE",
+                  "nome": "Relatório",
+                  "mimeType": "application/pdf",
+                  "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/b4275d3e-8391-45af-95f7-c09dda07e50c"
+                }
+              },
+              "possuiVotacaoSecreta": "false"
+            }
+          }
+        },
+        {
+          "codigo": "13303",
+          "versao": "2025-08-06T19:56:25.348",
+          "descricao": "32ª, Reunião",
+          "titulo": "32ª Reunião",
+          "colegiadoCriador": {
+            "codigo": "2659",
+            "sigla": "CPIMJAE",
+            "nome": "CPI da Manipulação de Jogos e Apostas Esportivas",
+            "siglaCasa": "SF",
+            "codigoTipo": "22",
+            "descricaoTipo": "Comissão Parlamentar de Inquérito",
+            "materiasOriginadoras": {
+              "nomeFormatado": "RQS 158/2024",
+              "sigla": "RQS",
+              "numero": "00158",
+              "ano": "2024",
+              "idProcesso": "8631287",
+              "codMateriaLegado": "162500"
+            }
+          },
+          "dataInicio": "2025-02-11T15:00:00.000",
+          "dataInicioFormatadaComObsHorario": "11/02/2025 às 15h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "false",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "2",
+          "situacao": "Não Realizada",
+          "status": "Cancelada",
+          "descricaoDeNaoRealizacao": "Cancelada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Nilo Coelho, Plenário nº 2",
+          "numReuniaoConjunta": "32",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/d13513f0-2aac-4f4b-a950-d9d86e04ffbe",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/dd79f7e0-0f3e-477a-b973-c8d32ab85717",
+          "idUltimaPublicacaoPautaSimples": "d13513f0-2aac-4f4b-a950-d9d86e04ffbe",
+          "tipoPresenca": "Presencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "dataReuniao": [
+            {
+              "codigo": "64240",
+              "dataEvento": "2025-02-11T11:35:00.000",
+              "codigoSituacao": "2",
+              "descricaoSituacao": "Não Realizada",
+              "realizada": "false",
+              "rotuloDivulgacao": "Cancelada"
+            },
+            {
+              "codigo": "64233",
+              "dataEvento": "2025-02-11T15:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2659",
+            "nome": "CPI da Manipulação de Jogos e Apostas Esportivas",
+            "sigla": "CPIMJAE",
+            "siglaCasa": "SF",
+            "codigoTipoColegiado": "22",
+            "nomeTipoColegiado": "Comissão Parlamentar de Inquérito",
+            "numeroReuniao": "32",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": [
+            {
+              "codigo": "17163",
+              "nome": "Deliberativa",
+              "codigoTipo": "2",
+              "descricaoTipo": "Deliberativa",
+              "sequencial": "1",
+              "sequencialFormatado": "1ª PARTE",
+              "isDeliberativa": "true",
+              "finalidade": "Deliberação do Requerimento nº 178/2025",
+              "itens": {
+                "codigo": "96520",
+                "tipo": "RequerimentoDeCPI",
+                "ordem": "1",
+                "nome": "Requerimento 178/2025",
+                "nomeFormatadoComOrdem": "1 - Requerimento 178/2025",
+                "descricao": "Requerimento nº 178, de 2025",
+                "autorItemPauta": {
+                  "nomeAutoria": "Senador Carlos Portinho",
+                  "isParlamentar": "true",
+                  "isColegiado": "false",
+                  "possuiOutrosAutores": "false",
+                  "parlamentar": {
+                    "codigo": "5936",
+                    "nome": "Carlos Portinho",
+                    "sexo": "M",
+                    "isDeputado": "false",
+                    "isSenador": "true",
+                    "partidoSigla": "PL",
+                    "uf": "RJ",
+                    "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5936.jpg",
+                    "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5936"
+                  }
+                },
+                "isTerminativo": "false",
+                "tipoPauta": "Pauta",
+                "categoria": "Requerimento de CPI",
+                "classificacao": {
+                  "codigo": "4",
+                  "descricao": "Requerimento"
+                },
+                "siglaResultado": "Não apreciado",
+                "situacao": {
+                  "codigoTipoResultado": "71",
+                  "descricaoTipoResultado": "Não apreciado",
+                  "isSuspensoAguardandoReinicioDeReuniao": "false"
+                },
+                "ordemDeliberacao": "1",
+                "apreciado": "false",
+                "emDeliberacao": "false",
+                "revisado": "false",
+                "resultadoPublico": "false",
+                "dataInicio": "2025-02-06T12:04:59.000",
+                "cabecalhoParecer": "Requerimento nº 178, de 2025",
+                "dataHoraEstadoAtual": "2025-02-06T12:04:59.000",
+                "requerimentoCPI": {
+                  "codigo": "8159",
+                  "versao": "2025-08-06T19:56:25.335",
+                  "numero": "178",
+                  "ano": "2025",
+                  "dataApresentacao": "2025-02-03T00:00:00.000",
+                  "ementa": "Requer à Polícia Federal informações sobre a transferência internacional do preso Sr. William Pereira Rogatto.",
+                  "numeroSedol": "SF253659443607",
+                  "idDoma": "9890030",
+                  "tipoRequerimento": "Informação",
+                  "assunto": "Informações",
+                  "autoria": "Senador Carlos Portinho",
+                  "autor": {
+                    "codigo": "5936",
+                    "nome": "Carlos Francisco Portinho",
+                    "nomeParlamentar": "Carlos Portinho",
+                    "sexo": "M",
+                    "cargo": "Senador",
+                    "nomeComCargo": "Senador Carlos Portinho",
+                    "nomeComCargoResumido": "Sen. Carlos Portinho",
+                    "casa": "SF",
+                    "ufPartido": "RJ",
+                    "siglaPartido": "PL",
+                    "partido": "Partido Liberal",
+                    "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5936.jpg",
+                    "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5936",
+                    "isSenador": "true",
+                    "isDeputado": "false",
+                    "data": "2025-02-03T00:00:00.000",
+                    "liderancas": {
+                      "titulo": "Líder do Senado Federal",
+                      "siglaPartido": "PL",
+                      "nomePartido": "Partido Liberal"
+                    }
+                  },
+                  "colegiado": {
+                    "codigo": "2659",
+                    "nome": "CPI da Manipulação de Jogos e Apostas Esportivas",
+                    "sigla": "CPIMJAE",
+                    "siglaCasa": "SF",
+                    "codigoTipoColegiado": "22",
+                    "nomeTipoColegiado": "Comissão Parlamentar de Inquérito",
+                    "isSubcomissao": "false",
+                    "composicaoPublica": "true",
+                    "publicoPortal": "true"
+                  },
+                  "tituloParaPauta": "Requerimento Nº 178/2025",
+                  "documento": {
+                    "idEcmSenado": "4727169c-6ff0-4277-8855-46b1d7412b38",
+                    "mimeType": "application/pdf",
+                    "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/4727169c-6ff0-4277-8855-46b1d7412b38"
+                  },
+                  "situacao": "Não apreciado",
+                  "codigoSituacao": "71"
+                },
+                "possuiVotacaoSecreta": "false"
+              }
+            },
+            {
+              "codigo": "17162",
+              "nome": "Apresentação e Leitura do Relatório Final",
+              "codigoTipo": "2",
+              "descricaoTipo": "Deliberativa",
+              "sequencial": "2",
+              "sequencialFormatado": "2ª PARTE",
+              "isDeliberativa": "true",
+              "finalidade": "Leitura do Relatório Final da CPI da Manipulação de Jogos e Apostas Esportivas - CPIMJAE",
+              "itens": {
+                "codigo": "96523",
+                "tipo": "Relatório",
+                "ordem": "1",
+                "nome": "Relatório",
+                "nomeFormatadoComOrdem": "1 - Relatório",
+                "descricao": "Relatório       , de 2025",
+                "autorItemPauta": {
+                  "nomeAutoria": "Sen. Romário",
+                  "isParlamentar": "true",
+                  "isColegiado": "false",
+                  "possuiOutrosAutores": "false",
+                  "parlamentar": {
+                    "codigo": "5322",
+                    "nome": "Romário",
+                    "sexo": "M",
+                    "isDeputado": "false",
+                    "isSenador": "true",
+                    "partidoSigla": "PL",
+                    "uf": "RJ",
+                    "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5322.jpg",
+                    "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5322"
+                  }
+                },
+                "isTerminativo": "false",
+                "tipoPauta": "Pauta",
+                "categoria": "Requerimento, Minuta e outros documentos",
+                "classificacao": {
+                  "codigo": "6",
+                  "descricao": "Relatório",
+                  "codigoTipoMateriaNaoAutonoma": "4"
+                },
+                "ordemDeliberacao": "1",
+                "apreciado": "false",
+                "emDeliberacao": "false",
+                "revisado": "false",
+                "resultadoPublico": "false",
+                "cabecalhoParecer": "Relatório       , de 2025",
+                "dataHoraEstadoAtual": "2025-02-07T17:46:12.000",
+                "materiaNaoAutonoma": {
+                  "codigo": "13327",
+                  "codigoTipo": "4",
+                  "tipo": "Relatório",
+                  "nomeFormatado": "Relatório",
+                  "dataApresentacao": "2025-02-07",
+                  "dataApreciacao": "2025-03-19",
+                  "titulo": "Relatório Final CPIMJAE",
+                  "situacao": "Aprovado",
+                  "idEcmSenado": "b4275d3e-8391-45af-95f7-c09dda07e50c",
+                  "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/b4275d3e-8391-45af-95f7-c09dda07e50c",
+                  "mimeType": "application/pdf",
+                  "autoria": "Sen. Romário",
+                  "documento": {
+                    "idEcmSenado": "b4275d3e-8391-45af-95f7-c09dda07e50c",
+                    "descricao": "Relatório Final CPIMJAE",
+                    "nome": "Relatório",
+                    "mimeType": "application/pdf",
+                    "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/b4275d3e-8391-45af-95f7-c09dda07e50c"
+                  }
+                },
+                "possuiVotacaoSecreta": "false"
+              }
+            }
+          ]
+        },
+        {
+          "codigo": "13293",
+          "versao": "2025-08-06T19:56:28.983",
+          "descricao": "2ª, Reunião - Semipresencial",
+          "titulo": "2ª Reunião Semipresencial",
+          "colegiadoCriador": {
+            "codigo": "767",
+            "sigla": "CCS",
+            "nome": "Conselho de Comunicação Social",
+            "siglaCasa": "CN",
+            "codigoTipo": "107",
+            "descricaoTipo": "Conselho",
+            "materiasOriginadoras": {
+              "nomeFormatado": "OFN 4/2019",
+              "sigla": "OFN",
+              "numero": "00004",
+              "ano": "2019",
+              "idProcesso": "7848381",
+              "codMateriaLegado": "140044"
+            }
+          },
+          "dataInicio": "2025-02-10T14:00:00.000",
+          "dataInicioFormatadaComObsHorario": "10/02/2025 às 14h",
+          "informacao": "2ª reunião (ordinária) do Conselho de Comunicação Social do Congresso Nacional.",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 7",
+          "numReuniaoConjunta": "2",
+          "linkECidadania": "https://www12.senado.leg.br/ecidadania/visualizacaoaudiencia?id=32800",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/37917006-4bec-4ed8-ab26-874bbb0b25e2",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/eb52f8b2-5ab3-4831-b85e-f5be7db8ae8d",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/9fb10304-5508-4468-a78b-29b324fc136c",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/efcbe241-8cb3-4713-b8ae-5a1500b16783",
+          "idUltimaPublicacaoPautaSimples": "37917006-4bec-4ed8-ab26-874bbb0b25e2",
+          "idUltimaPublicacaoResultado": "9fb10304-5508-4468-a78b-29b324fc136c",
+          "tipoPresenca": "Semipresencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "true",
+          "permiteVotacaoSemPresencaFisica": "true",
+          "possuiVotacaoSecreta": "false",
+          "dataReuniao": [
+            {
+              "codigo": "64239",
+              "dataEvento": "2025-02-10T15:14:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64238",
+              "dataEvento": "2025-02-10T14:01:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64223",
+              "dataEvento": "2025-02-10T14:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "767",
+            "nome": "Conselho de Comunicação Social",
+            "sigla": "CCS",
+            "siglaCasa": "CN",
+            "codigoTipoColegiado": "107",
+            "nomeTipoColegiado": "Conselho",
+            "numeroReuniao": "2",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17150",
+            "nome": "Reunião Ordinária",
+            "codigoTipo": "4",
+            "descricaoTipo": "Reunião de Trabalho",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9270",
+              "finalidade": "I – LEITURA DO EXPEDIENTE\r\n\r\nII – ORDEM DO DIA\r\n\r\nItem I - Redação final da proposta de modificação do Regimento Interno do Conselho de Comunicação Social do Congresso Nacional;\r\n\r\nItem II - Proposta de audiência pública sobre DTV+, da Conselheira Valderez Donzelli;\r\n\r\nItem III - Debate sobre o encerramento de programas de moderação de conteúdo em plataformas digitais.\r\n  \r\nIII – RELATÓRIO DE ANDAMENTO DAS COMISSÕES TEMÁTICAS\r\n\r\nIV – COMUNICAÇÕES DOS CONSELHEIROS\r\n\r\nV – PARTICIPAÇÃO DA SOCIEDADE CIVIL",
+              "isPublicado": "true",
+              "isRealizado": "false",
+              "resultadoTexto": "Item I - aprovada a redação final da proposta de modificação do Regimento Interno do Conselho de Comunicação Social do Congresso Nacional que passa a constituir a Recomendação nº 1/2025;\r\n\r\nItem II - aprovada a realização de audiência pública sobre DTV+ na reunião de março de 2025;\r\n\r\nItem III - realizado o debate sobre o encerramento de programas de moderação de conteúdo em plataformas digitais; \r\n\r\nItem extrapauta - aprovada a realização de audiência pública sobre a regulamentação das redes na reunião de abril de 2025;\r\n\r\nItem extrapauta II - aprovada a emissão de nota de aplauso para o filme \"Ainda estou aqui\" de Walter Salles."
+            }
+          },
+          "videos": {
+            "codigo": "6550",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=-_y3HeaMBM0",
+            "dataHoraReuniao": "2025-02-10T14:00:00.000"
+          }
+        },
+        {
+          "codigo": "13292",
+          "versao": "2025-08-06T19:56:29.025",
+          "descricao": "1ª, Reunião - Semipresencial",
+          "titulo": "1ª Reunião Semipresencial",
+          "colegiadoCriador": {
+            "codigo": "767",
+            "sigla": "CCS",
+            "nome": "Conselho de Comunicação Social",
+            "siglaCasa": "CN",
+            "codigoTipo": "107",
+            "descricaoTipo": "Conselho",
+            "materiasOriginadoras": {
+              "nomeFormatado": "OFN 4/2019",
+              "sigla": "OFN",
+              "numero": "00004",
+              "ano": "2019",
+              "idProcesso": "7848381",
+              "codMateriaLegado": "140044"
+            }
+          },
+          "dataInicio": "2025-02-10T09:30:00.000",
+          "dataInicioFormatadaComObsHorario": "10/02/2025 às 09h30",
+          "informacao": "1ª reunião (extraordinária) do Conselho de Comunicação Social do Congresso Nacional.",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 7",
+          "numReuniaoConjunta": "1",
+          "linkECidadania": "https://www12.senado.leg.br/ecidadania/visualizacaoaudiencia?id=32800",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/16de5a2f-3ad1-4240-b0bd-bb661c666ea8",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/70115c97-1198-43b9-958b-7f31742961eb",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/6fd8c9e2-221f-4d2f-83c0-cc987c445040",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/75c41db7-a486-4d43-8910-5dbc60f6bdab",
+          "idUltimaPublicacaoPautaSimples": "16de5a2f-3ad1-4240-b0bd-bb661c666ea8",
+          "idUltimaPublicacaoResultado": "6fd8c9e2-221f-4d2f-83c0-cc987c445040",
+          "tipoPresenca": "Semipresencial",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "873",
+            "numeroLegislatura": "57",
+            "numero": "3",
+            "descricao": "57a. Legislatura (2025) - 3a. Sessão Legislativa Ordinária",
+            "inicio": "2025-02-03",
+            "fim": "2025-12-22"
+          },
+          "permitePresencaApp": "true",
+          "permiteVotacaoSemPresencaFisica": "true",
+          "possuiVotacaoSecreta": "false",
+          "dataReuniao": [
+            {
+              "codigo": "64237",
+              "dataEvento": "2025-02-10T11:52:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "64236",
+              "dataEvento": "2025-02-10T09:35:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "64222",
+              "dataEvento": "2025-02-10T09:30:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "767",
+            "nome": "Conselho de Comunicação Social",
+            "sigla": "CCS",
+            "siglaCasa": "CN",
+            "codigoTipoColegiado": "107",
+            "nomeTipoColegiado": "Conselho",
+            "numeroReuniao": "1",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "17149",
+            "nome": "Audiência Pública Interativa",
+            "codigoTipo": "1",
+            "descricaoTipo": "Audiência Pública Interativa",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "9269",
+              "finalidade": "Audiência Pública sobre a regulação do VoD (Video on Demand) no Brasil.",
+              "isPublicado": "true",
+              "isRealizado": "true",
+              "observacoes": "A reunião será interativa, transmitida ao vivo e aberta à participação dos interessados por meio do portal e-cidadania, na internet, em senado.leg.br/ecidadania ou pelo telefone da ouvidoria 0800 061 22 11.",
+              "resultadoTexto": "Realizada a audiência pública.",
+              "convidados": [
+                {
+                  "codigo": "38278",
+                  "ordem": "1",
+                  "tratamento": "Sra.",
+                  "nome": "Joelma Gonzaga",
+                  "sexo": "F",
+                  "cargo": "Secretária do Audiovisual do Ministério da Cultura",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false",
+                  "codigoSituacao": "4"
+                },
+                {
+                  "codigo": "38276",
+                  "ordem": "2",
+                  "tratamento": "Sr.",
+                  "nome": "Paulo Alcoforado",
+                  "sexo": "M",
+                  "cargo": "Diretor da Agência Nacional do Cinema (Ancine)",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false",
+                  "codigoSituacao": "2"
+                },
+                {
+                  "codigo": "38274",
+                  "ordem": "3",
+                  "tratamento": "Sra.",
+                  "nome": "Raquel Valadares",
+                  "sexo": "F",
+                  "cargo": "Diretora da Associação das Produtoras Independentes do Audiovisual Brasileiro (API)",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false",
+                  "codigoSituacao": "2"
+                },
+                {
+                  "codigo": "38275",
+                  "ordem": "4",
+                  "tratamento": "Sr.",
+                  "nome": "Mauro Garcia",
+                  "sexo": "M",
+                  "cargo": "Presidente Executivo da Brasil Audiovisual Independente (BRAVI)",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false",
+                  "codigoSituacao": "2"
+                },
+                {
+                  "codigo": "38277",
+                  "ordem": "5",
+                  "tratamento": "Sra.",
+                  "nome": "Mariana Polidorio",
+                  "sexo": "F",
+                  "cargo": "Diretora de Políticas Públicas da Netflix",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false",
+                  "codigoSituacao": "3"
+                }
+              ],
+              "participantes": [
+                {
+                  "codigo": "30109",
+                  "ordem": "1",
+                  "tratamento": "Sra.",
+                  "nome": "Joelma Gonzaga",
+                  "sexo": "F",
+                  "cargo": "Secretária do Audiovisual do Ministério da Cultura",
+                  "codigoConvidado": "38278",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false"
+                },
+                {
+                  "codigo": "30110",
+                  "ordem": "2",
+                  "tratamento": "Sr.",
+                  "nome": "Paulo Alcoforado",
+                  "sexo": "M",
+                  "cargo": "Diretor da Agência Nacional do Cinema (Ancine)",
+                  "codigoConvidado": "38276",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false"
+                },
+                {
+                  "codigo": "30111",
+                  "ordem": "3",
+                  "tratamento": "Sra.",
+                  "nome": "Raquel Valadares",
+                  "sexo": "F",
+                  "cargo": "Diretora da Associação das Produtoras Independentes do Audiovisual Brasileiro (API)",
+                  "apresentacoes": {
+                    "idEcmSenado": "98ddd985-9b70-44be-ae5d-9fa3cded76ee",
+                    "descricao": "Apresentação - Raquel Valadares",
+                    "nome": "Apresentação Raquel Valadares.pdf",
+                    "mimeType": "application/pdf",
+                    "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/98ddd985-9b70-44be-ae5d-9fa3cded76ee"
+                  },
+                  "codigoConvidado": "38274",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false"
+                },
+                {
+                  "codigo": "30112",
+                  "ordem": "4",
+                  "tratamento": "Sr.",
+                  "nome": "Mauro Garcia",
+                  "sexo": "M",
+                  "cargo": "Presidente Executivo da Brasil Audiovisual Independente (BRAVI)",
+                  "apresentacoes": {
+                    "idEcmSenado": "9410be1c-10f4-445e-87f8-24c7849e2a1c",
+                    "descricao": "Apresentação - Mauro Garcia",
+                    "nome": "Apresentação Mauro Garcia.pdf",
+                    "mimeType": "application/pdf",
+                    "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/9410be1c-10f4-445e-87f8-24c7849e2a1c"
+                  },
+                  "codigoConvidado": "38275",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false"
+                }
+              ]
+            }
+          },
+          "videos": {
+            "codigo": "6548",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=qXJuEDIynac",
+            "dataHoraReuniao": "2025-02-10T09:30:00.000"
+          }
+        }
+      ]
+    }
+  }
+}
