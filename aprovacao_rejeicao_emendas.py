@@ -8,6 +8,18 @@ def formatDate(date):
   year = date[:4]
   return f'{day}/{month}/{year}'
 
+def getComissionId(comission):
+  with open('lista_colegiados.json', 'r', encoding='utf-8') as file:
+    data = json.load(file)
+    colegiados = data.get('ListaColegiados').get('Colegiados').get('Colegiado')
+    comission = next((c for c in colegiados if c.get('Sigla') == comission))
+    sigla = comission.get('Sigla')
+    codigo = comission.get('Codigo')
+    nome = comission.get('Nome')
+    
+    print(f'{nome} - {codigo}')
+    return codigo
+
 def getMeetingsOfComission(meetings, comissionId):
   AgendaReuniao = meetings.get('AgendaReuniao')
   if AgendaReuniao:
@@ -22,8 +34,9 @@ def getMeetingsOfComission(meetings, comissionId):
         return meetingsOfComission
   return
 
-def getPLsAprovaRejeitaEmendas(meetings, comisisonId):
-  meetingsOfComission = getMeetingsOfComission(meetings, comisisonId)
+def getPLsAprovaRejeitaEmendas(meetings, comission):
+  comissionId = getComissionId(comission)
+  meetingsOfComission = getMeetingsOfComission(meetings, comissionId)
   
   if not meetingsOfComission:
     return
@@ -42,10 +55,12 @@ def getPLsAprovaRejeitaEmendas(meetings, comisisonId):
     
     def processItem(item):
       nome = item.get('nome')
-      isAprovaRejeitaEmendas = 'Pela aprovação' in item.get('relatorio')
+      relatorio = item.get('relatorio', '')
+      isAprovaRejeitaEmendas = 'Pela aprovação de' in relatorio
 
       if isAprovaRejeitaEmendas:
         pls.append(nome)
+        print(relatorio)
 
     def processParte(parte):
       if meeting.get('realizada') == 'true'and parte and parte.get('isDeliberativa') == 'true':      
@@ -60,7 +75,7 @@ def process_file(filepath):
   with open(filepath, 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-  resultado = getPLsAprovaRejeitaEmendas(data, '59')
+  resultado = getPLsAprovaRejeitaEmendas(data, 'CI')
   return resultado
 
 for filename in os.listdir('.'):
