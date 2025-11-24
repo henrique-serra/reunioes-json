@@ -1,0 +1,1640 @@
+{
+  "AgendaReuniao": {
+    "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/AgendaReuniaov2.xsd",
+    "Metadados": {
+      "Versao": "24/11/2025 18:02:37",
+      "VersaoServico": "2",
+      "DataVersaoServico": "2020-08-07",
+      "DescricaoDataSet": "Agenda das Reuniões das Comissões no mês informado."
+    },
+    "reunioes": {
+      "reuniao": [
+        {
+          "codigo": "9787",
+          "versao": "2024-10-15T01:33:15.497",
+          "descricao": "16ª, Reunião - Remota",
+          "titulo": "16ª Reunião Remota",
+          "colegiadoCriador": {
+            "codigo": "2342",
+            "sigla": "CN-Covid19",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "siglaCasa": "CN",
+            "codigoTipo": "45",
+            "descricaoTipo": "Comissão Mista Especial"
+          },
+          "dataInicio": "2020-06-30T10:00:00.000",
+          "dataInicioFormatadaComObsHorario": "30/06/2020 às 10h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "REUNIÃO REMOTA",
+          "numReuniaoConjunta": "16",
+          "linkECidadania": "https://www12.senado.leg.br/ecidadania/visualizacaoaudiencia?id=18507",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/bc8ad014-aae3-40d4-a2cd-65a5038a784b",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/c53eb2e2-029a-4dc1-9106-c5497f00c781",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/b6606c8b-598e-4ba8-979b-68f81046d2c1",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/5388edff-d81e-4b64-8d88-045bbbdbe8b2",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=1&datDiario=06/08/2020&paginaDireta=4&indSuplemento=sim",
+          "idUltimaPublicacaoPautaSimples": "bc8ad014-aae3-40d4-a2cd-65a5038a784b",
+          "idUltimaPublicacaoResultado": "b6606c8b-598e-4ba8-979b-68f81046d2c1",
+          "tipoPresenca": "Remota",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "863",
+            "numeroLegislatura": "56",
+            "numero": "2",
+            "descricao": "56a. Legislatura (2020) - 2a. Sessão Legislativa Ordinária",
+            "inicio": "2020-02-03",
+            "fim": "2020-12-23"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "475",
+            "nome": "Confúcio Aires Moura",
+            "nomeParlamentar": "Confúcio Moura",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Confúcio Moura",
+            "nomeComCargoResumido": "Sen. Confúcio Moura",
+            "casa": "SF",
+            "ufPartido": "RO",
+            "siglaPartido": "MDB",
+            "partido": "Movimento Democrático Brasileiro",
+            "codigoDeputado": "3154",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador475.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/475",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2020-06-30T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "54430",
+              "dataEvento": "2020-06-30T13:24:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true",
+              "motivo": "Realizada"
+            },
+            {
+              "codigo": "54429",
+              "dataEvento": "2020-06-30T10:01:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "54428",
+              "dataEvento": "2020-06-30T10:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2342",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "sigla": "CN-Covid19",
+            "siglaCasa": "CN",
+            "codigoTipoColegiado": "45",
+            "nomeTipoColegiado": "Comissão Mista Especial",
+            "numeroReuniao": "16",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "12524",
+            "nome": "Audiência Pública Interativa",
+            "codigoTipo": "1",
+            "descricaoTipo": "Audiência Pública Interativa",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "6641",
+              "finalidade": "Reunião destinada a avaliar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas à emergência de saúde pública de importância internacional relacionada ao coronavírus (Covid-19). O convite deriva do Decreto Legislativo nº 6, de 2020, Art. 2º, § 2º.",
+              "isPublicado": "true",
+              "isRealizado": "true",
+              "resultadoTexto": "Audiência pública realizada",
+              "convidados": {
+                "codigo": "27950",
+                "ordem": "1",
+                "nome": "Paulo Guedes",
+                "sexo": "M",
+                "cargo": "Ministro da Economia",
+                "isDepoentePresente": "false",
+                "isPorVideoConferencia": "false",
+                "codigoSituacao": "4"
+              },
+              "participantes": {
+                "codigo": "22330",
+                "ordem": "1",
+                "nome": "Paulo Guedes",
+                "sexo": "M",
+                "cargo": "Ministro da Economia",
+                "codigoConvidado": "27950",
+                "isDepoentePresente": "false",
+                "isPorVideoConferencia": "false"
+              }
+            }
+          },
+          "videos": {
+            "codigo": "3294",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=Ig4NzidzDAg",
+            "dataHoraReuniao": "2020-06-30T10:00:00.000"
+          }
+        },
+        {
+          "codigo": "9784",
+          "versao": "2024-10-15T01:33:15.551",
+          "descricao": "15ª, Reunião - Remota",
+          "titulo": "15ª Reunião Remota",
+          "colegiadoCriador": {
+            "codigo": "2342",
+            "sigla": "CN-Covid19",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "siglaCasa": "CN",
+            "codigoTipo": "45",
+            "descricaoTipo": "Comissão Mista Especial"
+          },
+          "dataInicio": "2020-06-25T10:00:00.000",
+          "dataInicioFormatadaComObsHorario": "25/06/2020 às 10h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "REUNIÃO REMOTA",
+          "numReuniaoConjunta": "15",
+          "linkECidadania": "http://www12.senado.leg.br/ecidadania/visualizacaoaudiencia?id=18467",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/d3d196d4-1762-4b18-b306-d269f6b42b9b",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/cc750882-444d-498e-8553-d8df45df7c57",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/a9f81e0b-1012-432f-9662-cef227b091a8",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/b6b2775b-f7e6-464f-bd66-ebed0372a650",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=2&datDiario=25/06/2020&paginaDireta=329&indSuplemento=sim",
+          "idUltimaPublicacaoPautaSimples": "d3d196d4-1762-4b18-b306-d269f6b42b9b",
+          "idUltimaPublicacaoResultado": "a9f81e0b-1012-432f-9662-cef227b091a8",
+          "tipoPresenca": "Remota",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "863",
+            "numeroLegislatura": "56",
+            "numero": "2",
+            "descricao": "56a. Legislatura (2020) - 2a. Sessão Legislativa Ordinária",
+            "inicio": "2020-02-03",
+            "fim": "2020-12-23"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "475",
+            "nome": "Confúcio Aires Moura",
+            "nomeParlamentar": "Confúcio Moura",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Confúcio Moura",
+            "nomeComCargoResumido": "Sen. Confúcio Moura",
+            "casa": "SF",
+            "ufPartido": "RO",
+            "siglaPartido": "MDB",
+            "partido": "Movimento Democrático Brasileiro",
+            "codigoDeputado": "3154",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador475.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/475",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2020-06-25T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "54425",
+              "dataEvento": "2020-06-25T12:51:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "54424",
+              "dataEvento": "2020-06-25T10:01:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "54421",
+              "dataEvento": "2020-06-25T10:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2342",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "sigla": "CN-Covid19",
+            "siglaCasa": "CN",
+            "codigoTipoColegiado": "45",
+            "nomeTipoColegiado": "Comissão Mista Especial",
+            "numeroReuniao": "15",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "12521",
+            "nome": "Audiência Pública Interativa",
+            "codigoTipo": "1",
+            "descricaoTipo": "Audiência Pública Interativa",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "6638",
+              "finalidade": "Audiência Pública com Governadores representantes de consórcios regionais para discutir o panorama geral quanto aos impactos das medidas relacionadas à saúde pública de importância internacional relacionada ao coronavírus (Covid-19).",
+              "isPublicado": "true",
+              "isRealizado": "true",
+              "resultadoTexto": "Audiência pública realizada",
+              "convidados": [
+                {
+                  "codigo": "27946",
+                  "ordem": "1",
+                  "nome": "Antônio Waldez Góes da Silva",
+                  "sexo": "M",
+                  "cargo": "Governador do Amapá e Presidente do Consórcio Interestadual de Desenvolvimento Sustentável da Amazônia Legal.",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false",
+                  "codigoSituacao": "4"
+                },
+                {
+                  "codigo": "27947",
+                  "ordem": "2",
+                  "nome": "Mauro Mendes",
+                  "sexo": "M",
+                  "cargo": "Governador do Mato Grosso e Presidente do Consórcio Brasil Central.",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false",
+                  "codigoSituacao": "4"
+                },
+                {
+                  "codigo": "27948",
+                  "ordem": "3",
+                  "nome": "Rui Costa",
+                  "sexo": "M",
+                  "cargo": "Governador da Bahia e Presidente do Consórcio Interestadual de Desenvolvimento Sustentável do Nordeste.",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false",
+                  "codigoSituacao": "1"
+                },
+                {
+                  "codigo": "27949",
+                  "ordem": "4",
+                  "nome": "Renato Casagrande",
+                  "sexo": "M",
+                  "cargo": "Governador do Espírito Santo e Representante do Consórcio de Integração Sul e Sudeste.",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false",
+                  "codigoSituacao": "4"
+                }
+              ],
+              "participantes": [
+                {
+                  "codigo": "22327",
+                  "ordem": "1",
+                  "nome": "Mauro Mendes",
+                  "sexo": "M",
+                  "cargo": "Governador do Mato Grosso e Presidente do Consórcio Brasil Central.",
+                  "codigoConvidado": "27947",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false"
+                },
+                {
+                  "codigo": "22328",
+                  "ordem": "2",
+                  "nome": "Renato Casagrande",
+                  "sexo": "M",
+                  "cargo": "Governador do Espírito Santo e Representante do Consórcio de Integração Sul e Sudeste.",
+                  "codigoConvidado": "27949",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false"
+                },
+                {
+                  "codigo": "22329",
+                  "ordem": "3",
+                  "nome": "Antônio Waldez Góes da Silva",
+                  "sexo": "M",
+                  "cargo": "Governador do Amapá e Presidente do Consórcio Interestadual de Desenvolvimento Sustentável da Amazônia Legal.",
+                  "codigoConvidado": "27946",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false"
+                }
+              ]
+            }
+          },
+          "videos": {
+            "codigo": "3293",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=bSxGPiV_F-U",
+            "dataHoraReuniao": "2020-06-25T10:00:00.000"
+          }
+        },
+        {
+          "codigo": "9783",
+          "versao": "2024-10-15T01:33:15.596",
+          "descricao": "14ª, Reunião - Remota",
+          "titulo": "14ª Reunião Remota",
+          "colegiadoCriador": {
+            "codigo": "2342",
+            "sigla": "CN-Covid19",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "siglaCasa": "CN",
+            "codigoTipo": "45",
+            "descricaoTipo": "Comissão Mista Especial"
+          },
+          "dataInicio": "2020-06-23T10:00:00.000",
+          "dataInicioFormatadaComObsHorario": "23/06/2020 às 10h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "REUNIÃO REMOTA",
+          "numReuniaoConjunta": "14",
+          "linkECidadania": "http://www12.senado.leg.br/ecidadania/visualizacaoaudiencia?id=18447",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/174f95b9-c8fb-4d0c-b5cd-7d6048723f52",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/7af89381-44e5-4933-8726-def691bc96c0",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/e2021c0a-de70-49f7-bf2f-4a6ef6ec03cb",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/154d47bd-1f9e-40ad-88b9-9b9425a7629e",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=2&datDiario=23/06/2020&paginaDireta=266&indSuplemento=sim",
+          "idUltimaPublicacaoPautaSimples": "174f95b9-c8fb-4d0c-b5cd-7d6048723f52",
+          "idUltimaPublicacaoResultado": "e2021c0a-de70-49f7-bf2f-4a6ef6ec03cb",
+          "tipoPresenca": "Remota",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "863",
+            "numeroLegislatura": "56",
+            "numero": "2",
+            "descricao": "56a. Legislatura (2020) - 2a. Sessão Legislativa Ordinária",
+            "inicio": "2020-02-03",
+            "fim": "2020-12-23"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "475",
+            "nome": "Confúcio Aires Moura",
+            "nomeParlamentar": "Confúcio Moura",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Confúcio Moura",
+            "nomeComCargoResumido": "Sen. Confúcio Moura",
+            "casa": "SF",
+            "ufPartido": "RO",
+            "siglaPartido": "MDB",
+            "partido": "Movimento Democrático Brasileiro",
+            "codigoDeputado": "3154",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador475.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/475",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2020-06-23T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "54423",
+              "dataEvento": "2020-06-23T13:38:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true",
+              "motivo": "Audiência pública realizada."
+            },
+            {
+              "codigo": "54422",
+              "dataEvento": "2020-06-23T10:00:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "54420",
+              "dataEvento": "2020-06-23T10:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2342",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "sigla": "CN-Covid19",
+            "siglaCasa": "CN",
+            "codigoTipoColegiado": "45",
+            "nomeTipoColegiado": "Comissão Mista Especial",
+            "numeroReuniao": "14",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "12520",
+            "nome": "Audiência Pública Interativa",
+            "codigoTipo": "1",
+            "descricaoTipo": "Audiência Pública Interativa",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "6637",
+              "finalidade": "Audiência Pública para discutir as ações do Ministério da Saúde no enfrentamento da pandemia de COVID-19.",
+              "isPublicado": "true",
+              "isRealizado": "true",
+              "resultadoTexto": "Audiência pública realizada",
+              "convidados": {
+                "codigo": "27945",
+                "ordem": "1",
+                "nome": "Eduardo Pazuello",
+                "sexo": "M",
+                "cargo": "Ministro Interino da Saúde.",
+                "isDepoentePresente": "false",
+                "isPorVideoConferencia": "false",
+                "codigoSituacao": "4"
+              },
+              "participantes": {
+                "codigo": "22326",
+                "ordem": "1",
+                "nome": "Eduardo Pazuello",
+                "sexo": "M",
+                "cargo": "Ministro Interino da Saúde.",
+                "apresentacoes": {
+                  "idEcmSenado": "46138787-14c1-425d-b296-135131426a8e",
+                  "descricao": "Apresentação",
+                  "nome": "23.06.2020 - Audiência Câmara dos Deputados_FINAL.pdf",
+                  "mimeType": "application/pdf",
+                  "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/46138787-14c1-425d-b296-135131426a8e"
+                },
+                "codigoConvidado": "27945",
+                "isDepoentePresente": "false",
+                "isPorVideoConferencia": "false"
+              }
+            }
+          },
+          "videos": {
+            "codigo": "3291",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=wsETKXhZ7_g",
+            "dataHoraReuniao": "2020-06-23T10:00:00.000"
+          }
+        },
+        {
+          "codigo": "9781",
+          "versao": "2024-10-15T01:33:15.661",
+          "descricao": "13ª, Reunião - Remota",
+          "titulo": "13ª Reunião Remota",
+          "colegiadoCriador": {
+            "codigo": "2342",
+            "sigla": "CN-Covid19",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "siglaCasa": "CN",
+            "codigoTipo": "45",
+            "descricaoTipo": "Comissão Mista Especial"
+          },
+          "dataInicio": "2020-06-18T10:00:00.000",
+          "dataInicioFormatadaComObsHorario": "18/06/2020 às 10h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "REUNIÃO REMOTA",
+          "numReuniaoConjunta": "13",
+          "linkECidadania": "http://www12.senado.leg.br/ecidadania/visualizacaoaudiencia?id=18427",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/e5b9a677-9a03-45c1-8176-2599674eadfc",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/3eece2da-9ddf-48cd-8012-b3b8a22bcec0",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/ce6c8359-dfc3-44e1-9f74-415f6f75bc60",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/a2fe1ee8-a0e4-4deb-aeac-605c3d3d15fd",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=2&datDiario=02/07/2020&paginaDireta=203&indSuplemento=sim",
+          "idUltimaPublicacaoPautaSimples": "e5b9a677-9a03-45c1-8176-2599674eadfc",
+          "idUltimaPublicacaoResultado": "ce6c8359-dfc3-44e1-9f74-415f6f75bc60",
+          "tipoPresenca": "Remota",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "863",
+            "numeroLegislatura": "56",
+            "numero": "2",
+            "descricao": "56a. Legislatura (2020) - 2a. Sessão Legislativa Ordinária",
+            "inicio": "2020-02-03",
+            "fim": "2020-12-23"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "475",
+            "nome": "Confúcio Aires Moura",
+            "nomeParlamentar": "Confúcio Moura",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Confúcio Moura",
+            "nomeComCargoResumido": "Sen. Confúcio Moura",
+            "casa": "SF",
+            "ufPartido": "RO",
+            "siglaPartido": "MDB",
+            "partido": "Movimento Democrático Brasileiro",
+            "codigoDeputado": "3154",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador475.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/475",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2020-06-18T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "54419",
+              "dataEvento": "2020-06-18T13:13:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "54418",
+              "dataEvento": "2020-06-18T10:00:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "54415",
+              "dataEvento": "2020-06-18T10:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2342",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "sigla": "CN-Covid19",
+            "siglaCasa": "CN",
+            "codigoTipoColegiado": "45",
+            "nomeTipoColegiado": "Comissão Mista Especial",
+            "numeroReuniao": "13",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "12518",
+            "nome": "Audiência Pública Interativa",
+            "codigoTipo": "1",
+            "descricaoTipo": "Audiência Pública Interativa",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "6635",
+              "finalidade": "Audiência Pública para discutir o acompanhamento dos gastos públicos relacionados ao combate à COVID-19.",
+              "isPublicado": "true",
+              "isRealizado": "true",
+              "convidados": {
+                "codigo": "27944",
+                "ordem": "1",
+                "nome": "José Múcio Monteiro",
+                "sexo": "M",
+                "cargo": "Presidente do Tribunal de Contas da União",
+                "isDepoentePresente": "false",
+                "isPorVideoConferencia": "false",
+                "codigoSituacao": "4"
+              },
+              "participantes": {
+                "codigo": "22325",
+                "ordem": "1",
+                "nome": "José Múcio Monteiro",
+                "sexo": "M",
+                "cargo": "Presidente do Tribunal de Contas da União",
+                "apresentacoes": {
+                  "idEcmSenado": "ad704a43-3054-48c3-a135-84354a3d9222",
+                  "descricao": "Apresentação",
+                  "nome": "Apresentação TCU - 13a Reunião..pdf",
+                  "mimeType": "application/pdf",
+                  "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/ad704a43-3054-48c3-a135-84354a3d9222"
+                },
+                "codigoConvidado": "27944",
+                "isDepoentePresente": "false",
+                "isPorVideoConferencia": "false"
+              }
+            }
+          },
+          "videos": {
+            "codigo": "3290",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=iyYxVfsKvnI",
+            "dataHoraReuniao": "2020-06-18T10:00:00.000"
+          }
+        },
+        {
+          "codigo": "9780",
+          "versao": "2024-10-15T01:33:15.746",
+          "descricao": "12ª, Reunião - Remota",
+          "titulo": "12ª Reunião Remota",
+          "colegiadoCriador": {
+            "codigo": "2342",
+            "sigla": "CN-Covid19",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "siglaCasa": "CN",
+            "codigoTipo": "45",
+            "descricaoTipo": "Comissão Mista Especial"
+          },
+          "dataInicio": "2020-06-16T10:00:00.000",
+          "dataInicioFormatadaComObsHorario": "16/06/2020 às 10h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "REUNIÃO REMOTA",
+          "numReuniaoConjunta": "12",
+          "linkECidadania": "http://www12.senado.leg.br/ecidadania/visualizacaoaudiencia?id=18408",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/13a3d1f8-edc6-4c6c-bd0c-2be36d335909",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/c390699c-634d-486f-9468-d2bf05254c87",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/50409b3b-d87d-483e-b908-39fc0dc5f7c7",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/4e0884a4-0229-46c6-90b6-fe59f849ba44",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=2&datDiario=02/07/2020&paginaDireta=151&indSuplemento=sim",
+          "idUltimaPublicacaoPautaSimples": "13a3d1f8-edc6-4c6c-bd0c-2be36d335909",
+          "idUltimaPublicacaoResultado": "50409b3b-d87d-483e-b908-39fc0dc5f7c7",
+          "tipoPresenca": "Remota",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "863",
+            "numeroLegislatura": "56",
+            "numero": "2",
+            "descricao": "56a. Legislatura (2020) - 2a. Sessão Legislativa Ordinária",
+            "inicio": "2020-02-03",
+            "fim": "2020-12-23"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "475",
+            "nome": "Confúcio Aires Moura",
+            "nomeParlamentar": "Confúcio Moura",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Confúcio Moura",
+            "nomeComCargoResumido": "Sen. Confúcio Moura",
+            "casa": "SF",
+            "ufPartido": "RO",
+            "siglaPartido": "MDB",
+            "partido": "Movimento Democrático Brasileiro",
+            "codigoDeputado": "3154",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador475.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/475",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2020-06-16T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "54416",
+              "dataEvento": "2020-06-16T12:39:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "54414",
+              "dataEvento": "2020-06-16T10:01:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "54413",
+              "dataEvento": "2020-06-16T10:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2342",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "sigla": "CN-Covid19",
+            "siglaCasa": "CN",
+            "codigoTipoColegiado": "45",
+            "nomeTipoColegiado": "Comissão Mista Especial",
+            "numeroReuniao": "12",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": [
+            {
+              "codigo": "12516",
+              "nome": "Audiência Pública Interativa",
+              "codigoTipo": "1",
+              "descricaoTipo": "Audiência Pública Interativa",
+              "sequencial": "1",
+              "sequencialFormatado": "1ª PARTE",
+              "isDeliberativa": "false",
+              "evento": {
+                "codigo": "6634",
+                "finalidade": "Audiência Pública para debater as medidas de enfrentamento à Covid-19 na perspectiva econômica.",
+                "isPublicado": "true",
+                "isRealizado": "true",
+                "resultadoTexto": "Audiência pública realizada.",
+                "convidados": {
+                  "codigo": "27943",
+                  "ordem": "1",
+                  "nome": "Gustavo Montezano",
+                  "sexo": "M",
+                  "cargo": "Presidente do Banco Nacional de Desenvolvimento Econômico e Social - BNDES",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false",
+                  "codigoSituacao": "4"
+                },
+                "participantes": {
+                  "codigo": "22324",
+                  "ordem": "1",
+                  "nome": "Gustavo Montezano",
+                  "sexo": "M",
+                  "cargo": "Presidente do Banco Nacional de Desenvolvimento Econômico e Social - BNDES",
+                  "apresentacoes": {
+                    "idEcmSenado": "3a557026-13d5-4fc6-8f7d-0d6c211cc217",
+                    "descricao": "Apresentação",
+                    "nome": "BNDES_Apres_AcoesEmergenciais_090620_link.pdf",
+                    "mimeType": "application/pdf",
+                    "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/3a557026-13d5-4fc6-8f7d-0d6c211cc217"
+                  },
+                  "codigoConvidado": "27943",
+                  "isDepoentePresente": "false",
+                  "isPorVideoConferencia": "false"
+                }
+              }
+            },
+            {
+              "codigo": "12517",
+              "nome": "Deliberativa",
+              "codigoTipo": "2",
+              "descricaoTipo": "Deliberativa",
+              "sequencial": "2",
+              "sequencialFormatado": "2ª PARTE",
+              "isDeliberativa": "true",
+              "finalidade": "Apreciação de Requerimentos",
+              "itens": [
+                {
+                  "codigo": "70741",
+                  "tipo": "Requerimento",
+                  "ordem": "1",
+                  "nome": "Requerimento",
+                  "nomeFormatadoComOrdem": "1 - Requerimento",
+                  "descricao": "Requerimento      , de 2020",
+                  "autorItemPauta": {
+                    "nomeAutoria": "Sen. Randolfe Rodrigues",
+                    "isParlamentar": "true",
+                    "isColegiado": "false",
+                    "possuiOutrosAutores": "false",
+                    "parlamentar": {
+                      "codigo": "5012",
+                      "nome": "Randolfe Rodrigues",
+                      "sexo": "M",
+                      "isDeputado": "false",
+                      "isSenador": "true",
+                      "partidoSigla": "REDE",
+                      "uf": "AP",
+                      "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5012.jpg",
+                      "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5012"
+                    }
+                  },
+                  "isTerminativo": "false",
+                  "tipoPauta": "Pauta",
+                  "categoria": "Requerimento, Minuta e outros documentos",
+                  "classificacao": {
+                    "codigo": "2",
+                    "descricao": "Requerimento",
+                    "codigoTipoMateriaNaoAutonoma": "1"
+                  },
+                  "descricaoResultado": "Aprovado",
+                  "siglaResultado": "Aprovado",
+                  "situacao": {
+                    "codigoTipoResultado": "51",
+                    "descricaoTipoResultado": "Aprovado",
+                    "isSuspensoAguardandoReinicioDeReuniao": "false"
+                  },
+                  "ordemDeliberacao": "2",
+                  "apreciado": "true",
+                  "emDeliberacao": "false",
+                  "revisado": "false",
+                  "resultadoPublico": "true",
+                  "cabecalhoParecer": "Requerimento      , de 2020",
+                  "dataHoraEstadoAtual": "2020-06-16T13:38:32.000",
+                  "dataResultado": "2020-06-16T13:38:32.000",
+                  "requerimento": {
+                    "codigo": "12706",
+                    "codigoTipo": "1",
+                    "tipo": "Requerimento",
+                    "nomeFormatado": "Requerimento Nº     , de 2020",
+                    "dataApresentacao": "2020-06-01",
+                    "dataApreciacao": "2020-06-16",
+                    "titulo": "REQ 047/20 CN-Covid19",
+                    "ementa": "Requer a convocação do Ministro de Estado do Meio Ambiente, Ricardo de Aquino Salles.",
+                    "situacao": "Aprovado",
+                    "idEcmSenado": "129f59e9-ded4-4f15-9232-98afe99bbc9c",
+                    "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/129f59e9-ded4-4f15-9232-98afe99bbc9c",
+                    "mimeType": "application/pdf",
+                    "autoria": "Sen. Randolfe Rodrigues",
+                    "documento": {
+                      "idEcmSenado": "129f59e9-ded4-4f15-9232-98afe99bbc9c",
+                      "descricao": "REQ 047/20 CN-Covid19",
+                      "nome": "Requerimento",
+                      "mimeType": "application/pdf",
+                      "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/129f59e9-ded4-4f15-9232-98afe99bbc9c"
+                    }
+                  },
+                  "materiaNaoAutonoma": {
+                    "codigo": "12706",
+                    "codigoTipo": "1",
+                    "tipo": "Requerimento",
+                    "nomeFormatado": "Requerimento Nº     , de 2020",
+                    "dataApresentacao": "2020-06-01",
+                    "dataApreciacao": "2020-06-16",
+                    "titulo": "REQ 047/20 CN-Covid19",
+                    "ementa": "Requer a convocação do Ministro de Estado do Meio Ambiente, Ricardo de Aquino Salles.",
+                    "situacao": "Aprovado",
+                    "idEcmSenado": "129f59e9-ded4-4f15-9232-98afe99bbc9c",
+                    "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/129f59e9-ded4-4f15-9232-98afe99bbc9c",
+                    "mimeType": "application/pdf",
+                    "autoria": "Sen. Randolfe Rodrigues",
+                    "documento": {
+                      "idEcmSenado": "129f59e9-ded4-4f15-9232-98afe99bbc9c",
+                      "descricao": "REQ 047/20 CN-Covid19",
+                      "nome": "Requerimento",
+                      "mimeType": "application/pdf",
+                      "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/129f59e9-ded4-4f15-9232-98afe99bbc9c"
+                    }
+                  },
+                  "resultado": {
+                    "descricao": "Aprovado",
+                    "texto": "Aprovado"
+                  },
+                  "possuiVotacaoSecreta": "false"
+                },
+                {
+                  "codigo": "70742",
+                  "tipo": "Requerimento",
+                  "ordem": "2",
+                  "nome": "Requerimento",
+                  "nomeFormatadoComOrdem": "2 - Requerimento",
+                  "descricao": "Requerimento      , de 2020",
+                  "autorItemPauta": {
+                    "nomeAutoria": "Sen. Eliziane Gama",
+                    "isParlamentar": "true",
+                    "isColegiado": "false",
+                    "possuiOutrosAutores": "false",
+                    "parlamentar": {
+                      "codigo": "5718",
+                      "nome": "Eliziane Gama",
+                      "sexo": "F",
+                      "isDeputado": "false",
+                      "isSenador": "true",
+                      "partidoSigla": "CIDADANIA",
+                      "uf": "MA",
+                      "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5718.jpg",
+                      "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5718"
+                    }
+                  },
+                  "isTerminativo": "false",
+                  "tipoPauta": "Pauta",
+                  "categoria": "Requerimento, Minuta e outros documentos",
+                  "classificacao": {
+                    "codigo": "2",
+                    "descricao": "Requerimento",
+                    "codigoTipoMateriaNaoAutonoma": "1"
+                  },
+                  "descricaoResultado": "Aprovado",
+                  "siglaResultado": "Aprovado",
+                  "situacao": {
+                    "codigoTipoResultado": "51",
+                    "descricaoTipoResultado": "Aprovado",
+                    "isSuspensoAguardandoReinicioDeReuniao": "false"
+                  },
+                  "ordemDeliberacao": "3",
+                  "apreciado": "true",
+                  "emDeliberacao": "false",
+                  "revisado": "false",
+                  "resultadoPublico": "true",
+                  "cabecalhoParecer": "Requerimento      , de 2020",
+                  "dataHoraEstadoAtual": "2020-06-16T13:38:43.000",
+                  "dataResultado": "2020-06-16T13:38:43.000",
+                  "requerimento": {
+                    "codigo": "12707",
+                    "codigoTipo": "1",
+                    "tipo": "Requerimento",
+                    "nomeFormatado": "Requerimento Nº     , de 2020",
+                    "dataApresentacao": "2020-06-05",
+                    "dataApreciacao": "2020-06-16",
+                    "titulo": "REQ 048/20 CN-Covid19",
+                    "ementa": "Convoca Eduardo Pazuello, Ministro de Estado da Saúde.",
+                    "situacao": "Aprovado",
+                    "idEcmSenado": "0dde8959-876a-4a52-8766-3ae62767271d",
+                    "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/0dde8959-876a-4a52-8766-3ae62767271d",
+                    "mimeType": "application/pdf",
+                    "autoria": "Sen. Eliziane Gama",
+                    "documento": {
+                      "idEcmSenado": "0dde8959-876a-4a52-8766-3ae62767271d",
+                      "descricao": "REQ 048/20 CN-Covid19",
+                      "nome": "Requerimento",
+                      "mimeType": "application/pdf",
+                      "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/0dde8959-876a-4a52-8766-3ae62767271d"
+                    }
+                  },
+                  "materiaNaoAutonoma": {
+                    "codigo": "12707",
+                    "codigoTipo": "1",
+                    "tipo": "Requerimento",
+                    "nomeFormatado": "Requerimento Nº     , de 2020",
+                    "dataApresentacao": "2020-06-05",
+                    "dataApreciacao": "2020-06-16",
+                    "titulo": "REQ 048/20 CN-Covid19",
+                    "ementa": "Convoca Eduardo Pazuello, Ministro de Estado da Saúde.",
+                    "situacao": "Aprovado",
+                    "idEcmSenado": "0dde8959-876a-4a52-8766-3ae62767271d",
+                    "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/0dde8959-876a-4a52-8766-3ae62767271d",
+                    "mimeType": "application/pdf",
+                    "autoria": "Sen. Eliziane Gama",
+                    "documento": {
+                      "idEcmSenado": "0dde8959-876a-4a52-8766-3ae62767271d",
+                      "descricao": "REQ 048/20 CN-Covid19",
+                      "nome": "Requerimento",
+                      "mimeType": "application/pdf",
+                      "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/0dde8959-876a-4a52-8766-3ae62767271d"
+                    }
+                  },
+                  "resultado": {
+                    "descricao": "Aprovado",
+                    "texto": "Aprovado"
+                  },
+                  "possuiVotacaoSecreta": "false"
+                },
+                {
+                  "codigo": "70743",
+                  "tipo": "Requerimento",
+                  "ordem": "3",
+                  "nome": "Requerimento",
+                  "nomeFormatadoComOrdem": "3 - Requerimento",
+                  "descricao": "Requerimento      , de 2020",
+                  "autorItemPauta": {
+                    "nomeAutoria": "Sen. Randolfe Rodrigues",
+                    "isParlamentar": "true",
+                    "isColegiado": "false",
+                    "possuiOutrosAutores": "false",
+                    "parlamentar": {
+                      "codigo": "5012",
+                      "nome": "Randolfe Rodrigues",
+                      "sexo": "M",
+                      "isDeputado": "false",
+                      "isSenador": "true",
+                      "partidoSigla": "REDE",
+                      "uf": "AP",
+                      "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5012.jpg",
+                      "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5012"
+                    }
+                  },
+                  "isTerminativo": "false",
+                  "tipoPauta": "Pauta",
+                  "categoria": "Requerimento, Minuta e outros documentos",
+                  "classificacao": {
+                    "codigo": "2",
+                    "descricao": "Requerimento",
+                    "codigoTipoMateriaNaoAutonoma": "1"
+                  },
+                  "descricaoResultado": "Aprovado",
+                  "siglaResultado": "Aprovado",
+                  "situacao": {
+                    "codigoTipoResultado": "51",
+                    "descricaoTipoResultado": "Aprovado",
+                    "isSuspensoAguardandoReinicioDeReuniao": "false"
+                  },
+                  "ordemDeliberacao": "4",
+                  "apreciado": "true",
+                  "emDeliberacao": "false",
+                  "revisado": "false",
+                  "resultadoPublico": "true",
+                  "cabecalhoParecer": "Requerimento      , de 2020",
+                  "dataHoraEstadoAtual": "2020-06-16T13:39:02.000",
+                  "dataResultado": "2020-06-16T13:39:02.000",
+                  "requerimento": {
+                    "codigo": "12708",
+                    "codigoTipo": "1",
+                    "tipo": "Requerimento",
+                    "nomeFormatado": "Requerimento Nº     , de 2020",
+                    "dataApresentacao": "2020-06-07",
+                    "dataApreciacao": "2020-06-16",
+                    "titulo": "REQ 049/20 CN-Covid19",
+                    "ementa": "Convoca Sr. Eduardo Pazuello, Ministro de Estado da Saúde.",
+                    "situacao": "Aprovado",
+                    "idEcmSenado": "5fee7e90-cc0f-4491-b7d1-4507c2a25e5e",
+                    "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/5fee7e90-cc0f-4491-b7d1-4507c2a25e5e",
+                    "mimeType": "application/pdf",
+                    "autoria": "Sen. Randolfe Rodrigues",
+                    "documento": {
+                      "idEcmSenado": "5fee7e90-cc0f-4491-b7d1-4507c2a25e5e",
+                      "descricao": "REQ 049/20 CN-Covid19",
+                      "nome": "Requerimento",
+                      "mimeType": "application/pdf",
+                      "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/5fee7e90-cc0f-4491-b7d1-4507c2a25e5e"
+                    }
+                  },
+                  "materiaNaoAutonoma": {
+                    "codigo": "12708",
+                    "codigoTipo": "1",
+                    "tipo": "Requerimento",
+                    "nomeFormatado": "Requerimento Nº     , de 2020",
+                    "dataApresentacao": "2020-06-07",
+                    "dataApreciacao": "2020-06-16",
+                    "titulo": "REQ 049/20 CN-Covid19",
+                    "ementa": "Convoca Sr. Eduardo Pazuello, Ministro de Estado da Saúde.",
+                    "situacao": "Aprovado",
+                    "idEcmSenado": "5fee7e90-cc0f-4491-b7d1-4507c2a25e5e",
+                    "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/5fee7e90-cc0f-4491-b7d1-4507c2a25e5e",
+                    "mimeType": "application/pdf",
+                    "autoria": "Sen. Randolfe Rodrigues",
+                    "documento": {
+                      "idEcmSenado": "5fee7e90-cc0f-4491-b7d1-4507c2a25e5e",
+                      "descricao": "REQ 049/20 CN-Covid19",
+                      "nome": "Requerimento",
+                      "mimeType": "application/pdf",
+                      "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/5fee7e90-cc0f-4491-b7d1-4507c2a25e5e"
+                    }
+                  },
+                  "resultado": {
+                    "descricao": "Aprovado",
+                    "texto": "Aprovado"
+                  },
+                  "possuiVotacaoSecreta": "false"
+                },
+                {
+                  "codigo": "70744",
+                  "tipo": "Requerimento",
+                  "ordem": "4",
+                  "nome": "Requerimento",
+                  "nomeFormatadoComOrdem": "4 - Requerimento",
+                  "descricao": "Requerimento      , de 2020",
+                  "autorItemPauta": {
+                    "nomeAutoria": "Sen. Randolfe Rodrigues",
+                    "isParlamentar": "true",
+                    "isColegiado": "false",
+                    "possuiOutrosAutores": "false",
+                    "parlamentar": {
+                      "codigo": "5012",
+                      "nome": "Randolfe Rodrigues",
+                      "sexo": "M",
+                      "isDeputado": "false",
+                      "isSenador": "true",
+                      "partidoSigla": "REDE",
+                      "uf": "AP",
+                      "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5012.jpg",
+                      "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5012"
+                    }
+                  },
+                  "isTerminativo": "false",
+                  "tipoPauta": "Pauta",
+                  "categoria": "Requerimento, Minuta e outros documentos",
+                  "classificacao": {
+                    "codigo": "2",
+                    "descricao": "Requerimento",
+                    "codigoTipoMateriaNaoAutonoma": "1"
+                  },
+                  "descricaoResultado": "Aprovado",
+                  "siglaResultado": "Aprovado",
+                  "situacao": {
+                    "codigoTipoResultado": "51",
+                    "descricaoTipoResultado": "Aprovado",
+                    "isSuspensoAguardandoReinicioDeReuniao": "false"
+                  },
+                  "ordemDeliberacao": "5",
+                  "apreciado": "true",
+                  "emDeliberacao": "false",
+                  "revisado": "false",
+                  "resultadoPublico": "true",
+                  "cabecalhoParecer": "Requerimento      , de 2020",
+                  "dataHoraEstadoAtual": "2020-06-16T13:39:11.000",
+                  "dataResultado": "2020-06-16T13:39:11.000",
+                  "requerimento": {
+                    "codigo": "12709",
+                    "codigoTipo": "1",
+                    "tipo": "Requerimento",
+                    "nomeFormatado": "Requerimento Nº     , de 2020",
+                    "dataApresentacao": "2020-06-07",
+                    "dataApreciacao": "2020-06-16",
+                    "titulo": "REQ 050/20 CN-Covid19",
+                    "ementa": "Requer criação de subcomissão para criar sistema paralelo de contagem de óbitos por COVID19.",
+                    "situacao": "Aprovado",
+                    "idEcmSenado": "b40f95c6-748b-431d-ad0f-cccf2e7e5f2c",
+                    "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/b40f95c6-748b-431d-ad0f-cccf2e7e5f2c",
+                    "mimeType": "application/pdf",
+                    "autoria": "Sen. Randolfe Rodrigues",
+                    "documento": {
+                      "idEcmSenado": "b40f95c6-748b-431d-ad0f-cccf2e7e5f2c",
+                      "descricao": "REQ 050/20 CN-Covid19",
+                      "nome": "Requerimento",
+                      "mimeType": "application/pdf",
+                      "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/b40f95c6-748b-431d-ad0f-cccf2e7e5f2c"
+                    }
+                  },
+                  "materiaNaoAutonoma": {
+                    "codigo": "12709",
+                    "codigoTipo": "1",
+                    "tipo": "Requerimento",
+                    "nomeFormatado": "Requerimento Nº     , de 2020",
+                    "dataApresentacao": "2020-06-07",
+                    "dataApreciacao": "2020-06-16",
+                    "titulo": "REQ 050/20 CN-Covid19",
+                    "ementa": "Requer criação de subcomissão para criar sistema paralelo de contagem de óbitos por COVID19.",
+                    "situacao": "Aprovado",
+                    "idEcmSenado": "b40f95c6-748b-431d-ad0f-cccf2e7e5f2c",
+                    "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/b40f95c6-748b-431d-ad0f-cccf2e7e5f2c",
+                    "mimeType": "application/pdf",
+                    "autoria": "Sen. Randolfe Rodrigues",
+                    "documento": {
+                      "idEcmSenado": "b40f95c6-748b-431d-ad0f-cccf2e7e5f2c",
+                      "descricao": "REQ 050/20 CN-Covid19",
+                      "nome": "Requerimento",
+                      "mimeType": "application/pdf",
+                      "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/b40f95c6-748b-431d-ad0f-cccf2e7e5f2c"
+                    }
+                  },
+                  "resultado": {
+                    "descricao": "Aprovado",
+                    "texto": "Aprovado"
+                  },
+                  "possuiVotacaoSecreta": "false"
+                },
+                {
+                  "codigo": "70745",
+                  "tipo": "Requerimento",
+                  "ordem": "5",
+                  "nome": "Requerimento",
+                  "nomeFormatadoComOrdem": "5 - Requerimento",
+                  "descricao": "Requerimento      , de 2020",
+                  "autorItemPauta": {
+                    "nomeAutoria": "Sen. Esperidião Amin",
+                    "isParlamentar": "true",
+                    "isColegiado": "false",
+                    "possuiOutrosAutores": "false",
+                    "parlamentar": {
+                      "codigo": "22",
+                      "nome": "Esperidião Amin",
+                      "sexo": "M",
+                      "isDeputado": "false",
+                      "isSenador": "true",
+                      "partidoSigla": "PP",
+                      "uf": "SC",
+                      "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador22.jpg",
+                      "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/22"
+                    }
+                  },
+                  "isTerminativo": "false",
+                  "tipoPauta": "Pauta",
+                  "categoria": "Requerimento, Minuta e outros documentos",
+                  "classificacao": {
+                    "codigo": "2",
+                    "descricao": "Requerimento",
+                    "codigoTipoMateriaNaoAutonoma": "1"
+                  },
+                  "descricaoResultado": "Aprovado",
+                  "siglaResultado": "Aprovado",
+                  "situacao": {
+                    "codigoTipoResultado": "51",
+                    "descricaoTipoResultado": "Aprovado",
+                    "isSuspensoAguardandoReinicioDeReuniao": "false"
+                  },
+                  "ordemDeliberacao": "6",
+                  "apreciado": "true",
+                  "emDeliberacao": "false",
+                  "revisado": "false",
+                  "resultadoPublico": "true",
+                  "cabecalhoParecer": "Requerimento      , de 2020",
+                  "dataHoraEstadoAtual": "2020-06-16T13:39:19.000",
+                  "dataResultado": "2020-06-16T13:39:19.000",
+                  "requerimento": {
+                    "codigo": "12710",
+                    "codigoTipo": "1",
+                    "tipo": "Requerimento",
+                    "nomeFormatado": "Requerimento Nº     , de 2020",
+                    "dataApresentacao": "2020-06-15",
+                    "dataApreciacao": "2020-06-16",
+                    "titulo": "REQ 051/20 CN-Covid19",
+                    "ementa": "Audiência Pública para debater as dificuldades de acesso ao crédido de micro e pequenas empresas.",
+                    "situacao": "Aprovado",
+                    "idEcmSenado": "8a7fb0fd-2ff3-4fc5-bd2b-2d4cce0827eb",
+                    "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/8a7fb0fd-2ff3-4fc5-bd2b-2d4cce0827eb",
+                    "mimeType": "application/pdf",
+                    "autoria": "Sen. Esperidião Amin",
+                    "documento": {
+                      "idEcmSenado": "8a7fb0fd-2ff3-4fc5-bd2b-2d4cce0827eb",
+                      "descricao": "REQ 051/20 CN-Covid19",
+                      "nome": "Requerimento",
+                      "mimeType": "application/pdf",
+                      "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/8a7fb0fd-2ff3-4fc5-bd2b-2d4cce0827eb"
+                    }
+                  },
+                  "materiaNaoAutonoma": {
+                    "codigo": "12710",
+                    "codigoTipo": "1",
+                    "tipo": "Requerimento",
+                    "nomeFormatado": "Requerimento Nº     , de 2020",
+                    "dataApresentacao": "2020-06-15",
+                    "dataApreciacao": "2020-06-16",
+                    "titulo": "REQ 051/20 CN-Covid19",
+                    "ementa": "Audiência Pública para debater as dificuldades de acesso ao crédido de micro e pequenas empresas.",
+                    "situacao": "Aprovado",
+                    "idEcmSenado": "8a7fb0fd-2ff3-4fc5-bd2b-2d4cce0827eb",
+                    "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/8a7fb0fd-2ff3-4fc5-bd2b-2d4cce0827eb",
+                    "mimeType": "application/pdf",
+                    "autoria": "Sen. Esperidião Amin",
+                    "documento": {
+                      "idEcmSenado": "8a7fb0fd-2ff3-4fc5-bd2b-2d4cce0827eb",
+                      "descricao": "REQ 051/20 CN-Covid19",
+                      "nome": "Requerimento",
+                      "mimeType": "application/pdf",
+                      "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/8a7fb0fd-2ff3-4fc5-bd2b-2d4cce0827eb"
+                    }
+                  },
+                  "resultado": {
+                    "descricao": "Aprovado",
+                    "texto": "Aprovado"
+                  },
+                  "possuiVotacaoSecreta": "false"
+                }
+              ]
+            }
+          ],
+          "videos": {
+            "codigo": "3289",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=UeTNFcogFhM",
+            "dataHoraReuniao": "2020-06-16T10:00:00.000"
+          }
+        },
+        {
+          "codigo": "9779",
+          "versao": "2024-10-15T01:33:15.931",
+          "descricao": "11ª, Reunião - Remota",
+          "titulo": "11ª Reunião Remota",
+          "colegiadoCriador": {
+            "codigo": "2342",
+            "sigla": "CN-Covid19",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "siglaCasa": "CN",
+            "codigoTipo": "45",
+            "descricaoTipo": "Comissão Mista Especial"
+          },
+          "dataInicio": "2020-06-08T10:00:00.000",
+          "dataInicioFormatadaComObsHorario": "08/06/2020 às 10h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "REUNIÃO REMOTA",
+          "numReuniaoConjunta": "11",
+          "linkECidadania": "http://www12.senado.leg.br/ecidadania/visualizacaoaudiencia?id=18387",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/e6206cb6-39a3-486b-9d84-7ec3317c5df8",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/fe0f66d2-ac4c-45a2-9da3-579887a358e4",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/d28b19d6-5929-474c-9ded-305a4f969ff6",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/00083d30-835b-4534-a0e0-e7ab30d334de",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=2&datDiario=02/07/2020&paginaDireta=105&indSuplemento=sim",
+          "idUltimaPublicacaoPautaSimples": "e6206cb6-39a3-486b-9d84-7ec3317c5df8",
+          "idUltimaPublicacaoResultado": "d28b19d6-5929-474c-9ded-305a4f969ff6",
+          "tipoPresenca": "Remota",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "863",
+            "numeroLegislatura": "56",
+            "numero": "2",
+            "descricao": "56a. Legislatura (2020) - 2a. Sessão Legislativa Ordinária",
+            "inicio": "2020-02-03",
+            "fim": "2020-12-23"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "475",
+            "nome": "Confúcio Aires Moura",
+            "nomeParlamentar": "Confúcio Moura",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Confúcio Moura",
+            "nomeComCargoResumido": "Sen. Confúcio Moura",
+            "casa": "SF",
+            "ufPartido": "RO",
+            "siglaPartido": "MDB",
+            "partido": "Movimento Democrático Brasileiro",
+            "codigoDeputado": "3154",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador475.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/475",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2020-06-08T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "54412",
+              "dataEvento": "2020-06-08T12:44:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "54411",
+              "dataEvento": "2020-06-08T10:02:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "54410",
+              "dataEvento": "2020-06-08T10:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2342",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "sigla": "CN-Covid19",
+            "siglaCasa": "CN",
+            "codigoTipoColegiado": "45",
+            "nomeTipoColegiado": "Comissão Mista Especial",
+            "numeroReuniao": "11",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "12515",
+            "nome": "Audiência Pública Interativa",
+            "codigoTipo": "1",
+            "descricaoTipo": "Audiência Pública Interativa",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "6633",
+              "finalidade": "Audiência Pública para debater as ações do Banco do Brasil relacionadas à emergência de saúde pública de importância internacional relacionada ao combate ao coronavírus (Covid-19).",
+              "isPublicado": "true",
+              "isRealizado": "true",
+              "resultadoTexto": "Audiência pública realizada.",
+              "convidados": {
+                "codigo": "27942",
+                "ordem": "1",
+                "nome": "Rubem de Freitas Novaes",
+                "sexo": "M",
+                "cargo": "Presidente do Banco do Brasil",
+                "isDepoentePresente": "false",
+                "isPorVideoConferencia": "false",
+                "codigoSituacao": "4"
+              },
+              "participantes": {
+                "codigo": "22323",
+                "ordem": "1",
+                "nome": "Rubem de Freitas Novaes",
+                "sexo": "M",
+                "cargo": "Presidente do Banco do Brasil",
+                "apresentacoes": {
+                  "idEcmSenado": "44ac466d-4b55-40bd-bdde-d3b62070bb6b",
+                  "descricao": "Apresentação BB",
+                  "nome": "Apresentac¸a~o BB.pdf",
+                  "mimeType": "application/pdf",
+                  "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/44ac466d-4b55-40bd-bdde-d3b62070bb6b"
+                },
+                "codigoConvidado": "27942",
+                "isDepoentePresente": "false",
+                "isPorVideoConferencia": "false"
+              }
+            }
+          },
+          "videos": {
+            "codigo": "3288",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=Ia2u_UQjOGY",
+            "dataHoraReuniao": "2020-06-08T10:00:00.000"
+          }
+        },
+        {
+          "codigo": "9778",
+          "versao": "2024-10-15T01:33:15.977",
+          "descricao": "10ª, Reunião - Remota",
+          "titulo": "10ª Reunião Remota",
+          "colegiadoCriador": {
+            "codigo": "2342",
+            "sigla": "CN-Covid19",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "siglaCasa": "CN",
+            "codigoTipo": "45",
+            "descricaoTipo": "Comissão Mista Especial"
+          },
+          "dataInicio": "2020-06-01T11:00:00.000",
+          "dataInicioFormatadaComObsHorario": "01/06/2020 às 11h",
+          "isExibirNoPortal": "true",
+          "confirmada": "false",
+          "realizada": "true",
+          "foiAgendadaAposTerSidoSuspensa": "false",
+          "codigoSituacao": "6",
+          "situacao": "Realizada",
+          "status": "Realizada",
+          "secreta": "false",
+          "local": "REUNIÃO REMOTA",
+          "numReuniaoConjunta": "10",
+          "linkECidadania": "http://www12.senado.leg.br/ecidadania/visualizacaoaudiencia?id=18347",
+          "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/c94229e0-660f-4348-9642-7823c54a758e",
+          "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/9ba32c81-f17f-45de-b88a-91c01cd9393a",
+          "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/86a73282-88c2-4c1b-a9ba-a81d95d77e00",
+          "urlUltimaAtaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/f3211326-69ad-4224-b727-8694c4363a52",
+          "urlUltimaAtaPublicadaDiario": "http://legis.senado.leg.br/diarios/BuscaDiario?tipDiario=2&datDiario=02/07/2020&paginaDireta=51&indSuplemento=sim",
+          "idUltimaPublicacaoPautaSimples": "c94229e0-660f-4348-9642-7823c54a758e",
+          "idUltimaPublicacaoResultado": "86a73282-88c2-4c1b-a9ba-a81d95d77e00",
+          "tipoPresenca": "Remota",
+          "continuacaoCancelada": "false",
+          "tipo": {
+            "codigo": "5",
+            "descricao": "Reunião",
+            "sigla": "REU"
+          },
+          "sessaoLegislativa": {
+            "codigo": "863",
+            "numeroLegislatura": "56",
+            "numero": "2",
+            "descricao": "56a. Legislatura (2020) - 2a. Sessão Legislativa Ordinária",
+            "inicio": "2020-02-03",
+            "fim": "2020-12-23"
+          },
+          "permitePresencaApp": "false",
+          "permiteVotacaoSemPresencaFisica": "false",
+          "possuiVotacaoSecreta": "false",
+          "presidente": {
+            "codigo": "475",
+            "nome": "Confúcio Aires Moura",
+            "nomeParlamentar": "Confúcio Moura",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Confúcio Moura",
+            "nomeComCargoResumido": "Sen. Confúcio Moura",
+            "casa": "SF",
+            "ufPartido": "RO",
+            "siglaPartido": "MDB",
+            "partido": "Movimento Democrático Brasileiro",
+            "codigoDeputado": "3154",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador475.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/475",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2020-06-01T00:00:00.000"
+          },
+          "dataReuniao": [
+            {
+              "codigo": "54409",
+              "dataEvento": "2020-06-01T13:47:00.000",
+              "codigoSituacao": "6",
+              "descricaoSituacao": "Realizada",
+              "realizada": "true"
+            },
+            {
+              "codigo": "54408",
+              "dataEvento": "2020-06-01T11:01:00.000",
+              "codigoSituacao": "3",
+              "descricaoSituacao": "Aberta",
+              "realizada": "false"
+            },
+            {
+              "codigo": "54407",
+              "dataEvento": "2020-06-01T11:00:00.000",
+              "codigoSituacao": "1",
+              "descricaoSituacao": "Agendada",
+              "realizada": "false"
+            }
+          ],
+          "colegiados": {
+            "codigo": "2342",
+            "nome": "Comissão Mista  destinada a acompanhar a situação fiscal e a execução orçamentária e financeira das medidas relacionadas ao coronavírus (Covid-19)",
+            "sigla": "CN-Covid19",
+            "siglaCasa": "CN",
+            "codigoTipoColegiado": "45",
+            "nomeTipoColegiado": "Comissão Mista Especial",
+            "numeroReuniao": "10",
+            "isSubcomissao": "false",
+            "composicaoPublica": "true",
+            "publicoPortal": "true"
+          },
+          "partes": {
+            "codigo": "12513",
+            "nome": "Audiência Pública Interativa",
+            "codigoTipo": "1",
+            "descricaoTipo": "Audiência Pública Interativa",
+            "sequencial": "1",
+            "sequencialFormatado": "1ª PARTE",
+            "isDeliberativa": "false",
+            "evento": {
+              "codigo": "6631",
+              "finalidade": "Audiência Pública para debater as ações do Banco Central relacionadas à emergência de saúde pública de importância internacional relacionada ao combate ao coronavírus (Covid-19).",
+              "isPublicado": "true",
+              "isRealizado": "true",
+              "resultadoTexto": "Audiência Pública realizada.",
+              "convidados": {
+                "codigo": "27941",
+                "ordem": "1",
+                "nome": "Roberto Campos Neto",
+                "sexo": "M",
+                "cargo": "Presidente do Banco Central do Brasil.",
+                "isDepoentePresente": "false",
+                "isPorVideoConferencia": "false",
+                "codigoSituacao": "4"
+              },
+              "participantes": {
+                "codigo": "22321",
+                "ordem": "1",
+                "nome": "Roberto Campos Neto",
+                "sexo": "M",
+                "cargo": "Presidente do Banco Central do Brasil.",
+                "apresentacoes": {
+                  "idEcmSenado": "57a67e06-3f1c-465b-8209-aa30dabb5a61",
+                  "descricao": "Apresentação Bacen",
+                  "nome": "Apresentac¸a~o_RCN_CN-Covid19_vpub.pdf",
+                  "mimeType": "application/pdf",
+                  "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/57a67e06-3f1c-465b-8209-aa30dabb5a61"
+                },
+                "codigoConvidado": "27941",
+                "isDepoentePresente": "false",
+                "isPorVideoConferencia": "false"
+              }
+            }
+          },
+          "videos": {
+            "codigo": "3287",
+            "ordem": "1",
+            "url": "https://www.youtube.com/watch?v=glx6BAMiDd4",
+            "dataHoraReuniao": "2020-06-01T11:00:00.000"
+          }
+        }
+      ]
+    }
+  }
+}

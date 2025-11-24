@@ -56,7 +56,7 @@ def getPLsAprovaRejeitaEmendas(meetings, comission):
     def processItem(item):
       nome = item.get('nome')
       relatorio = item.get('relatorio', '')
-      isAprovaRejeitaEmendas = 'Pela aprovação de' in relatorio
+      isAprovaRejeitaEmendas = 'aprovação' in relatorio and 'rejeição' in relatorio and 'projeto' not in str(relatorio).lower()
 
       if isAprovaRejeitaEmendas:
         pls.append(nome)
@@ -75,7 +75,7 @@ def process_file(filepath):
   with open(filepath, 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-  resultado = getPLsAprovaRejeitaEmendas(data, 'CI')
+  resultado = getPLsAprovaRejeitaEmendas(data, 'CMA')
   return resultado
 
 for filename in os.listdir('.'):

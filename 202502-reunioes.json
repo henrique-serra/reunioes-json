@@ -2,7 +2,7 @@
   "AgendaReuniao": {
     "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/AgendaReuniaov2.xsd",
     "Metadados": {
-      "Versao": "01/09/2025 12:31:22",
+      "Versao": "24/11/2025 18:02:51",
       "VersaoServico": "2",
       "DataVersaoServico": "2020-08-07",
       "DescricaoDataSet": "Agenda das Reuniões das Comissões no mês informado."
@@ -11,7 +11,7 @@
       "reuniao": [
         {
           "codigo": "13330",
-          "versao": "2025-08-06T19:56:19.413",
+          "versao": "2025-11-05T15:22:34.540",
           "descricao": "2ª, Extraordinária",
           "titulo": "2ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -219,7 +219,12 @@
                       "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3806",
                       "isSenador": "true",
                       "isDeputado": "false",
-                      "data": "2025-02-20T00:00:00.000"
+                      "data": "2025-02-20T00:00:00.000",
+                      "liderancas": {
+                        "titulo": "Vice-líder do Senado Federal",
+                        "siglaPartido": "PODEMOS",
+                        "nomePartido": "Podemos"
+                      }
                     }
                   }
                 },
@@ -351,7 +356,12 @@
                       "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3806",
                       "isSenador": "true",
                       "isDeputado": "false",
-                      "data": "2025-02-20T00:00:00.000"
+                      "data": "2025-02-20T00:00:00.000",
+                      "liderancas": {
+                        "titulo": "Vice-líder do Senado Federal",
+                        "siglaPartido": "PODEMOS",
+                        "nomePartido": "Podemos"
+                      }
                     }
                   }
                 },
@@ -483,7 +493,12 @@
                       "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3806",
                       "isSenador": "true",
                       "isDeputado": "false",
-                      "data": "2025-02-20T00:00:00.000"
+                      "data": "2025-02-20T00:00:00.000",
+                      "liderancas": {
+                        "titulo": "Vice-líder do Senado Federal",
+                        "siglaPartido": "PODEMOS",
+                        "nomePartido": "Podemos"
+                      }
                     }
                   }
                 },
@@ -660,7 +675,7 @@
         },
         {
           "codigo": "13298",
-          "versao": "2025-08-06T19:56:28.110",
+          "versao": "2025-11-05T15:22:42.205",
           "descricao": "1ª, Ordinária",
           "titulo": "1ª Reunião Ordinária",
           "colegiadoCriador": {
@@ -803,7 +818,7 @@
         },
         {
           "codigo": "13306",
-          "versao": "2025-08-06T19:56:25.286",
+          "versao": "2025-11-05T15:22:40.753",
           "descricao": "1ª, Reunião",
           "titulo": "1ª Reunião",
           "colegiadoCriador": {
@@ -927,7 +942,7 @@
         },
         {
           "codigo": "13313",
-          "versao": "2025-08-06T19:56:25.076",
+          "versao": "2025-11-05T15:22:40.321",
           "descricao": "1ª, Extraordinária",
           "titulo": "1ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -1062,7 +1077,7 @@
         },
         {
           "codigo": "13321",
-          "versao": "2025-08-06T19:56:24.818",
+          "versao": "2025-11-05T15:22:39.835",
           "descricao": "1ª, Extraordinária",
           "titulo": "1ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -1162,7 +1177,7 @@
         },
         {
           "codigo": "13320",
-          "versao": "2025-08-06T19:56:24.850",
+          "versao": "2025-11-05T15:22:39.904",
           "descricao": "1ª, Extraordinária",
           "titulo": "1ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -1234,6 +1249,9 @@
                 "nomeUnidadeLideranca": "Liderança da Bancada Feminina"
               },
               {
+                "titulo": "Vice-líder do Senado Federal"
+              },
+              {
                 "titulo": "Vice-líder do Senado Federal",
                 "siglaPartido": "PT",
                 "nomePartido": "Partido dos Trabalhadores"
@@ -1300,7 +1318,7 @@
         },
         {
           "codigo": "13288",
-          "versao": "2025-08-06T19:56:29.420",
+          "versao": "2025-11-05T15:22:44.042",
           "descricao": "1ª, Extraordinária",
           "titulo": "1ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -1422,7 +1440,7 @@
         },
         {
           "codigo": "13311",
-          "versao": "2025-08-06T19:56:25.138",
+          "versao": "2025-11-05T15:22:40.449",
           "descricao": "1ª, Extraordinária",
           "titulo": "1ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -1523,7 +1541,7 @@
         },
         {
           "codigo": "13315",
-          "versao": "2025-08-06T19:56:24.998",
+          "versao": "2025-11-05T15:22:40.159",
           "descricao": "1ª, Extraordinária",
           "titulo": "1ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -1654,7 +1672,7 @@
         },
         {
           "codigo": "13312",
-          "versao": "2025-08-06T19:56:25.110",
+          "versao": "2025-11-05T15:22:40.398",
           "descricao": "1ª, Extraordinária",
           "titulo": "1ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -1720,7 +1738,12 @@
             "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/3806",
             "isSenador": "true",
             "isDeputado": "false",
-            "data": "2025-02-19T00:00:00.000"
+            "data": "2025-02-19T00:00:00.000",
+            "liderancas": {
+              "titulo": "Vice-líder do Senado Federal",
+              "siglaPartido": "PODEMOS",
+              "nomePartido": "Podemos"
+            }
           },
           "dataReuniao": [
             {
@@ -1782,7 +1805,7 @@
         },
         {
           "codigo": "13314",
-          "versao": "2025-08-06T19:56:25.038",
+          "versao": "2025-11-05T15:22:40.245",
           "descricao": "1ª, Extraordinária",
           "titulo": "1ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -1913,7 +1936,7 @@
         },
         {
           "codigo": "13295",
-          "versao": "2025-08-06T19:56:28.944",
+          "versao": "2025-11-05T15:22:43.340",
           "descricao": "1ª, Extraordinária",
           "titulo": "1ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -2054,7 +2077,7 @@
         },
         {
           "codigo": "13318",
-          "versao": "2025-08-06T19:56:24.886",
+          "versao": "2025-11-05T15:22:39.972",
           "descricao": "1ª, Extraordinária",
           "titulo": "1ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -2190,7 +2213,7 @@
         },
         {
           "codigo": "13307",
-          "versao": "2025-08-06T19:56:25.253",
+          "versao": "2025-11-05T15:22:40.674",
           "descricao": "1ª, Extraordinária",
           "titulo": "1ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -2318,7 +2341,7 @@
         },
         {
           "codigo": "13302",
-          "versao": "2025-08-06T19:56:25.384",
+          "versao": "2025-11-05T15:22:41.000",
           "descricao": "1ª, Extraordinária",
           "titulo": "1ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -2450,7 +2473,7 @@
         },
         {
           "codigo": "13299",
-          "versao": "2025-08-06T19:56:28.064",
+          "versao": "2025-11-05T15:22:42.135",
           "descricao": "01ª, Extraordinária",
           "titulo": "01ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -2583,7 +2606,7 @@
         },
         {
           "codigo": "13309",
-          "versao": "2025-08-06T19:56:25.171",
+          "versao": "2025-11-05T15:22:40.512",
           "descricao": "1ª, Extraordinária",
           "titulo": "1ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -2710,7 +2733,7 @@
         },
         {
           "codigo": "13301",
-          "versao": "2025-08-06T19:56:25.418",
+          "versao": "2025-11-05T15:22:41.080",
           "descricao": "01ª, Extraordinária",
           "titulo": "01ª Reunião Extraordinária",
           "colegiadoCriador": {
@@ -2840,7 +2863,7 @@
         },
         {
           "codigo": "13305",
-          "versao": "2025-08-06T19:56:25.307",
+          "versao": "2025-11-05T15:22:40.799",
           "descricao": "33ª, Reunião",
           "titulo": "33ª Reunião",
           "colegiadoCriador": {
@@ -2997,7 +3020,7 @@
         },
         {
           "codigo": "13303",
-          "versao": "2025-08-06T19:56:25.348",
+          "versao": "2025-11-05T15:22:40.896",
           "descricao": "32ª, Reunião",
           "titulo": "32ª Reunião",
           "colegiadoCriador": {
@@ -3136,7 +3159,7 @@
                 "dataHoraEstadoAtual": "2025-02-06T12:04:59.000",
                 "requerimentoCPI": {
                   "codigo": "8159",
-                  "versao": "2025-08-06T19:56:25.335",
+                  "versao": "2025-11-05T15:22:40.868",
                   "numero": "178",
                   "ano": "2025",
                   "dataApresentacao": "2025-02-03T00:00:00.000",
@@ -3268,7 +3291,7 @@
         },
         {
           "codigo": "13293",
-          "versao": "2025-08-06T19:56:28.983",
+          "versao": "2025-11-05T15:22:43.403",
           "descricao": "2ª, Reunião - Semipresencial",
           "titulo": "2ª Reunião Semipresencial",
           "colegiadoCriador": {
@@ -3385,7 +3408,7 @@
         },
         {
           "codigo": "13292",
-          "versao": "2025-08-06T19:56:29.025",
+          "versao": "2025-11-05T15:22:43.476",
           "descricao": "1ª, Reunião - Semipresencial",
           "titulo": "1ª Reunião Semipresencial",
           "colegiadoCriador": {
