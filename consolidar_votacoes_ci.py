@@ -11,6 +11,175 @@ from pathlib import Path
 import pandas as pd
 from typing import List, Dict, Any
 from datetime import datetime
+import requests
+import sys
+
+
+def solicitar_ano() -> str:
+    """
+    Solicita o ano ao usuário via input.
+
+    Returns:
+        Ano como string
+    """
+    while True:
+        ano = input("Digite o ano que deseja analisar (ex: 2025): ").strip()
+
+        if not ano.isdigit():
+            print("Erro: Digite apenas números.")
+            continue
+
+        if len(ano) != 4:
+            print("Erro: O ano deve ter 4 dígitos.")
+            continue
+
+        ano_int = int(ano)
+        if ano_int < 2000 or ano_int > 2100:
+            print("Erro: Digite um ano válido entre 2000 e 2100.")
+            continue
+
+        return ano
+
+
+def verificar_arquivos_existentes(pasta: str, ano: str) -> tuple[bool, bool]:
+    """
+    Verifica se os arquivos JSON do ano especificado existem na pasta.
+
+    Args:
+        pasta: Caminho da pasta a verificar
+        ano: Ano a verificar
+
+    Returns:
+        Tupla (tem_reunioes, tem_colegiados) indicando quais arquivos existem
+    """
+    # Verificar arquivos de reuniões (12 meses)
+    arquivos_reunioes = []
+    for mes in range(1, 13):
+        mes_str = f"{mes:02d}"
+        arquivo = os.path.join(pasta, f"{ano}{mes_str}-reunioes.json")
+        if os.path.exists(arquivo):
+            arquivos_reunioes.append(arquivo)
+
+    tem_reunioes = len(arquivos_reunioes) == 12
+
+    # Verificar lista de colegiados
+    arquivo_colegiados = os.path.join(pasta, "lista_colegiados.json")
+    tem_colegiados = os.path.exists(arquivo_colegiados)
+
+    return tem_reunioes, tem_colegiados
+
+
+def baixar_arquivo_reunioes(ano: str, mes: str, pasta: str) -> bool:
+    """
+    Baixa um arquivo de reuniões de um mês específico.
+
+    Args:
+        ano: Ano a baixar
+        mes: Mês a baixar (formato: "01", "02", etc)
+        pasta: Pasta onde salvar o arquivo
+
+    Returns:
+        True se sucesso, False se falhou
+    """
+    url = f"https://legis.senado.leg.br/dadosabertos/comissao/agenda/mes/{ano}{mes}.json"
+    filename = os.path.join(pasta, f"{ano}{mes}-reunioes.json")
+
+    try:
+        print(f"  Baixando {ano}{mes}-reunioes.json...", end=" ")
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+
+        data = response.json()
+
+        with open(filename, "w", encoding="utf-8") as file:
+            json.dump(data, file, indent=2, ensure_ascii=False)
+
+        print("OK")
+        return True
+
+    except requests.exceptions.RequestException as e:
+        print(f"ERRO: {e}")
+        return False
+    except json.JSONDecodeError as e:
+        print(f"ERRO ao decodificar JSON: {e}")
+        return False
+    except Exception as e:
+        print(f"ERRO inesperado: {e}")
+        return False
+
+
+def baixar_lista_colegiados(pasta: str) -> bool:
+    """
+    Baixa o arquivo de lista de colegiados.
+
+    Args:
+        pasta: Pasta onde salvar o arquivo
+
+    Returns:
+        True se sucesso, False se falhou
+    """
+    url = "https://legis.senado.leg.br/dadosabertos/comissao/lista/colegiados.json"
+    filename = os.path.join(pasta, "lista_colegiados.json")
+
+    try:
+        print("  Baixando lista_colegiados.json...", end=" ")
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+
+        data = response.json()
+
+        with open(filename, "w", encoding="utf-8") as file:
+            json.dump(data, file, indent=2, ensure_ascii=False)
+
+        print("OK")
+        return True
+
+    except requests.exceptions.RequestException as e:
+        print(f"ERRO: {e}")
+        return False
+    except json.JSONDecodeError as e:
+        print(f"ERRO ao decodificar JSON: {e}")
+        return False
+    except Exception as e:
+        print(f"ERRO inesperado: {e}")
+        return False
+
+
+def baixar_arquivos_ano(ano: str, pasta: str) -> bool:
+    """
+    Baixa todos os arquivos necessários para um ano específico.
+
+    Args:
+        ano: Ano a baixar
+        pasta: Pasta onde salvar os arquivos
+
+    Returns:
+        True se todos os downloads tiveram sucesso, False se algum falhou
+    """
+    print(f"\n{'='*70}")
+    print(f"BAIXANDO ARQUIVOS DO ANO {ano}")
+    print(f"{'='*70}\n")
+
+    sucesso_total = True
+
+    # Baixar lista de colegiados
+    if not baixar_lista_colegiados(pasta):
+        sucesso_total = False
+
+    # Baixar arquivos de reuniões para cada mês
+    meses = [f"{m:02d}" for m in range(1, 13)]
+    for mes in meses:
+        if not baixar_arquivo_reunioes(ano, mes, pasta):
+            sucesso_total = False
+
+    print(f"\n{'='*70}")
+    if sucesso_total:
+        print("DOWNLOAD CONCLUÍDO COM SUCESSO")
+    else:
+        print("DOWNLOAD CONCLUÍDO COM ALGUNS ERROS")
+    print(f"{'='*70}\n")
+
+    return sucesso_total
 
 
 def classificar_tipo_requerimento(ementa: str) -> str:
@@ -475,20 +644,25 @@ def extrair_partes_reuniao_ci(arquivo_json: str) -> List[Dict[str, Any]]:
     return partes_info
 
 
-def gerar_planilha_consolidada(pasta_json: str, arquivo_saida: str = 'votacoes_ci_consolidadas.xlsx'):
+def gerar_planilha_consolidada(pasta_json: str, ano: str, arquivo_saida: str = None):
     """
-    Processa todos os arquivos JSON que começam com '2025' e gera planilha consolidada.
+    Processa todos os arquivos JSON de um ano específico e gera planilha consolidada.
 
     Args:
         pasta_json: Pasta contendo os arquivos JSON
-        arquivo_saida: Nome do arquivo Excel de saída
+        ano: Ano a processar
+        arquivo_saida: Nome do arquivo Excel de saída (opcional)
     """
-    # Encontrar todos os arquivos JSON que começam com '2025'
-    padrao_busca = os.path.join(pasta_json, '2025*.json')
+    # Definir nome do arquivo de saída se não fornecido
+    if arquivo_saida is None:
+        arquivo_saida = f'votacoes_ci_consolidadas_{ano}.xlsx'
+
+    # Encontrar todos os arquivos JSON que começam com o ano especificado
+    padrao_busca = os.path.join(pasta_json, f'{ano}*.json')
     arquivos_json = sorted(glob.glob(padrao_busca))
 
     if not arquivos_json:
-        print(f"Nenhum arquivo JSON encontrado com o padrão '2025*.json' em {pasta_json}")
+        print(f"Nenhum arquivo JSON encontrado com o padrão '{ano}*.json' em {pasta_json}")
         return
 
     print(f"Encontrados {len(arquivos_json)} arquivos JSON:")
@@ -674,5 +848,42 @@ if __name__ == '__main__':
     # Obter o diretório do script
     pasta_atual = os.path.dirname(os.path.abspath(__file__))
 
+    print("="*70)
+    print("CONSOLIDADOR DE VOTAÇÕES - COMISSÃO DE INFRAESTRUTURA (CI)")
+    print("="*70)
+
+    # Solicitar ano ao usuário
+    ano = solicitar_ano()
+
+    print(f"\nAno selecionado: {ano}")
+
+    # Verificar se os arquivos necessários existem
+    print(f"\nVerificando arquivos na pasta {pasta_atual}...")
+    tem_reunioes, tem_colegiados = verificar_arquivos_existentes(pasta_atual, ano)
+
+    arquivos_faltando = []
+    if not tem_reunioes:
+        arquivos_faltando.append("arquivos de reuniões mensais")
+    if not tem_colegiados:
+        arquivos_faltando.append("lista de colegiados")
+
+    if arquivos_faltando:
+        print(f"\nArquivos faltando: {', '.join(arquivos_faltando)}")
+        resposta = input("\nDeseja fazer o download dos arquivos faltantes? (s/n): ").strip().lower()
+
+        if resposta in ['s', 'sim', 'y', 'yes']:
+            sucesso = baixar_arquivos_ano(ano, pasta_atual)
+            if not sucesso:
+                print("\nAVISO: Alguns downloads falharam. Tentando processar com os arquivos disponíveis...")
+        else:
+            print("\nDownload cancelado pelo usuário.")
+            print("O script tentará processar com os arquivos disponíveis na pasta.")
+    else:
+        print("Todos os arquivos necessários já existem na pasta.")
+
     # Processar arquivos e gerar planilha
-    gerar_planilha_consolidada(pasta_atual)
+    print(f"\n{'='*70}")
+    print("INICIANDO PROCESSAMENTO")
+    print(f"{'='*70}\n")
+
+    gerar_planilha_consolidada(pasta_atual, ano)
