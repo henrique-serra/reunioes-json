@@ -644,6 +644,178 @@ def extrair_partes_reuniao_ci(arquivo_json: str) -> List[Dict[str, Any]]:
     return partes_info
 
 
+def gerar_resumo_anual(df_votacoes: pd.DataFrame, df_audiencias: pd.DataFrame, df_partes: pd.DataFrame) -> pd.DataFrame:
+    """
+    Gera um DataFrame com o resumo anual contendo todas as tabelas solicitadas.
+
+    Args:
+        df_votacoes: DataFrame com votações
+        df_audiencias: DataFrame com audiências públicas
+        df_partes: DataFrame com partes das reuniões
+
+    Returns:
+        DataFrame com o resumo formatado
+    """
+    resumo_linhas = []
+
+    # ========== TABELA 1: Reuniões realizadas ==========
+    resumo_linhas.append(['REUNIÕES REALIZADAS'])
+    resumo_linhas.append(['Tipo de reunião', 'Quantidade'])
+
+    if not df_partes.empty:
+        # Filtrar apenas reuniões realizadas
+        # Aceitar tanto 'true' (string do JSON) quanto True (booleano do Excel)
+        df_partes_realizadas = df_partes[
+            (df_partes['realizada'] == True) | (df_partes['realizada'] == 'true')
+        ]
+
+        # Contar por tipo de parte e ordenar por quantidade decrescente
+        contagem_partes = df_partes_realizadas['tipo_parte'].value_counts().sort_values(ascending=False)
+
+        for tipo, qtd in contagem_partes.items():
+            resumo_linhas.append([tipo, qtd])
+
+        resumo_linhas.append(['Total', contagem_partes.sum()])
+    else:
+        resumo_linhas.append(['Total', 0])
+
+    # Linha em branco
+    resumo_linhas.append([''])
+
+    # ========== TABELA 2: Audiências públicas ==========
+    resumo_linhas.append(['AUDIÊNCIAS PÚBLICAS'])
+    resumo_linhas.append(['Quantidade de convidados', 'Quantidade de participantes'])
+
+    if not df_audiencias.empty:
+        # Filtrar apenas audiências realizadas
+        # Aceitar tanto 'true' (string do JSON) quanto True (booleano do Excel)
+        df_audiencias_realizadas = df_audiencias[
+            (df_audiencias['realizada'] == True) | (df_audiencias['realizada'] == 'true')
+        ]
+
+        total_convidados = df_audiencias_realizadas['qtd_convidados'].sum()
+        total_participantes = df_audiencias_realizadas['qtd_participantes'].sum()
+
+        resumo_linhas.append([total_convidados, total_participantes])
+    else:
+        resumo_linhas.append([0, 0])
+
+    # Linha em branco
+    resumo_linhas.append([''])
+
+    # ========== TABELA 3: Sabatinas ==========
+    resumo_linhas.append(['SABATINAS'])
+    resumo_linhas.append(['Sabatinas realizadas', 'Indicações apreciadas'])
+
+    if not df_votacoes.empty:
+        # Sabatinas realizadas (onde sabatina_realizada == 'Sim')
+        sabatinas_realizadas = df_votacoes[df_votacoes['sabatina_realizada'] == 'Sim'].shape[0]
+
+        # Indicações apreciadas (onde sabatina_apreciada == 'Sim')
+        indicacoes_apreciadas = df_votacoes[df_votacoes['sabatina_apreciada'] == 'Sim'].shape[0]
+
+        resumo_linhas.append([sabatinas_realizadas, indicacoes_apreciadas])
+    else:
+        resumo_linhas.append([0, 0])
+
+    # Linha em branco
+    resumo_linhas.append([''])
+
+    # ========== TABELA 4: Projetos apreciados ==========
+    resumo_linhas.append(['PROJETOS APRECIADOS'])
+    resumo_linhas.append(['Tipo de projeto', 'Quantidade'])
+
+    if not df_votacoes.empty:
+        # Filtrar: apreciado == 'Sim' E projeto == 'Sim'
+        df_projetos_apreciados = df_votacoes[
+            (df_votacoes['apreciado'] == 'Sim') &
+            (df_votacoes['projeto'] == 'Sim')
+        ]
+
+        if not df_projetos_apreciados.empty:
+            # Contar por sigla_por_extenso e ordenar por quantidade decrescente
+            contagem_projetos = df_projetos_apreciados['sigla_por_extenso'].value_counts().sort_values(ascending=False)
+
+            for tipo, qtd in contagem_projetos.items():
+                resumo_linhas.append([tipo, qtd])
+
+            resumo_linhas.append(['Total', contagem_projetos.sum()])
+        else:
+            resumo_linhas.append(['Total', 0])
+    else:
+        resumo_linhas.append(['Total', 0])
+
+    # Linha em branco
+    resumo_linhas.append([''])
+
+    # ========== TABELA 5: Requerimentos apreciados ==========
+    resumo_linhas.append(['REQUERIMENTOS APRECIADOS'])
+    resumo_linhas.append(['Tipo de requerimento', 'Quantidade'])
+
+    if not df_votacoes.empty:
+        # Filtrar: apreciado == 'Sim' E sigla_por_extenso contém 'Requerimento'
+        df_req_apreciados = df_votacoes[
+            (df_votacoes['apreciado'] == 'Sim') &
+            (df_votacoes['sigla_por_extenso'].str.contains('Requerimento', case=False, na=False))
+        ]
+
+        if not df_req_apreciados.empty:
+            # Contar por tipo_requerimento e ordenar por quantidade decrescente
+            contagem_req = df_req_apreciados['tipo_requerimento'].value_counts().sort_values(ascending=False)
+
+            for tipo, qtd in contagem_req.items():
+                if tipo and tipo != '-':  # Ignorar vazios e '-'
+                    resumo_linhas.append([tipo, qtd])
+
+            resumo_linhas.append(['Total', contagem_req.sum()])
+        else:
+            resumo_linhas.append(['Total', 0])
+    else:
+        resumo_linhas.append(['Total', 0])
+
+    # Linha em branco
+    resumo_linhas.append([''])
+
+    # ========== TABELA 6: Outras matérias apreciadas ==========
+    resumo_linhas.append(['OUTRAS MATÉRIAS APRECIADAS'])
+    resumo_linhas.append(['Tipo de matéria', 'Quantidade'])
+
+    if not df_votacoes.empty:
+        # Filtrar: apreciado == 'Sim' E projeto == 'Não' E sigla_por_extenso NÃO contém 'Requerimento'
+        df_outras = df_votacoes[
+            (df_votacoes['apreciado'] == 'Sim') &
+            (df_votacoes['projeto'] == 'Não') &
+            (~df_votacoes['sigla_por_extenso'].str.contains('Requerimento', case=False, na=False))
+        ]
+
+        if not df_outras.empty:
+            # Contar por sigla_por_extenso e ordenar por quantidade decrescente
+            contagem_outras = df_outras['sigla_por_extenso'].value_counts().sort_values(ascending=False)
+
+            for tipo, qtd in contagem_outras.items():
+                resumo_linhas.append([tipo, qtd])
+
+            resumo_linhas.append(['Total', contagem_outras.sum()])
+        else:
+            resumo_linhas.append(['Total', 0])
+    else:
+        resumo_linhas.append(['Total', 0])
+
+    # Linha em branco
+    resumo_linhas.append([''])
+
+    # ========== TABELA 7: Emendas ao orçamento (vazia) ==========
+    resumo_linhas.append(['EMENDAS AO ORÇAMENTO'])
+    resumo_linhas.append(['Tipo de matéria', 'Quantidade'])
+    resumo_linhas.append(['PLOA', ''])
+    resumo_linhas.append(['PLDO', ''])
+
+    # Criar DataFrame com as linhas do resumo
+    df_resumo = pd.DataFrame(resumo_linhas)
+
+    return df_resumo
+
+
 def gerar_planilha_consolidada(pasta_json: str, ano: str, arquivo_saida: str = None):
     """
     Processa todos os arquivos JSON de um ano específico e gera planilha consolidada.
@@ -720,10 +892,59 @@ def gerar_planilha_consolidada(pasta_json: str, ano: str, arquivo_saida: str = N
     else:
         df_partes = pd.DataFrame()
 
+    # Gerar resumo anual
+    print(f"\n{'='*70}")
+    print("GERANDO RESUMO ANUAL")
+    print(f"{'='*70}\n")
+    df_resumo = gerar_resumo_anual(df_votacoes, df_audiencias, df_partes)
+
     # Salvar em Excel com múltiplas abas
     caminho_saida = os.path.join(pasta_json, arquivo_saida)
 
     with pd.ExcelWriter(caminho_saida, engine='openpyxl') as writer:
+        # Aba de resumo anual (primeira aba)
+        if not df_resumo.empty:
+            df_resumo.to_excel(writer, index=False, sheet_name='Resumo Anual', header=False)
+
+            # Aplicar formatação na aba Resumo Anual
+            from openpyxl.styles import Font
+            from openpyxl.utils import get_column_letter
+            worksheet = writer.sheets['Resumo Anual']
+
+            # Lista de títulos conhecidos (todas em maiúsculas)
+            titulos = [
+                'REUNIÕES REALIZADAS',
+                'AUDIÊNCIAS PÚBLICAS',
+                'SABATINAS',
+                'PROJETOS APRECIADOS',
+                'REQUERIMENTOS APRECIADOS',
+                'OUTRAS MATÉRIAS APRECIADAS',
+                'EMENDAS AO ORÇAMENTO'
+            ]
+
+            # Identificar linhas de título e subtítulos
+            for row_idx, row in enumerate(df_resumo.values, start=1):
+                cell_value_a = str(row[0]) if row[0] is not None and str(row[0]) != 'nan' else ''
+                cell_value_b = str(row[1]) if len(row) > 1 and row[1] is not None and str(row[1]) != 'nan' else ''
+
+                # Verificar se é título (está na lista de títulos E coluna B está vazia)
+                if cell_value_a in titulos and not cell_value_b:
+                    # Mesclar células A e B
+                    worksheet.merge_cells(f'A{row_idx}:B{row_idx}')
+                    # Aplicar negrito
+                    worksheet[f'A{row_idx}'].font = Font(bold=True)
+
+                # Verificar se é subtítulo (linha logo após título, com conteúdo em ambas as colunas)
+                elif cell_value_a and cell_value_b and 'Total' not in cell_value_a:
+                    # Verificar se a linha anterior era um título
+                    if row_idx > 1:
+                        prev_cell_value = str(df_resumo.values[row_idx - 2][0]) if df_resumo.values[row_idx - 2][0] is not None and str(df_resumo.values[row_idx - 2][0]) != 'nan' else ''
+                        # Se a linha anterior é um título, esta é uma linha de cabeçalho de tabela
+                        if prev_cell_value in titulos:
+                            # Aplicar negrito nas células A e B da linha
+                            worksheet[f'A{row_idx}'].font = Font(bold=True)
+                            worksheet[f'B{row_idx}'].font = Font(bold=True)
+
         # Aba de votações
         if not df_votacoes.empty:
             df_votacoes.to_excel(writer, index=False, sheet_name='Votações CI')
