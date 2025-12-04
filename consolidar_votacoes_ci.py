@@ -185,6 +185,24 @@ def extrair_votacoes_ci(arquivo_json: str) -> List[Dict[str, Any]]:
                             # Se não é requerimento, deixar em branco
                             tipo_requerimento = '-'
 
+                    # Verificar se a matéria foi apreciada
+                    # A matéria foi apreciada se o resultado contiver os termos:
+                    # aprovado, aprovada, rejeitado ou rejeitada (case-insensitive)
+                    resultado_lower = descricao_tipo_resultado.lower()
+                    foi_apreciada = any(termo in resultado_lower for termo in ['aprovado', 'aprovada', 'rejeitado', 'rejeitada'])
+                    apreciado = 'Sim' if foi_apreciada else 'Não'
+
+                    # Verificar se foi sabatina realizada
+                    sabatina_realizada = 'Sim' if 'sabatina realizada' in resultado_lower else '-'
+
+                    # Verificar se sabatina foi apreciada
+                    if 'sabatina realizada com indicação aprovada' in resultado_lower or 'sabatina realizada com indicação rejeitada' in resultado_lower:
+                        sabatina_apreciada = 'Sim'
+                    elif 'sabatina realizada sem apreciação' in resultado_lower:
+                        sabatina_apreciada = 'Não'
+                    else:
+                        sabatina_apreciada = '-'
+
                     # Adicionar à lista de votações
                     votacao = {
                         'titulo_reuniao': titulo_reuniao,
@@ -194,6 +212,9 @@ def extrair_votacoes_ci(arquivo_json: str) -> List[Dict[str, Any]]:
                         'ementa': ementa,
                         'tipo_requerimento': tipo_requerimento,
                         'resultado': descricao_tipo_resultado,
+                        'apreciado': apreciado,
+                        'sabatina_realizada': sabatina_realizada,
+                        'sabatina_apreciada': sabatina_apreciada,
                         'arquivo_origem': os.path.basename(arquivo_json)
                     }
                     votacoes.append(votacao)
