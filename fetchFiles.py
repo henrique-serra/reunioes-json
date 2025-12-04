@@ -39,5 +39,29 @@ def fetchMeetings(year, month):
         print(f"Erro inesperado: {e}")
 
 
+def fetchColegiados():
+    url = "https://legis.senado.leg.br/dadosabertos/comissao/lista/colegiados.json"
+    filename = "lista_colegiados.json"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+
+        data = response.json()
+
+        with open(filename, "w", encoding="utf-8") as file:
+            json.dump(data, file, indent=2, ensure_ascii=False)
+
+        print(f"Lista de colegiados salva em {filename}")
+
+    except requests.exceptions.RequestException as e:
+        print(f"Erro na requisição: {e}")
+    except json.JSONDecodeError as e:
+        print(f"Erro ao decodificar JSON: {e}")
+    except Exception as e:
+        print(f"Erro inesperado: {e}")
+
+
+fetchColegiados()
+
 for i in range(12):
     fetchMeetings("2025", months[i])

@@ -1,1 +1,15 @@
 *.json
+
+# Excel files
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+
+# Word files
+*.doc
+*.docx
+*.docm
+
+# CSV files
+*.csv
