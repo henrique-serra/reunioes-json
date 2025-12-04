@@ -44,6 +44,9 @@ def classificar_tipo_requerimento(ementa: str) -> str:
 
     if 'informação' in ementa_lower or 'informações' in ementa_lower:
         return 'Pedido de Informação'
+    
+    if 'diligência' in ementa_lower or 'diligências' in ementa_lower:
+        return 'Diligência'
 
     if 'convocação' in ementa_lower or 'convocar' in ementa_lower:
         return 'Convocação'
@@ -171,12 +174,14 @@ def extrair_votacoes_ci(arquivo_json: str) -> List[Dict[str, Any]]:
                     requerimento = item.get('requerimento') or item.get('materiaNaoAutonoma') or item.get('doma')
                     ementa = ''
                     tipo_requerimento = ''
+                    sigla_por_extenso = ''
 
                     # Verificar se é realmente um requerimento (tem "REQ" na descrição)
                     is_requerimento = 'REQ' in descricao_item.upper()
 
                     if requerimento and isinstance(requerimento, dict):
                         ementa = requerimento.get('ementa', '')
+                        sigla_por_extenso = requerimento.get('siglaPorExtenso', '')
 
                         # Classificar tipo apenas se for requerimento
                         if is_requerimento and ementa:
@@ -203,12 +208,17 @@ def extrair_votacoes_ci(arquivo_json: str) -> List[Dict[str, Any]]:
                     else:
                         sabatina_apreciada = '-'
 
+                    # Verificar se sigla_por_extenso contém o termo "projeto" (case insensitive)
+                    projeto = 'Sim' if sigla_por_extenso and 'projeto' in sigla_por_extenso.lower() else 'Não'
+
                     # Adicionar à lista de votações
                     votacao = {
                         'titulo_reuniao': titulo_reuniao,
                         'realizada': realizada,
                         'data_inicio': data_inicio,
                         'descricao_item': descricao_item,
+                        'sigla_por_extenso': sigla_por_extenso,
+                        'projeto': projeto,
                         'ementa': ementa,
                         'tipo_requerimento': tipo_requerimento,
                         'resultado': descricao_tipo_resultado,
